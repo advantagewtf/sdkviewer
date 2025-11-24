@@ -1,0 +1,409 @@
+//  dumped by https://moonlightrblx.github.io/sdkviewer
+// timestamp: 2025-11-24 16:51:16.530014700 UTC
+
+namespace CS2Dumper.Schemas {
+    // module: resourcesystem.dll
+    // class count: 59
+    // enum count: 2
+    public static class ResourcesystemDll {
+        // alignment: 1
+        // member count: 9
+        public enum FuseVariableType_t : byte {
+            INVALID = 0x0,
+            BOOL = 0x1,
+            INT8 = 0x2,
+            INT16 = 0x3,
+            INT32 = 0x4,
+            UINT8 = 0x5,
+            UINT16 = 0x6,
+            UINT32 = 0x7,
+            FLOAT32 = 0x8
+        }
+        // alignment: 1
+        // member count: 2
+        public enum FuseVariableAccess_t : byte {
+            WRITABLE = 0x0,
+            READ_ONLY = 0x1
+        }
+        // parent: None
+        // field count: 0
+        //
+        // metadata: [REMOVED]
+        public static class InfoForResourceTypeCNmIKRig {
+        }
+        // parent: None
+        // field count: 0
+        //
+        // metadata: [REMOVED]
+        public static class InfoForResourceTypeCResponseRulesList {
+        }
+        // parent: None
+        // field count: 0
+        //
+        // metadata: [REMOVED]
+        public static class InfoForResourceTypeCDotaItemDefinitionResource {
+        }
+        // parent: None
+        // field count: 0
+        //
+        // metadata: [REMOVED]
+        public static class InfoForResourceTypeCMorphSetData {
+        }
+        // parent: None
+        // field count: 0
+        //
+        // metadata: [REMOVED]
+        public static class InfoForResourceTypeCVSoundStackScriptList {
+        }
+        // parent: None
+        // field count: 2
+        public static class PackedAABB_t {
+            public const nint m_nPackedMin = 0x0; // uint32
+            public const nint m_nPackedMax = 0x4; // uint32
+        }
+        // parent: None
+        // field count: 0
+        //
+        // metadata: [REMOVED]
+        public static class InfoForResourceTypeCVPhysXSurfacePropertiesList {
+        }
+        // parent: None
+        // field count: 0
+        //
+        // metadata: [REMOVED]
+        public static class InfoForResourceTypeManifestTestResource_t {
+        }
+        // parent: None
+        // field count: 3
+        //
+        // metadata: [REMOVED]
+        public static class ConstantInfo_t {
+            public const nint m_name = 0x0; // CUtlString
+            public const nint m_nameToken = 0x8; // CUtlStringToken
+            public const nint m_flValue = 0xC; // float32
+        }
+        // parent: None
+        // field count: 1
+        public static class FuseFunctionIndex_t {
+            public const nint m_Value = 0x0; // uint16
+        }
+        // parent: None
+        // field count: 0
+        //
+        // metadata: [REMOVED]
+        public static class InfoForResourceTypeCGcExportableExternalData {
+        }
+        // parent: None
+        // field count: 0
+        //
+        // metadata: [REMOVED]
+        public static class InfoForResourceTypeIAnimGraphModelBinding {
+        }
+        // parent: None
+        // field count: 0
+        //
+        // metadata: [REMOVED]
+        public static class InfoForResourceTypeCJavaScriptResource {
+        }
+        // parent: None
+        // field count: 6
+        //
+        // metadata: [REMOVED]
+        public static class CFuseSymbolTable {
+            public const nint m_constants = 0x0; // CUtlVector<ConstantInfo_t>
+            public const nint m_variables = 0x18; // CUtlVector<VariableInfo_t>
+            public const nint m_functions = 0x30; // CUtlVector<FunctionInfo_t>
+            public const nint m_constantMap = 0x48; // CUtlHashtable<CUtlStringToken,int32>
+            public const nint m_variableMap = 0x68; // CUtlHashtable<CUtlStringToken,int32>
+            public const nint m_functionMap = 0x88; // CUtlHashtable<CUtlStringToken,int32>
+        }
+        // parent: None
+        // field count: 0
+        //
+        // metadata: [REMOVED]
+        public static class InfoForResourceTypeCRenderMesh {
+        }
+        // parent: None
+        // field count: 0
+        //
+        // metadata: [REMOVED]
+        public static class InfoForResourceTypeCVoxelVisibility {
+        }
+        // parent: None
+        // field count: 0
+        //
+        // metadata: [REMOVED]
+        public static class InfoForResourceTypeCPhysAggregateData {
+        }
+        // parent: None
+        // field count: 0
+        //
+        // metadata: [REMOVED]
+        public static class InfoForResourceTypeCNmClip {
+        }
+        // parent: None
+        // field count: 0
+        //
+        // metadata: [REMOVED]
+        public static class InfoForResourceTypeWorld_t {
+        }
+        // parent: None
+        // field count: 0
+        //
+        // metadata: [REMOVED]
+        public static class InfoForResourceTypeProceduralTestResource_t {
+        }
+        // parent: None
+        // field count: 0
+        //
+        // metadata: [REMOVED]
+        public static class InfoForResourceTypeCChoreoSceneFileList {
+        }
+        // parent: None
+        // field count: 2
+        public static class AABB_t {
+            public const nint m_vMinBounds = 0x0; // Vector
+            public const nint m_vMaxBounds = 0xC; // Vector
+        }
+        // parent: None
+        // field count: 0
+        //
+        // metadata: [REMOVED]
+        public static class InfoForResourceTypeCPostProcessingResource {
+        }
+        // parent: None
+        // field count: 6
+        //
+        // metadata: [REMOVED]
+        public static class VariableInfo_t {
+            public const nint m_name = 0x0; // CUtlString
+            public const nint m_nameToken = 0x8; // CUtlStringToken
+            public const nint m_nIndex = 0xC; // FuseVariableIndex_t
+            public const nint m_nNumComponents = 0xE; // uint8
+            public const nint m_eVarType = 0xF; // FuseVariableType_t
+            public const nint m_eAccess = 0x10; // FuseVariableAccess_t
+        }
+        // parent: None
+        // field count: 0
+        //
+        // metadata: [REMOVED]
+        public static class InfoForResourceTypeIParticleSnapshot {
+        }
+        // parent: None
+        // field count: 4
+        public static class FourQuaternions {
+            public const nint x = 0x0; // fltx4
+            public const nint y = 0x10; // fltx4
+            public const nint z = 0x20; // fltx4
+            public const nint w = 0x30; // fltx4
+        }
+        // parent: None
+        // field count: 0
+        //
+        // metadata: [REMOVED]
+        public static class InfoForResourceTypeCPanoramaLayout {
+        }
+        // parent: None
+        // field count: 0
+        //
+        // metadata: [REMOVED]
+        public static class InfoForResourceTypeCTypeScriptResource {
+        }
+        // parent: None
+        // field count: 0
+        //
+        // metadata: [REMOVED]
+        public static class InfoForResourceTypeCChoreoSceneResource {
+        }
+        // parent: None
+        // field count: 0
+        //
+        // metadata: [REMOVED]
+        public static class InfoForResourceTypeCNmSkeleton {
+        }
+        // parent: None
+        // field count: 0
+        //
+        // metadata: [REMOVED]
+        public static class InfoForResourceTypeCTestResourceData {
+        }
+        // parent: None
+        // field count: 0
+        //
+        // metadata: [REMOVED]
+        public static class InfoForResourceTypeCAnimationGroup {
+        }
+        // parent: None
+        // field count: 0
+        //
+        // metadata: [REMOVED]
+        public static class InfoForResourceTypeCVSoundEventScriptList {
+        }
+        // parent: None
+        // field count: 0
+        //
+        // metadata: [REMOVED]
+        public static class InfoForResourceTypeCVoiceContainerBase {
+        }
+        // parent: None
+        // field count: 0
+        //
+        // metadata: [REMOVED]
+        public static class InfoForResourceTypeCPanoramaStyle {
+        }
+        // parent: None
+        // field count: 0
+        //
+        // metadata: [REMOVED]
+        public static class InfoForResourceTypeCWorldNode {
+        }
+        // parent: None
+        // field count: 0
+        //
+        // metadata: [REMOVED]
+        public static class InfoForResourceTypeCSurfaceGraph {
+        }
+        // parent: None
+        // field count: 0
+        //
+        // metadata: [REMOVED]
+        public static class InfoForResourceTypeCCSGOEconItem {
+        }
+        // parent: None
+        // field count: 0
+        //
+        // metadata: [REMOVED]
+        public static class InfoForResourceTypeCNmGraphDefinition {
+        }
+        // parent: None
+        // field count: 0
+        //
+        // metadata: [REMOVED]
+        public static class InfoForResourceTypeCSmartProp {
+        }
+        // parent: None
+        // field count: 4
+        //
+        // metadata: [REMOVED]
+        public static class CFuseProgram {
+            public const nint m_programBuffer = 0x0; // CUtlVector<uint8>
+            public const nint m_variablesRead = 0x18; // CUtlVector<FuseVariableIndex_t>
+            public const nint m_variablesWritten = 0x30; // CUtlVector<FuseVariableIndex_t>
+            public const nint m_nMaxTempVarsUsed = 0x48; // int32
+        }
+        // parent: None
+        // field count: 0
+        //
+        // metadata: [REMOVED]
+        public static class InfoForResourceTypeCCompositeMaterialKit {
+        }
+        // parent: None
+        // field count: 0
+        //
+        // metadata: [REMOVED]
+        public static class InfoForResourceTypeCVMixListResource {
+        }
+        // parent: None
+        // field count: 0
+        //
+        // metadata: [REMOVED]
+        public static class InfoForResourceTypeCAnimData {
+        }
+        // parent: None
+        // field count: 0
+        //
+        // metadata: [REMOVED]
+        public static class InfoForResourceTypeIMaterial2 {
+        }
+        // parent: None
+        // field count: 0
+        //
+        // metadata: [REMOVED]
+        public static class InfoForResourceTypeIVectorGraphic {
+        }
+        // parent: None
+        // field count: 0
+        //
+        // metadata: [REMOVED]
+        public static class InfoForResourceTypeCPanoramaDynamicImages {
+        }
+        // parent: None
+        // field count: 0
+        //
+        // metadata: [REMOVED]
+        public static class InfoForResourceTypeIPulseGraphDef {
+        }
+        // parent: None
+        // field count: 5
+        //
+        // metadata: [REMOVED]
+        public static class FunctionInfo_t {
+            public const nint m_name = 0x8; // CUtlString
+            public const nint m_nameToken = 0x10; // CUtlStringToken
+            public const nint m_nParamCount = 0x14; // int32
+            public const nint m_nIndex = 0x18; // FuseFunctionIndex_t
+            public const nint m_bIsPure = 0x1A; // bool
+        }
+        // parent: None
+        // field count: 0
+        //
+        // metadata: [REMOVED]
+        public static class InfoForResourceTypeCVDataResource {
+        }
+        // parent: None
+        // field count: 0
+        //
+        // metadata: [REMOVED]
+        public static class InfoForResourceTypeCModel {
+        }
+        // parent: None
+        // field count: 0
+        //
+        // metadata: [REMOVED]
+        public static class InfoForResourceTypeCDOTANovelsList {
+        }
+        // parent: None
+        // field count: 0
+        //
+        // metadata: [REMOVED]
+        public static class InfoForResourceTypeCTextureBase {
+        }
+        // parent: None
+        // field count: 1
+        public static class FuseVariableIndex_t {
+            public const nint m_Value = 0x0; // uint16
+        }
+        // parent: None
+        // field count: 0
+        //
+        // metadata: [REMOVED]
+        public static class InfoForResourceTypeIParticleSystemDefinition {
+        }
+        // parent: None
+        // field count: 0
+        //
+        // metadata: [REMOVED]
+        public static class InfoForResourceTypeCSequenceGroupData {
+        }
+        // parent: None
+        // field count: 2
+        //
+        // metadata: [REMOVED]
+        public static class ManifestTestResource_t {
+            public const nint m_name = 0x0; // CUtlString
+            public const nint m_child = 0x8; // CStrongHandle<InfoForResourceTypeManifestTestResource_t>
+        }
+        // parent: None
+        // field count: 0
+        //
+        // metadata: [REMOVED]
+        public static class InfoForResourceTypeCEntityLump {
+        }
+        // parent: None
+        // field count: 0
+        //
+        // metadata: [REMOVED]
+        public static class InfoForResourceTypeCDOTAPatchNotesList {
+        }
+    }
+}
