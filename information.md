@@ -4,7 +4,17 @@
 ### `TraceSound` - I honestly forgot what class and im too lazy to open ida
 #### SIG: `4C 8B DC 49 89 5B ? 49 89 73 ? 57 48 83 EC ?` @ client.dll
 ```cpp
-float* __fastcall sub_A1F9(__int64 a1) // assuming a1 is a pointer to the sound /
+struct audioparams_t {
+    char PAD_0[0x8];
+    Vector3 localSound;
+    uint8_t localBits;
+    char PAD_c[0x14];
+    int soundscapeIndex;
+    int soundscapeEntityListIndex;
+    int soundEventHash;
+};
+
+float* __fastcall sub_A1F9(audioparams_t* a1) 
 {
     __int64 v1; 
     __int64 v2; 
