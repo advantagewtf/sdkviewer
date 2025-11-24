@@ -77,44 +77,6 @@ __int64 __fastcall HardwareRead(__int64 a1)
 ```
 
 
-
-### `C_CSWeaponBaseGun::GetWeaponSpread`
-#### SIG: `48 89 5C 24 ? 57 48 83 EC ? 48 8B FA 48 8B D9 48 8B 0D ? ? ? ?` @ client.dll
-```cpp
-float __fastcall C_CSWeaponBaseGun::GetWeaponSpread(__int64 a1) // a1 is a pointer to the gun
-{
-    unsigned __int64 v1; 
-    __int64 v2; 
-    float v3; 
-    float v4; 
-    __int64 v5;
-    float result;
-
-    if (!a1)
-        return 0.0;
-
-    v1 = *(unsigned __int64*)(a1 + 0x1A0);
-    if (!v1)
-        return 0.0;
-
-    v2 = *(unsigned __int64*)(v1 + 0x08);
-    if (!v2)
-        return 0.0;
-
-    v3 = *(float*)(v2 + 0x14);
-    v4 = *(float*)(v1 + 0x10);
-    v5 = *(__int64*)(a1 + 0xC8);
-
-    result = ((v3 * 0.85f) + (v4 * 0.42f)) - (*(float*)(v5 + 0x0C) * 0.12f);
-
-    if (result < 0.0f)
-        result = 0.0f;
-
-    return result;
-}
-```
-
-
 # Other sigs
 ### SetLocalPlayerReady
 #### SIG: `40 53 48 83 EC ? 48 8B DA 48 8D 15 ? ? ? ? 48 8B CB FF 15` @CLIENT.dll
