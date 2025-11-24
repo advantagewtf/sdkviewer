@@ -50,8 +50,8 @@ __int64 __fastcall HardwareRead(__int64 a1)
         return 0i64;
 
     // computation for offset?
-    v2 = v1 + 0x18;                     // some internal register
-    v3 = *(unsigned int *)(v2);         // read "hardware register"
+    v2 = v1 + 0x18;                     
+    v3 = *(unsigned int *)(v2);
 
     // perform some masking / processing
     v3 = (v3 >> 3) & 0xFFF;             // reduce to 12-bit value
