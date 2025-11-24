@@ -1,11 +1,11 @@
 //  dumped by https://moonlightrblx.github.io/sdkviewer
-// timestamp: 2025-11-24 00:52:15.620031200 UTC
+// timestamp: 2025-11-24 15:57:49.568833300 UTC
 
 #pragma once
 
 #include <cstddef>
 
-namespace cs2_dumper {
+namespace dump {
     namespace offsets {
         // module: client.dll
         namespace client_dll {
