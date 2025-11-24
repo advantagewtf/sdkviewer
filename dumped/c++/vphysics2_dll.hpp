@@ -1,18 +1,19 @@
 //  dumped by https://moonlightrblx.github.io/sdkviewer
-// timestamp: 2025-11-24 00:52:15.620031200 UTC
+// timestamp: 2025-11-24 15:57:49.568833300 UTC
 
 #pragma once
 
 #include <cstddef>
 
-namespace cs2_dumper {
-    namespace schemas {
+namespace dump {
+    namespace offsets {
         // module: vphysics2.dll
         // class count: 97
         // enum count: 3
         namespace vphysics2_dll {
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class JointMotion_t : uint32_t {
                 JOINT_MOTION_FREE = 0x0,
                 JOINT_MOTION_LOCKED = 0x1,
@@ -20,6 +21,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 4
+            // underlying type: uint32_t
             enum class JointAxis_t : uint32_t {
                 JOINT_AXIS_X = 0x0,
                 JOINT_AXIS_Y = 0x1,
@@ -28,6 +30,7 @@ namespace cs2_dumper {
             };
             // alignment: 1
             // member count: 3
+            // underlying type: uint8_t
             enum class DynamicContinuousContactBehavior_t : uint8_t {
                 DYNAMIC_CONTINUOUS_ALLOW_IF_REQUESTED_BY_OTHER_BODY = 0x0,
                 DYNAMIC_CONTINUOUS_ALWAYS = 0x1,
@@ -840,10 +843,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t nCtrlParent = 0xC; // uint16
                 constexpr std::ptrdiff_t nCtrlChild = 0xE; // uint16
             }
+            // class IPhysicsPlayerController has zero fields
             // parent: None
-            // field count: 0
-            namespace IPhysicsPlayerController {
-            }
             // parent: None
             // field count: 7
             //
