@@ -2,408 +2,116 @@
 // timestamp: 2025-11-24 16:35:41.351736700 UTC
 
 namespace CS2Dumper.Schemas {
-    // module: resourcesystem.dll
-    // class count: 59
-    // enum count: 2
-    public static class ResourcesystemDll {
+    // module: scenesystem.dll
+    // class count: 9
+    // enum count: 3
+    public static class ScenesystemDll {
         // alignment: 1
-        // member count: 9
-        public enum FuseVariableType_t : byte {
-            INVALID = 0x0,
-            BOOL = 0x1,
-            INT8 = 0x2,
-            INT16 = 0x3,
-            INT32 = 0x4,
-            UINT8 = 0x5,
-            UINT16 = 0x6,
-            UINT32 = 0x7,
-            FLOAT32 = 0x8
+        // member count: 6
+        public enum DecalMode_t : byte {
+            kDecalInvalid = 0xFF,
+            kDecalBlood = 0x0,
+            kDecalCloak = 0x1,
+            kDecalCloakDamage = 0x2,
+            kDecalMax = 0x3,
+            kDecalDefault = 0x0
         }
         // alignment: 1
-        // member count: 2
-        public enum FuseVariableAccess_t : byte {
-            WRITABLE = 0x0,
-            READ_ONLY = 0x1
+        // member count: 4
+        public enum DisableShadows_t : byte {
+            kDisableShadows_None = 0x0,
+            kDisableShadows_All = 0x1,
+            kDisableShadows_Baked = 0x2,
+            kDisableShadows_Realtime = 0x3
+        }
+        // alignment: 4
+        // member count: 6
+        public enum ESceneObjectVisualization : uint {
+            SCENEOBJECT_VIS_NONE = 0x0,
+            SCENEOBJECT_VIS_OBJECT = 0x1,
+            SCENEOBJECT_VIS_MATERIAL = 0x2,
+            SCENEOBJECT_VIS_TEXTURE_SIZE = 0x3,
+            SCENEOBJECT_VIS_LOD = 0x4,
+            SCENEOBJECT_VIS_INSTANCING = 0x5
         }
         // parent: None
-        // field count: 0
+        // field count: 10
         //
         // metadata: [REMOVED]
-        public static class InfoForResourceTypeCNmIKRig {
-        }
-        // parent: None
-        // field count: 0
-        //
-        // metadata: [REMOVED]
-        public static class InfoForResourceTypeCResponseRulesList {
-        }
-        // parent: None
-        // field count: 0
-        //
-        // metadata: [REMOVED]
-        public static class InfoForResourceTypeCDotaItemDefinitionResource {
-        }
-        // parent: None
-        // field count: 0
-        //
-        // metadata: [REMOVED]
-        public static class InfoForResourceTypeCMorphSetData {
-        }
-        // parent: None
-        // field count: 0
-        //
-        // metadata: [REMOVED]
-        public static class InfoForResourceTypeCVSoundStackScriptList {
+        public static class CSSDSMsg_ViewTarget {
+            public const nint m_Name = 0x0; // CUtlString
+            public const nint m_TextureId = 0x8; // uint64
+            public const nint m_nWidth = 0x10; // int32
+            public const nint m_nHeight = 0x14; // int32
+            public const nint m_nRequestedWidth = 0x18; // int32
+            public const nint m_nRequestedHeight = 0x1C; // int32
+            public const nint m_nNumMipLevels = 0x20; // int32
+            public const nint m_nDepth = 0x24; // int32
+            public const nint m_nMultisampleNumSamples = 0x28; // int32
+            public const nint m_nFormat = 0x2C; // int32
         }
         // parent: None
         // field count: 2
-        public static class PackedAABB_t {
-            public const nint m_nPackedMin = 0x0; // uint32
-            public const nint m_nPackedMax = 0x4; // uint32
-        }
-        // parent: None
-        // field count: 0
         //
         // metadata: [REMOVED]
-        public static class InfoForResourceTypeCVPhysXSurfacePropertiesList {
-        }
-        // parent: None
-        // field count: 0
-        //
-        // metadata: [REMOVED]
-        public static class InfoForResourceTypeManifestTestResource_t {
-        }
-        // parent: None
-        // field count: 3
-        //
-        // metadata: [REMOVED]
-        public static class ConstantInfo_t {
-            public const nint m_name = 0x0; // CUtlString
-            public const nint m_nameToken = 0x8; // CUtlStringToken
-            public const nint m_flValue = 0xC; // float32
-        }
-        // parent: None
-        // field count: 1
-        public static class FuseFunctionIndex_t {
-            public const nint m_Value = 0x0; // uint16
-        }
-        // parent: None
-        // field count: 0
-        //
-        // metadata: [REMOVED]
-        public static class InfoForResourceTypeCGcExportableExternalData {
-        }
-        // parent: None
-        // field count: 0
-        //
-        // metadata: [REMOVED]
-        public static class InfoForResourceTypeIAnimGraphModelBinding {
-        }
-        // parent: None
-        // field count: 0
-        //
-        // metadata: [REMOVED]
-        public static class InfoForResourceTypeCJavaScriptResource {
-        }
-        // parent: None
-        // field count: 6
-        //
-        // metadata: [REMOVED]
-        public static class CFuseSymbolTable {
-            public const nint m_constants = 0x0; // CUtlVector<ConstantInfo_t>
-            public const nint m_variables = 0x18; // CUtlVector<VariableInfo_t>
-            public const nint m_functions = 0x30; // CUtlVector<FunctionInfo_t>
-            public const nint m_constantMap = 0x48; // CUtlHashtable<CUtlStringToken,int32>
-            public const nint m_variableMap = 0x68; // CUtlHashtable<CUtlStringToken,int32>
-            public const nint m_functionMap = 0x88; // CUtlHashtable<CUtlStringToken,int32>
-        }
-        // parent: None
-        // field count: 0
-        //
-        // metadata: [REMOVED]
-        public static class InfoForResourceTypeCRenderMesh {
-        }
-        // parent: None
-        // field count: 0
-        //
-        // metadata: [REMOVED]
-        public static class InfoForResourceTypeCVoxelVisibility {
-        }
-        // parent: None
-        // field count: 0
-        //
-        // metadata: [REMOVED]
-        public static class InfoForResourceTypeCPhysAggregateData {
-        }
-        // parent: None
-        // field count: 0
-        //
-        // metadata: [REMOVED]
-        public static class InfoForResourceTypeCNmClip {
-        }
-        // parent: None
-        // field count: 0
-        //
-        // metadata: [REMOVED]
-        public static class InfoForResourceTypeWorld_t {
-        }
-        // parent: None
-        // field count: 0
-        //
-        // metadata: [REMOVED]
-        public static class InfoForResourceTypeProceduralTestResource_t {
-        }
-        // parent: None
-        // field count: 0
-        //
-        // metadata: [REMOVED]
-        public static class InfoForResourceTypeCChoreoSceneFileList {
+        public static class SceneViewId_t {
+            public const nint m_nViewId = 0x0; // uint64
+            public const nint m_nFrameCount = 0x8; // uint64
         }
         // parent: None
         // field count: 2
-        public static class AABB_t {
-            public const nint m_vMinBounds = 0x0; // Vector
-            public const nint m_vMaxBounds = 0xC; // Vector
+        //
+        // metadata: [REMOVED]
+        public static class CSSDSEndFrameViewInfo {
+            public const nint m_nViewId = 0x0; // uint64
+            public const nint m_ViewName = 0x8; // CUtlString
         }
         // parent: None
         // field count: 0
         //
         // metadata: [REMOVED]
-        public static class InfoForResourceTypeCPostProcessingResource {
-        }
-        // parent: None
-        // field count: 6
-        //
-        // metadata: [REMOVED]
-        public static class VariableInfo_t {
-            public const nint m_name = 0x0; // CUtlString
-            public const nint m_nameToken = 0x8; // CUtlStringToken
-            public const nint m_nIndex = 0xC; // FuseVariableIndex_t
-            public const nint m_nNumComponents = 0xE; // uint8
-            public const nint m_eVarType = 0xF; // FuseVariableType_t
-            public const nint m_eAccess = 0x10; // FuseVariableAccess_t
-        }
-        // parent: None
-        // field count: 0
-        //
-        // metadata: [REMOVED]
-        public static class InfoForResourceTypeIParticleSnapshot {
-        }
-        // parent: None
-        // field count: 4
-        public static class FourQuaternions {
-            public const nint x = 0x0; // fltx4
-            public const nint y = 0x10; // fltx4
-            public const nint z = 0x20; // fltx4
-            public const nint w = 0x30; // fltx4
-        }
-        // parent: None
-        // field count: 0
-        //
-        // metadata: [REMOVED]
-        public static class InfoForResourceTypeCPanoramaLayout {
-        }
-        // parent: None
-        // field count: 0
-        //
-        // metadata: [REMOVED]
-        public static class InfoForResourceTypeCTypeScriptResource {
-        }
-        // parent: None
-        // field count: 0
-        //
-        // metadata: [REMOVED]
-        public static class InfoForResourceTypeCChoreoSceneResource {
-        }
-        // parent: None
-        // field count: 0
-        //
-        // metadata: [REMOVED]
-        public static class InfoForResourceTypeCNmSkeleton {
-        }
-        // parent: None
-        // field count: 0
-        //
-        // metadata: [REMOVED]
-        public static class InfoForResourceTypeCTestResourceData {
-        }
-        // parent: None
-        // field count: 0
-        //
-        // metadata: [REMOVED]
-        public static class InfoForResourceTypeCAnimationGroup {
-        }
-        // parent: None
-        // field count: 0
-        //
-        // metadata: [REMOVED]
-        public static class InfoForResourceTypeCVSoundEventScriptList {
-        }
-        // parent: None
-        // field count: 0
-        //
-        // metadata: [REMOVED]
-        public static class InfoForResourceTypeCVoiceContainerBase {
-        }
-        // parent: None
-        // field count: 0
-        //
-        // metadata: [REMOVED]
-        public static class InfoForResourceTypeCPanoramaStyle {
-        }
-        // parent: None
-        // field count: 0
-        //
-        // metadata: [REMOVED]
-        public static class InfoForResourceTypeCWorldNode {
-        }
-        // parent: None
-        // field count: 0
-        //
-        // metadata: [REMOVED]
-        public static class InfoForResourceTypeCSurfaceGraph {
-        }
-        // parent: None
-        // field count: 0
-        //
-        // metadata: [REMOVED]
-        public static class InfoForResourceTypeCCSGOEconItem {
-        }
-        // parent: None
-        // field count: 0
-        //
-        // metadata: [REMOVED]
-        public static class InfoForResourceTypeCNmGraphDefinition {
-        }
-        // parent: None
-        // field count: 0
-        //
-        // metadata: [REMOVED]
-        public static class InfoForResourceTypeCSmartProp {
-        }
-        // parent: None
-        // field count: 4
-        //
-        // metadata: [REMOVED]
-        public static class CFuseProgram {
-            public const nint m_programBuffer = 0x0; // CUtlVector<uint8>
-            public const nint m_variablesRead = 0x18; // CUtlVector<FuseVariableIndex_t>
-            public const nint m_variablesWritten = 0x30; // CUtlVector<FuseVariableIndex_t>
-            public const nint m_nMaxTempVarsUsed = 0x48; // int32
-        }
-        // parent: None
-        // field count: 0
-        //
-        // metadata: [REMOVED]
-        public static class InfoForResourceTypeCCompositeMaterialKit {
-        }
-        // parent: None
-        // field count: 0
-        //
-        // metadata: [REMOVED]
-        public static class InfoForResourceTypeCVMixListResource {
-        }
-        // parent: None
-        // field count: 0
-        //
-        // metadata: [REMOVED]
-        public static class InfoForResourceTypeCAnimData {
-        }
-        // parent: None
-        // field count: 0
-        //
-        // metadata: [REMOVED]
-        public static class InfoForResourceTypeIMaterial2 {
-        }
-        // parent: None
-        // field count: 0
-        //
-        // metadata: [REMOVED]
-        public static class InfoForResourceTypeIVectorGraphic {
-        }
-        // parent: None
-        // field count: 0
-        //
-        // metadata: [REMOVED]
-        public static class InfoForResourceTypeCPanoramaDynamicImages {
-        }
-        // parent: None
-        // field count: 0
-        //
-        // metadata: [REMOVED]
-        public static class InfoForResourceTypeIPulseGraphDef {
+        public static class CSSDSMsg_PostLayer {
         }
         // parent: None
         // field count: 5
         //
         // metadata: [REMOVED]
-        public static class FunctionInfo_t {
-            public const nint m_name = 0x8; // CUtlString
-            public const nint m_nameToken = 0x10; // CUtlStringToken
-            public const nint m_nParamCount = 0x14; // int32
-            public const nint m_nIndex = 0x18; // FuseFunctionIndex_t
-            public const nint m_bIsPure = 0x1A; // bool
+        public static class CSSDSMsg_LayerBase {
+            public const nint m_viewId = 0x0; // SceneViewId_t
+            public const nint m_ViewName = 0x10; // CUtlString
+            public const nint m_nLayerId = 0x18; // uint64
+            public const nint m_LayerName = 0x20; // CUtlString
+            public const nint m_displayText = 0x28; // CUtlString
         }
         // parent: None
         // field count: 0
         //
         // metadata: [REMOVED]
-        public static class InfoForResourceTypeCVDataResource {
+        public static class CSSDSMsg_PreLayer {
         }
         // parent: None
-        // field count: 0
+        // field count: 3
         //
         // metadata: [REMOVED]
-        public static class InfoForResourceTypeCModel {
-        }
-        // parent: None
-        // field count: 0
-        //
-        // metadata: [REMOVED]
-        public static class InfoForResourceTypeCDOTANovelsList {
-        }
-        // parent: None
-        // field count: 0
-        //
-        // metadata: [REMOVED]
-        public static class InfoForResourceTypeCTextureBase {
-        }
-        // parent: None
-        // field count: 1
-        public static class FuseVariableIndex_t {
-            public const nint m_Value = 0x0; // uint16
-        }
-        // parent: None
-        // field count: 0
-        //
-        // metadata: [REMOVED]
-        public static class InfoForResourceTypeIParticleSystemDefinition {
-        }
-        // parent: None
-        // field count: 0
-        //
-        // metadata: [REMOVED]
-        public static class InfoForResourceTypeCSequenceGroupData {
+        public static class CSSDSMsg_ViewTargetList {
+            public const nint m_viewId = 0x0; // SceneViewId_t
+            public const nint m_ViewName = 0x10; // CUtlString
+            public const nint m_Targets = 0x18; // CUtlVector<CSSDSMsg_ViewTarget>
         }
         // parent: None
         // field count: 2
         //
         // metadata: [REMOVED]
-        public static class ManifestTestResource_t {
-            public const nint m_name = 0x0; // CUtlString
-            public const nint m_child = 0x8; // CStrongHandle<InfoForResourceTypeManifestTestResource_t>
+        public static class CSSDSMsg_ViewRender {
+            public const nint m_viewId = 0x0; // SceneViewId_t
+            public const nint m_ViewName = 0x10; // CUtlString
         }
         // parent: None
-        // field count: 0
+        // field count: 1
         //
         // metadata: [REMOVED]
-        public static class InfoForResourceTypeCEntityLump {
-        }
-        // parent: None
-        // field count: 0
-        //
-        // metadata: [REMOVED]
-        public static class InfoForResourceTypeCDOTAPatchNotesList {
+        public static class CSSDSMsg_EndFrame {
+            public const nint m_Views = 0x0; // CUtlVector<CSSDSEndFrameViewInfo>
         }
     }
 }
