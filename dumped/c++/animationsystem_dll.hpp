@@ -1,18 +1,19 @@
 //  dumped by https://moonlightrblx.github.io/sdkviewer
-// timestamp: 2025-11-24 00:52:15.620031200 UTC
+// timestamp: 2025-11-24 15:57:49.568833300 UTC
 
 #pragma once
 
 #include <cstddef>
 
-namespace cs2_dumper {
-    namespace schemas {
+namespace dump {
+    namespace offsets {
         // module: animationsystem.dll
         // class count: 583
         // enum count: 131
         namespace animationsystem_dll {
             // alignment: 4
             // member count: 17
+            // underlying type: uint32_t
             enum class SeqCmd_t : uint32_t {
                 SeqCmd_Nop = 0x0,
                 SeqCmd_LinearDelta = 0x1,
@@ -34,6 +35,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class CNmEventRelevance_t : uint32_t {
                 ClientOnly = 0x0,
                 ServerOnly = 0x1,
@@ -41,6 +43,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 4
+            // underlying type: uint32_t
             enum class BoneTransformSpace_t : uint32_t {
                 BoneTransformSpace_Invalid = 0xFFFFFFFFFFFFFFFF,
                 BoneTransformSpace_Parent = 0x0,
@@ -49,6 +52,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 5
+            // underlying type: uint32_t
             enum class CAnimationGraphVisualizerPrimitiveType : uint32_t {
                 ANIMATIONGRAPHVISUALIZERPRIMITIVETYPE_Text = 0x0,
                 ANIMATIONGRAPHVISUALIZERPRIMITIVETYPE_Sphere = 0x1,
@@ -58,6 +62,7 @@ namespace cs2_dumper {
             };
             // alignment: 1
             // member count: 3
+            // underlying type: uint8_t
             enum class NmTransitionRule_t : uint8_t {
                 AllowTransition = 0x0,
                 ConditionallyAllowTransition = 0x1,
@@ -65,6 +70,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class BinaryNodeTiming : uint32_t {
                 UseChild1 = 0x0,
                 UseChild2 = 0x1,
@@ -72,6 +78,7 @@ namespace cs2_dumper {
             };
             // alignment: 1
             // member count: 3
+            // underlying type: uint8_t
             enum class NmFollowBoneMode_t : uint8_t {
                 RotationAndTranslation = 0x0,
                 RotationOnly = 0x1,
@@ -79,6 +86,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 7
+            // underlying type: uint32_t
             enum class SolveIKChainAnimNodeDebugSetting : uint32_t {
                 SOLVEIKCHAINANIMNODEDEBUGSETTING_None = 0x0,
                 SOLVEIKCHAINANIMNODEDEBUGSETTING_X_Axis_Circle = 0x1,
@@ -90,12 +98,14 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 2
+            // underlying type: uint32_t
             enum class CNmParticleEvent__Type_t : uint32_t {
                 Create = 0x0,
                 Create_CFG = 0x1
             };
             // alignment: 4
             // member count: 5
+            // underlying type: uint32_t
             enum class ParticleFloatBiasType_t : uint32_t {
                 PF_BIAS_TYPE_INVALID = 0xFFFFFFFFFFFFFFFF,
                 PF_BIAS_TYPE_STANDARD = 0x0,
@@ -105,6 +115,7 @@ namespace cs2_dumper {
             };
             // alignment: 1
             // member count: 6
+            // underlying type: uint8_t
             enum class SharedMovementGait_t : uint8_t {
                 eInvalid = 0xFFFFFFFFFFFFFFFF,
                 eSlow = 0x0,
@@ -115,6 +126,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class OrientationWarpRootMotionSource_t : uint32_t {
                 eAnimationOrProcedural = 0x0,
                 eAnimationOnly = 0x1,
@@ -122,6 +134,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 6
+            // underlying type: uint32_t
             enum class PulseVariableKeysSource_t : uint32_t {
                 PRIVATE = 0x0,
                 CPP = 0x1,
@@ -132,6 +145,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class IKTargetCoordinateSystem : uint32_t {
                 IKTARGETCOORDINATESYSTEM_WorldSpace = 0x0,
                 IKTARGETCOORDINATESYSTEM_ModelSpace = 0x1,
@@ -139,6 +153,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 31
+            // underlying type: uint32_t
             enum class ParticleFloatType_t : uint32_t {
                 PF_TYPE_INVALID = 0xFFFFFFFFFFFFFFFF,
                 PF_TYPE_LITERAL = 0x0,
@@ -174,6 +189,7 @@ namespace cs2_dumper {
             };
             // alignment: 1
             // member count: 4
+            // underlying type: uint8_t
             enum class CNmFloatAngleMathNode__Operation_t : uint8_t {
                 ClampTo180 = 0x0,
                 ClampTo360 = 0x1,
@@ -182,6 +198,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class VPhysXAggregateData_t__VPhysXFlagEnum_t : uint32_t {
                 FLAG_IS_POLYSOUP_GEOMETRY = 0x1,
                 FLAG_LEVEL_COLLISION = 0x10,
@@ -189,6 +206,7 @@ namespace cs2_dumper {
             };
             // alignment: 1
             // member count: 5
+            // underlying type: uint8_t
             enum class CNmRootMotionOverrideNode__OverrideFlags_t : uint8_t {
                 AllowMoveX = 0x0,
                 AllowMoveY = 0x1,
@@ -198,6 +216,7 @@ namespace cs2_dumper {
             };
             // alignment: 1
             // member count: 23
+            // underlying type: uint8_t
             enum class NmEasingOperation_t : uint8_t {
                 Linear = 0x0,
                 InQuad = 0x1,
@@ -225,6 +244,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 5
+            // underlying type: uint32_t
             enum class EIKEndEffectorRotationFixUpMode : uint32_t {
                 None = 0x0,
                 MatchTargetOrientation = 0x1,
@@ -234,12 +254,14 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 2
+            // underlying type: uint32_t
             enum class MatterialAttributeTagType_t : uint32_t {
                 MATERIAL_ATTRIBUTE_TAG_VALUE = 0x0,
                 MATERIAL_ATTRIBUTE_TAG_COLOR = 0x1
             };
             // alignment: 4
             // member count: 6
+            // underlying type: uint32_t
             enum class PFNoiseTurbulence_t : uint32_t {
                 PF_NOISE_TURB_NONE = 0x0,
                 PF_NOISE_TURB_HIGHLIGHT = 0x1,
@@ -250,6 +272,7 @@ namespace cs2_dumper {
             };
             // alignment: 1
             // member count: 4
+            // underlying type: uint8_t
             enum class NmTargetWarpAlgorithm_t : uint8_t {
                 Lerp = 0x0,
                 Hermite = 0x1,
@@ -258,6 +281,7 @@ namespace cs2_dumper {
             };
             // alignment: 1
             // member count: 4
+            // underlying type: uint8_t
             enum class NmTransitionRuleCondition_t : uint8_t {
                 AnyAllowed = 0x0,
                 FullyAllowed = 0x1,
@@ -266,12 +290,14 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 2
+            // underlying type: uint32_t
             enum class TargetWarpTimingMethod : uint32_t {
                 ReachDestinationOnRootMotionEnd = 0x0,
                 ReachDestinationOnWarpTagEnd = 0x1
             };
             // alignment: 4
             // member count: 6
+            // underlying type: uint32_t
             enum class ScriptedMoveTo_t : uint32_t {
                 eWait = 0x0,
                 eMoveWithGait = 0x3,
@@ -282,12 +308,14 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 2
+            // underlying type: uint32_t
             enum class EDemoBoneSelectionMode : uint32_t {
                 CaptureAllBones = 0x0,
                 CaptureSelectedBones = 0x1
             };
             // alignment: 4
             // member count: 6
+            // underlying type: uint32_t
             enum class EPulseGraphExecutionHistoryFlag : uint32_t {
                 NO_FLAGS = 0x0,
                 CURSOR_ADD_TAG = 0x1,
@@ -298,12 +326,14 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 2
+            // underlying type: uint32_t
             enum class StepPhase : uint32_t {
                 StepPhase_OnGround = 0x0,
                 StepPhase_InAir = 0x1
             };
             // alignment: 4
             // member count: 26
+            // underlying type: uint32_t
             enum class FlexOpCode_t : uint32_t {
                 FLEX_OP_CONST = 0x1,
                 FLEX_OP_FETCH1 = 0x2,
@@ -334,18 +364,21 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 2
+            // underlying type: uint32_t
             enum class NmCachedValueMode_t : uint32_t {
                 OnEntry = 0x0,
                 OnExit = 0x1
             };
             // alignment: 4
             // member count: 2
+            // underlying type: uint32_t
             enum class AnimNodeNetworkMode : uint32_t {
                 ServerAuthoritative = 0x0,
                 ClientSimulate = 0x1
             };
             // alignment: 4
             // member count: 6
+            // underlying type: uint32_t
             enum class VPhysXBodyPart_t__VPhysXFlagEnum_t : uint32_t {
                 FLAG_STATIC = 0x1,
                 FLAG_KINEMATIC = 0x2,
@@ -356,6 +389,7 @@ namespace cs2_dumper {
             };
             // alignment: 1
             // member count: 9
+            // underlying type: uint8_t
             enum class AnimParamType_t : uint8_t {
                 ANIMPARAM_UNKNOWN = 0x0,
                 ANIMPARAM_BOOL = 0x1,
@@ -369,6 +403,7 @@ namespace cs2_dumper {
             };
             // alignment: 1
             // member count: 9
+            // underlying type: uint8_t
             enum class NmEasingFunction_t : uint8_t {
                 Linear = 0x0,
                 Quad = 0x1,
@@ -382,6 +417,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 5
+            // underlying type: uint32_t
             enum class ParticleModelType_t : uint32_t {
                 PM_TYPE_INVALID = 0x0,
                 PM_TYPE_NAMED_VALUE_MODEL = 0x1,
@@ -391,6 +427,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class IKTargetSource : uint32_t {
                 IKTARGETSOURCE_Bone = 0x0,
                 IKTARGETSOURCE_AnimgraphParameter = 0x1,
@@ -398,6 +435,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 15
+            // underlying type: uint32_t
             enum class PermModelInfo_t__FlagEnum : uint32_t {
                 FLAG_TRANSLUCENT = 0x1,
                 FLAG_TRANSLUCENT_TWO_PASS = 0x2,
@@ -417,6 +455,7 @@ namespace cs2_dumper {
             };
             // alignment: 1
             // member count: 12
+            // underlying type: uint8_t
             enum class CNmFloatMathNode__Operator_t : uint8_t {
                 Add = 0x0,
                 Sub = 0x1,
@@ -433,12 +472,14 @@ namespace cs2_dumper {
             };
             // alignment: 1
             // member count: 2
+            // underlying type: uint8_t
             enum class CNmSyncEventIndexConditionNode__TriggerMode_t : uint8_t {
                 ExactlyAtEventIndex = 0x0,
                 GreaterThanEqualToEventIndex = 0x1
             };
             // alignment: 4
             // member count: 5
+            // underlying type: uint32_t
             enum class ParticleFloatRoundType_t : uint32_t {
                 PF_ROUND_TYPE_INVALID = 0xFFFFFFFFFFFFFFFF,
                 PF_ROUND_TYPE_NEAREST = 0x0,
@@ -448,6 +489,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 4
+            // underlying type: uint32_t
             enum class PFNoiseType_t : uint32_t {
                 PF_NOISE_TYPE_PERLIN = 0x0,
                 PF_NOISE_TYPE_SIMPLEX = 0x1,
@@ -456,6 +498,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class AnimParamNetworkSetting : uint32_t {
                 Auto = 0x0,
                 AlwaysNetwork = 0x1,
@@ -463,6 +506,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 4
+            // underlying type: uint32_t
             enum class MorphFlexControllerRemapType_t : uint32_t {
                 MORPH_FLEXCONTROLLER_REMAP_PASSTHRU = 0x0,
                 MORPH_FLEXCONTROLLER_REMAP_2WAY = 0x1,
@@ -471,6 +515,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 8
+            // underlying type: uint32_t
             enum class MeshDrawPrimitiveFlags_t : uint32_t {
                 MESH_DRAW_FLAGS_NONE = 0x0,
                 MESH_DRAW_FLAGS_USE_SHADOW_FAST_PATH = 0x1,
@@ -483,18 +528,21 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 2
+            // underlying type: uint32_t
             enum class TargetWarpAngleMode_t : uint32_t {
                 eFacingHeading = 0x0,
                 eMoveHeading = 0x1
             };
             // alignment: 1
             // member count: 2
+            // underlying type: uint8_t
             enum class NmIKBlendMode_t : uint8_t {
                 Effector = 0x0,
                 Pose = 0x1
             };
             // alignment: 4
             // member count: 4
+            // underlying type: uint32_t
             enum class ModelBoneFlexComponent_t : uint32_t {
                 MODEL_BONE_FLEX_INVALID = 0xFFFFFFFFFFFFFFFF,
                 MODEL_BONE_FLEX_TX = 0x0,
@@ -503,12 +551,14 @@ namespace cs2_dumper {
             };
             // alignment: 1
             // member count: 2
+            // underlying type: uint8_t
             enum class CNmStateNode__TimedEvent_t__Comparison_t : uint8_t {
                 LessThanEqual = 0x0,
                 GreaterThanEqual = 0x1
             };
             // alignment: 1
             // member count: 3
+            // underlying type: uint8_t
             enum class PoseType_t : uint8_t {
                 POSETYPE_STATIC = 0x0,
                 POSETYPE_DYNAMIC = 0x1,
@@ -516,12 +566,14 @@ namespace cs2_dumper {
             };
             // alignment: 1
             // member count: 2
+            // underlying type: uint8_t
             enum class CNmRootMotionData__SamplingMode_t : uint8_t {
                 Delta = 0x0,
                 WorldSpace = 0x1
             };
             // alignment: 1
             // member count: 9
+            // underlying type: uint8_t
             enum class NmEventConditionRules_t : uint8_t {
                 LimitSearchToSourceState = 0x0,
                 IgnoreInactiveEvents = 0x1,
@@ -535,6 +587,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 37
+            // underlying type: uint32_t
             enum class AnimValueSource : uint32_t {
                 MoveHeading = 0x0,
                 MoveSpeed = 0x1,
@@ -576,6 +629,7 @@ namespace cs2_dumper {
             };
             // alignment: 1
             // member count: 4
+            // underlying type: uint8_t
             enum class CNmTimeConditionNode__Operator_t : uint8_t {
                 LessThan = 0x0,
                 LessThanEqual = 0x1,
@@ -584,6 +638,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class LinearRootMotionBlendMode_t : uint32_t {
                 LERP = 0x0,
                 NLERP = 0x1,
@@ -591,11 +646,13 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 1
+            // underlying type: uint32_t
             enum class RagdollPoseControl : uint32_t {
                 Absolute = 0x0
             };
             // alignment: 4
             // member count: 6
+            // underlying type: uint32_t
             enum class IKSolverType : uint32_t {
                 IKSOLVER_Perlin = 0x0,
                 IKSOLVER_TwoBone = 0x1,
@@ -606,24 +663,28 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 2
+            // underlying type: uint32_t
             enum class TargetWarpCorrectionMethod : uint32_t {
                 ScaleMotion = 0x0,
                 AddCorrectionDelta = 0x1
             };
             // alignment: 4
             // member count: 2
+            // underlying type: uint32_t
             enum class TargetSelectorAngleMode_t : uint32_t {
                 eFacingHeading = 0x0,
                 eMoveHeading = 0x1
             };
             // alignment: 4
             // member count: 2
+            // underlying type: uint32_t
             enum class Blend2DMode : uint32_t {
                 Blend2DMode_General = 0x0,
                 Blend2DMode_Directional = 0x1
             };
             // alignment: 4
             // member count: 4
+            // underlying type: uint32_t
             enum class PulseCursorExecResult_t : uint32_t {
                 Succeeded = 0x0,
                 Canceled = 0x1,
@@ -632,6 +693,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class ChoiceChangeMethod : uint32_t {
                 OnReset = 0x0,
                 OnCycleEnd = 0x1,
@@ -639,12 +701,14 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 2
+            // underlying type: uint32_t
             enum class ChoiceBlendMethod : uint32_t {
                 SingleBlendTime = 0x0,
                 PerChoiceBlendTimes = 0x1
             };
             // alignment: 4
             // member count: 4
+            // underlying type: uint32_t
             enum class VPhysXConstraintParams_t__EnumFlags0_t : uint32_t {
                 FLAG0_SHIFT_INTERPENETRATE = 0x0,
                 FLAG0_SHIFT_CONSTRAIN = 0x1,
@@ -653,6 +717,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 9
+            // underlying type: uint32_t
             enum class ParticleFloatMapType_t : uint32_t {
                 PF_MAP_TYPE_INVALID = 0xFFFFFFFFFFFFFFFF,
                 PF_MAP_TYPE_DIRECT = 0x0,
@@ -666,6 +731,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 5
+            // underlying type: uint32_t
             enum class AnimParamVectorType_t : uint32_t {
                 ANIMPARAM_VECTOR_TYPE_NONE = 0x0,
                 ANIMPARAM_VECTOR_TYPE_POSITION_WS = 0x1,
@@ -675,6 +741,7 @@ namespace cs2_dumper {
             };
             // alignment: 1
             // member count: 3
+            // underlying type: uint8_t
             enum class CNmCurrentSyncEventNode__InfoType_t : uint8_t {
                 IndexAndPercentage = 0x0,
                 IndexOnly = 0x1,
@@ -682,6 +749,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 4
+            // underlying type: uint32_t
             enum class BlendKeyType : uint32_t {
                 BlendKey_UserValue = 0x0,
                 BlendKey_Velocity = 0x1,
@@ -690,6 +758,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 5
+            // underlying type: uint32_t
             enum class StateActionBehavior : uint32_t {
                 STATETAGBEHAVIOR_ACTIVE_WHILE_CURRENT = 0x0,
                 STATETAGBEHAVIOR_FIRE_ON_ENTER = 0x1,
@@ -699,6 +768,7 @@ namespace cs2_dumper {
             };
             // alignment: 1
             // member count: 4
+            // underlying type: uint8_t
             enum class NmRootMotionBlendMode_t : uint8_t {
                 Blend = 0x0,
                 Additive = 0x1,
@@ -707,6 +777,7 @@ namespace cs2_dumper {
             };
             // alignment: 1
             // member count: 6
+            // underlying type: uint8_t
             enum class NmFootPhaseCondition_t : uint8_t {
                 LeftFootDown = 0x0,
                 LeftFootPassing = 0x1,
@@ -717,6 +788,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 22
+            // underlying type: uint32_t
             enum class ModelSkeletonData_t__BoneFlags_t : uint32_t {
                 FLAG_NO_BONE_FLAGS = 0x0,
                 FLAG_BONEFLEXDRIVER = 0x4,
@@ -743,6 +815,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 4
+            // underlying type: uint32_t
             enum class MorphBundleType_t : uint32_t {
                 MORPH_BUNDLE_TYPE_NONE = 0x0,
                 MORPH_BUNDLE_TYPE_POSITION_SPEED = 0x1,
@@ -751,12 +824,14 @@ namespace cs2_dumper {
             };
             // alignment: 1
             // member count: 2
+            // underlying type: uint8_t
             enum class CNmIDComparisonNode__Comparison_t : uint8_t {
                 Matches = 0x0,
                 DoesntMatch = 0x1
             };
             // alignment: 1
             // member count: 3
+            // underlying type: uint8_t
             enum class NmPoseBlendMode_t : uint8_t {
                 Overlay = 0x0,
                 Additive = 0x1,
@@ -764,6 +839,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 4
+            // underlying type: uint32_t
             enum class ParticleFloatInputMode_t : uint32_t {
                 PF_INPUT_MODE_INVALID = 0xFFFFFFFFFFFFFFFF,
                 PF_INPUT_MODE_CLAMPED = 0x0,
@@ -772,6 +848,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 5
+            // underlying type: uint32_t
             enum class ResetCycleOption : uint32_t {
                 Beginning = 0x0,
                 SameCycleAsSource = 0x1,
@@ -781,6 +858,7 @@ namespace cs2_dumper {
             };
             // alignment: 1
             // member count: 6
+            // underlying type: uint8_t
             enum class CNmVectorInfoNode__Info_t : uint8_t {
                 X = 0x0,
                 Y = 0x1,
@@ -791,6 +869,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 4
+            // underlying type: uint32_t
             enum class IKChannelMode : uint32_t {
                 TwoBone = 0x0,
                 TwoBone_Translate = 0x1,
@@ -799,6 +878,7 @@ namespace cs2_dumper {
             };
             // alignment: 1
             // member count: 9
+            // underlying type: uint8_t
             enum class NmGraphValueType_t : uint8_t {
                 Unknown = 0x0,
                 Bool = 0x1,
@@ -812,6 +892,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 4
+            // underlying type: uint32_t
             enum class ParticleFloatRandomMode_t : uint32_t {
                 PF_RANDOM_MODE_INVALID = 0xFFFFFFFFFFFFFFFF,
                 PF_RANDOM_MODE_CONSTANT = 0x0,
@@ -820,6 +901,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 33
+            // underlying type: uint32_t
             enum class PulseValueType_t : uint32_t {
                 PVAL_VOID = 0xFFFFFFFFFFFFFFFF,
                 PVAL_BOOL = 0x0,
@@ -857,6 +939,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 4
+            // underlying type: uint32_t
             enum class PFNoiseModifier_t : uint32_t {
                 PF_NOISE_MODIFIER_NONE = 0x0,
                 PF_NOISE_MODIFIER_LINES = 0x1,
@@ -865,6 +948,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 20
+            // underlying type: uint32_t
             enum class ParticleVecType_t : uint32_t {
                 PVEC_TYPE_INVALID = 0xFFFFFFFFFFFFFFFF,
                 PVEC_TYPE_LITERAL = 0x0,
@@ -889,6 +973,7 @@ namespace cs2_dumper {
             };
             // alignment: 1
             // member count: 4
+            // underlying type: uint8_t
             enum class NmFootPhase_t : uint8_t {
                 LeftFootDown = 0x0,
                 RightFootPassing = 0x1,
@@ -897,6 +982,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 8
+            // underlying type: uint32_t
             enum class CNmTargetInfoNode__Info_t : uint32_t {
                 AngleHorizontal = 0x0,
                 AngleVertical = 0x1,
@@ -909,6 +995,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class FootstepLandedFootSoundType_t : uint32_t {
                 FOOTSOUND_Left = 0x0,
                 FOOTSOUND_Right = 0x1,
@@ -916,12 +1003,14 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 2
+            // underlying type: uint32_t
             enum class FootLockSubVisualization : uint32_t {
                 FOOTLOCKSUBVISUALIZATION_ReachabilityAnalysis = 0x0,
                 FOOTLOCKSUBVISUALIZATION_IKSolve = 0x1
             };
             // alignment: 4
             // member count: 5
+            // underlying type: uint32_t
             enum class CNmSoundEvent__Position_t : uint32_t {
                 None = 0x0,
                 World = 0x1,
@@ -931,12 +1020,14 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 2
+            // underlying type: uint32_t
             enum class NmFrameSnapEventMode_t : uint32_t {
                 Floor = 0x0,
                 Round = 0x1
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class FootPinningTimingSource : uint32_t {
                 FootMotion = 0x0,
                 Tag = 0x1,
@@ -944,6 +1035,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 4
+            // underlying type: uint32_t
             enum class DampingSpeedFunction : uint32_t {
                 NoDamping = 0x0,
                 Constant = 0x1,
@@ -952,6 +1044,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 6
+            // underlying type: uint32_t
             enum class PulseApiFeature_t : uint32_t {
                 AF_NONE = 0x0,
                 AF_ENTITIES = 0x1,
@@ -962,6 +1055,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 6
+            // underlying type: uint32_t
             enum class AnimationProcessingType_t : uint32_t {
                 ANIMATION_PROCESSING_SERVER_SIMULATION = 0x0,
                 ANIMATION_PROCESSING_CLIENT_SIMULATION = 0x1,
@@ -972,6 +1066,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class JiggleBoneSimSpace : uint32_t {
                 SimSpace_Local = 0x0,
                 SimSpace_Model = 0x1,
@@ -979,18 +1074,21 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 2
+            // underlying type: uint32_t
             enum class StanceOverrideMode : uint32_t {
                 Sequence = 0x0,
                 Node = 0x1
             };
             // alignment: 4
             // member count: 2
+            // underlying type: uint32_t
             enum class IkEndEffectorType : uint32_t {
                 IkEndEffector_Attachment = 0x0,
                 IkEndEffector_Bone = 0x1
             };
             // alignment: 2
             // member count: 3
+            // underlying type: uint16_t
             enum class AnimScriptType : uint16_t {
                 ANIMSCRIPT_TYPE_INVALID = 0xFFFFFFFFFFFFFFFF,
                 ANIMSCRIPT_FUSE_GENERAL = 0x0,
@@ -998,6 +1096,7 @@ namespace cs2_dumper {
             };
             // alignment: 1
             // member count: 3
+            // underlying type: uint8_t
             enum class CNmTimeConditionNode__ComparisonType_t : uint8_t {
                 PercentageThroughState = 0x0,
                 PercentageThroughSyncEvent = 0x1,
@@ -1005,6 +1104,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 4
+            // underlying type: uint32_t
             enum class SeqPoseSetting_t : uint32_t {
                 SEQ_POSE_SETTING_CONSTANT = 0x0,
                 SEQ_POSE_SETTING_ROTATION = 0x1,
@@ -1013,6 +1113,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 13
+            // underlying type: uint32_t
             enum class AnimParamButton_t : uint32_t {
                 ANIMPARAM_BUTTON_NONE = 0x0,
                 ANIMPARAM_BUTTON_DPAD_UP = 0x1,
@@ -1030,6 +1131,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class SelectorTagBehavior_t : uint32_t {
                 SelectorTagBehavior_OnWhileCurrent = 0x0,
                 SelectorTagBehavior_OffWhenFinished = 0x1,
@@ -1037,6 +1139,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 4
+            // underlying type: uint32_t
             enum class HandshakeTagType_t : uint32_t {
                 eInvalid = 0xFFFFFFFFFFFFFFFF,
                 eTask = 0x0,
@@ -1045,6 +1148,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 4
+            // underlying type: uint32_t
             enum class OrientationWarpTargetOffsetMode_t : uint32_t {
                 eLiteralValue = 0x0,
                 eParameter = 0x1,
@@ -1053,6 +1157,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class OrientationWarpMode_t : uint32_t {
                 eInvalid = 0x0,
                 eAngle = 0x1,
@@ -1060,6 +1165,7 @@ namespace cs2_dumper {
             };
             // alignment: 2
             // member count: 125
+            // underlying type: uint16_t
             enum class PulseInstructionCode_t : uint16_t {
                 INVALID = 0x0,
                 IMMEDIATE_HALT = 0x1,
@@ -1189,6 +1295,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 5
+            // underlying type: uint32_t
             enum class ParticleTransformType_t : uint32_t {
                 PT_TYPE_INVALID = 0x0,
                 PT_TYPE_NAMED_VALUE = 0x1,
@@ -1198,6 +1305,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 18
+            // underlying type: uint32_t
             enum class ParticleAttachment_t : uint32_t {
                 PATTACH_INVALID = 0xFFFFFFFFFFFFFFFF,
                 PATTACH_ABSORIGIN = 0x0,
@@ -1220,6 +1328,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class FieldNetworkOption : uint32_t {
                 Auto = 0x0,
                 ForceEnable = 0x1,
@@ -1227,6 +1336,7 @@ namespace cs2_dumper {
             };
             // alignment: 1
             // member count: 6
+            // underlying type: uint8_t
             enum class NmGraphEventTypeCondition_t : uint8_t {
                 Entry = 0x0,
                 FullyInState = 0x1,
@@ -1237,6 +1347,7 @@ namespace cs2_dumper {
             };
             // alignment: 1
             // member count: 10
+            // underlying type: uint8_t
             enum class CNmTransitionNode__TransitionOptions_t : uint8_t {
                 None = 0x0,
                 ClampDuration = 0x1,
@@ -1251,6 +1362,7 @@ namespace cs2_dumper {
             };
             // alignment: 1
             // member count: 5
+            // underlying type: uint8_t
             enum class CNmFloatComparisonNode__Comparison_t : uint8_t {
                 GreaterThanEqual = 0x0,
                 LessThanEqual = 0x1,
@@ -1260,6 +1372,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class VPhysXJoint_t__Flags_t : uint32_t {
                 JOINT_FLAGS_NONE = 0x0,
                 JOINT_FLAGS_BODY1_FIXED = 0x1,
@@ -1267,6 +1380,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 4
+            // underlying type: uint32_t
             enum class ScriptedHeldWeaponBehavior_t : uint32_t {
                 eInvalid = 0xFFFFFFFFFFFFFFFF,
                 eHolster = 0x0,
@@ -1275,6 +1389,7 @@ namespace cs2_dumper {
             };
             // alignment: 1
             // member count: 3
+            // underlying type: uint8_t
             enum class VelocityMetricMode : uint8_t {
                 DirectionOnly = 0x0,
                 MagnitudeOnly = 0x1,
@@ -1282,6 +1397,7 @@ namespace cs2_dumper {
             };
             // alignment: 1
             // member count: 5
+            // underlying type: uint8_t
             enum class FacingMode : uint8_t {
                 FacingMode_Invalid = 0x0,
                 FacingMode_Manual = 0x1,
@@ -1291,6 +1407,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 4
+            // underlying type: uint32_t
             enum class AimMatrixBlendMode : uint32_t {
                 AimMatrixBlendMode_None = 0x0,
                 AimMatrixBlendMode_Additive = 0x1,
@@ -1299,6 +1416,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 7
+            // underlying type: uint32_t
             enum class AnimationSnapshotType_t : uint32_t {
                 ANIMATION_SNAPSHOT_SERVER_SIMULATION = 0x0,
                 ANIMATION_SNAPSHOT_CLIENT_SIMULATION = 0x1,
@@ -1310,6 +1428,7 @@ namespace cs2_dumper {
             };
             // alignment: 1
             // member count: 4
+            // underlying type: uint8_t
             enum class NmTargetWarpRule_t : uint8_t {
                 WarpXY = 0x0,
                 WarpZ = 0x1,
@@ -1318,6 +1437,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 8
+            // underlying type: uint32_t
             enum class FootFallTagFoot_t : uint32_t {
                 FOOT1 = 0x0,
                 FOOT2 = 0x1,
@@ -1330,6 +1450,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 4
+            // underlying type: uint32_t
             enum class ChoiceMethod : uint32_t {
                 WeightedRandom = 0x0,
                 WeightedRandomNoRepeat = 0x1,
@@ -1338,6 +1459,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 14
+            // underlying type: uint32_t
             enum class AnimVectorSource : uint32_t {
                 MoveDirection = 0x0,
                 FacingPosition = 0x1,
@@ -1356,6 +1478,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 4
+            // underlying type: uint32_t
             enum class IkTargetType : uint32_t {
                 IkTarget_Attachment = 0x0,
                 IkTarget_Bone = 0x1,
@@ -1364,6 +1487,7 @@ namespace cs2_dumper {
             };
             // alignment: 1
             // member count: 3
+            // underlying type: uint8_t
             enum class RenderMeshSlotType_t : uint8_t {
                 RENDERMESH_SLOT_INVALID = 0xFFFFFFFFFFFFFFFF,
                 RENDERMESH_SLOT_PER_VERTEX = 0x0,
@@ -1371,6 +1495,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 4
+            // underlying type: uint32_t
             enum class BoneMaskBlendSpace : uint32_t {
                 BlendSpace_Parent = 0x0,
                 BlendSpace_Model = 0x1,
@@ -1379,6 +1504,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 5
+            // underlying type: uint32_t
             enum class ModelConfigAttachmentType_t : uint32_t {
                 MODEL_CONFIG_ATTACHMENT_INVALID = 0xFFFFFFFFFFFFFFFF,
                 MODEL_CONFIG_ATTACHMENT_BONE_OR_ATTACHMENT = 0x0,
@@ -1388,12 +1514,14 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 2
+            // underlying type: uint32_t
             enum class BinaryNodeChildOption : uint32_t {
                 Child1 = 0x0,
                 Child2 = 0x1
             };
             // alignment: 4
             // member count: 5
+            // underlying type: uint32_t
             enum class NPCPhysicsHullType_t : uint32_t {
                 eInvalid = 0x0,
                 eGroundCapsule = 0x1,
@@ -1403,6 +1531,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 4
+            // underlying type: uint32_t
             enum class PulseDomainValueType_t : uint32_t {
                 INVALID = 0xFFFFFFFFFFFFFFFF,
                 ENTITY_NAME = 0x0,
@@ -1411,12 +1540,14 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 2
+            // underlying type: uint32_t
             enum class JumpCorrectionMethod : uint32_t {
                 ScaleMotion = 0x0,
                 AddCorrectionDelta = 0x1
             };
             // alignment: 4
             // member count: 2
+            // underlying type: uint32_t
             enum class MoodType_t : uint32_t {
                 eMoodType_Head = 0x0,
                 eMoodType_Body = 0x1
@@ -1430,12 +1561,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nEndFrame = 0x4; // int32
                 constexpr std::ptrdiff_t m_segmentIndexArray = 0x8; // CUtlVector<int32>
             }
+            // class CZeroPoseUpdateNode has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CZeroPoseUpdateNode {
-            }
             // parent: None
             // field count: 1
             //
@@ -1494,12 +1623,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_meshlets = 0x38; // CUtlLeanVector<CMeshletDescriptor>
                 constexpr std::ptrdiff_t m_vTintColor = 0x48; // Vector4D
             }
+            // class CFootCycle has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CFootCycle {
-            }
             // parent: None
             // field count: 3
             //
@@ -1509,12 +1636,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_NamedValue = 0x18; // CParticleNamedValueRef
                 constexpr std::ptrdiff_t m_nControlPoint = 0x58; // int32
             }
+            // class CInputStreamUpdateNode has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CInputStreamUpdateNode {
-            }
             // parent: None
             // field count: 3
             //
@@ -1533,10 +1658,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nInputParameterValueNodeIdx = 0x38; // int16
                 constexpr std::ptrdiff_t m_bAllowLooping = 0x3A; // bool
             }
+            // class CNmScaleTask has zero fields
             // parent: None
-            // field count: 0
-            namespace CNmScaleTask {
-            }
             // parent: None
             // field count: 1
             //
@@ -1616,12 +1739,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nSourceStateNodeIdx = 0x1C; // int16
                 constexpr std::ptrdiff_t m_ruleCondition = 0x1E; // NmTransitionRuleCondition_t
             }
+            // class CTaskStatusAnimTag has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CTaskStatusAnimTag {
-            }
             // parent: None
             // field count: 5
             //
@@ -1724,12 +1845,10 @@ namespace cs2_dumper {
             namespace CNmPassthroughNode__CDefinition {
                 constexpr std::ptrdiff_t m_nChildNodeIdx = 0x10; // int16
             }
+            // class CNmClipReferenceNode__CDefinition has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CNmClipReferenceNode__CDefinition {
-            }
             // parent: None
             // field count: 2
             //
@@ -1872,10 +1991,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flHipDipImpactScale = 0x3C; // float32
                 constexpr std::ptrdiff_t m_flHipDipDelay = 0x40; // float32
             }
+            // class CNmPoseNode__CDefinition has zero fields
             // parent: None
-            // field count: 0
-            namespace CNmPoseNode__CDefinition {
-            }
             // parent: None
             // field count: 5
             //
@@ -1887,12 +2004,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_tagID = 0x30; // AnimTagID
                 constexpr std::ptrdiff_t m_bIsReferenced = 0x48; // bool
             }
+            // class CPerParticleVecInput has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CPerParticleVecInput {
-            }
             // parent: None
             // field count: 7
             //
@@ -1922,14 +2037,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nEntIndex = 0x110; // int32
                 constexpr std::ptrdiff_t m_modelName = 0x118; // CUtlString
             }
+            // class CNmBlendTask has zero fields
             // parent: None
-            // field count: 0
-            namespace CNmBlendTask {
-            }
+            // class CNmVectorValueNode__CDefinition has zero fields
             // parent: None
-            // field count: 0
-            namespace CNmVectorValueNode__CDefinition {
-            }
             // parent: None
             // field count: 2
             //
@@ -1938,16 +2049,12 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flFadeInTime = 0x0; // float32
                 constexpr std::ptrdiff_t m_flFadeOutTime = 0x4; // float32
             }
+            // class CNmPoseTask has zero fields
             // parent: None
-            // field count: 0
-            namespace CNmPoseTask {
-            }
+            // class CAnimGraphSettingsGroup has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CAnimGraphSettingsGroup {
-            }
             // parent: None
             // field count: 1
             //
@@ -1975,10 +2082,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bInterpolate = 0x8C; // bool
                 constexpr std::ptrdiff_t m_vectorType = 0x90; // AnimParamVectorType_t
             }
+            // class CNmCachedPoseReadTask has zero fields
             // parent: None
-            // field count: 0
-            namespace CNmCachedPoseReadTask {
-            }
             // parent: None
             // field count: 3
             //
@@ -2061,12 +2166,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bHasMorphBitArray = 0x78; // CUtlVector<uint8>
                 constexpr std::ptrdiff_t m_bHasUserBitArray = 0x90; // CUtlVector<uint8>
             }
+            // class CRootUpdateNode has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CRootUpdateNode {
-            }
             // parent: None
             // field count: 4
             //
@@ -2210,12 +2313,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nEnabledNodeIdx = 0x28; // int16
                 constexpr std::ptrdiff_t m_mode = 0x2A; // NmFollowBoneMode_t
             }
+            // class CBlockSelectionMetricEvaluator has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CBlockSelectionMetricEvaluator {
-            }
             // parent: None
             // field count: 1
             //
@@ -2408,12 +2509,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bFilterByTimeRemaining = 0x58; // bool
                 constexpr std::ptrdiff_t m_flMinTimeRemaining = 0x5C; // float32
             }
+            // class CParticleInput has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CParticleInput {
-            }
             // parent: None
             // field count: 2
             //
@@ -2422,12 +2521,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_ElementName = 0x8; // CUtlString
                 constexpr std::ptrdiff_t m_NestedElements = 0x10; // CUtlVector<CModelConfigElement*>
             }
+            // class CNmControlParameterVectorNode__CDefinition has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CNmControlParameterVectorNode__CDefinition {
-            }
             // parent: None
             // field count: 10
             //
@@ -2607,12 +2704,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nInputValueNodeIdx = 0x10; // int16
                 constexpr std::ptrdiff_t m_mode = 0x14; // NmCachedValueMode_t
             }
+            // class CAnimCycle has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CAnimCycle {
-            }
             // parent: None
             // field count: 1
             //
@@ -2729,12 +2824,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bResetChild = 0xA8; // bool
                 constexpr std::ptrdiff_t m_bAnimationDriven = 0xA9; // bool
             }
+            // class CChoreoUpdateNode has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CChoreoUpdateNode {
-            }
             // parent: None
             // field count: 2
             //
@@ -2806,16 +2899,12 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_footIndices = 0x50; // CUtlVector<int32>
                 constexpr std::ptrdiff_t m_flMinStepsRemaining = 0x68; // float32
             }
+            // class CNmVelocityBlendNode__CDefinition has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CNmVelocityBlendNode__CDefinition {
-            }
+            // class CNmZeroPoseTask has zero fields
             // parent: None
-            // field count: 0
-            namespace CNmZeroPoseTask {
-            }
             // parent: None
             // field count: 2
             //
@@ -2995,10 +3084,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flRangeStart = 0x0; // float32
                 constexpr std::ptrdiff_t m_flRangeLength = 0x4; // float32
             }
+            // class CNmBlendTaskBase has zero fields
             // parent: None
-            // field count: 0
-            namespace CNmBlendTaskBase {
-            }
             // parent: None
             // field count: 3
             //
@@ -3141,12 +3228,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_slaves = 0x38; // CUtlLeanVector<CConstraintSlave>
                 constexpr std::ptrdiff_t m_targets = 0x48; // CUtlVector<CConstraintTarget>
             }
+            // class CNmControlParameterFloatNode__CDefinition has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CNmControlParameterFloatNode__CDefinition {
-            }
             // parent: None
             // field count: 6
             //
@@ -3264,10 +3349,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_Choices = 0x48; // CUtlVector<CUtlString>
                 constexpr std::ptrdiff_t m_ChoiceWeights = 0x60; // CUtlVector<float32>
             }
+            // class CNmReferencePoseTask has zero fields
             // parent: None
-            // field count: 0
-            namespace CNmReferencePoseTask {
-            }
             // parent: None
             // field count: 2
             //
@@ -3420,12 +3503,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bLockWhenWaning = 0xF2; // bool
                 constexpr std::ptrdiff_t m_bAnimEventsAndTagsOnMostWeightedOnly = 0xF3; // bool
             }
+            // class CNmVelocityBasedSpeedScaleNode__CDefinition has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CNmVelocityBasedSpeedScaleNode__CDefinition {
-            }
             // parent: 
             // field count: 8
             //
@@ -3535,12 +3616,10 @@ namespace cs2_dumper {
             namespace CHitBoxSetList {
                 constexpr std::ptrdiff_t m_HitBoxSets = 0x0; // CUtlVector<CHitBoxSet>
             }
+            // class CNmIsInactiveBranchConditionNode__CDefinition has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CNmIsInactiveBranchConditionNode__CDefinition {
-            }
             // parent: None
             // field count: 1
             //
@@ -3556,12 +3635,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_sequenceName = 0x0; // CUtlString
                 constexpr std::ptrdiff_t m_tags = 0x8; // CUtlVector<TagSpan_t>
             }
+            // class CParticleCollectionVecInput has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CParticleCollectionVecInput {
-            }
             // parent: None
             // field count: 2
             //
@@ -3609,12 +3686,10 @@ namespace cs2_dumper {
             namespace CParamSpanUpdater {
                 constexpr std::ptrdiff_t m_spans = 0x0; // CUtlVector<ParamSpan_t>
             }
+            // class CAnimActionUpdater has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CAnimActionUpdater {
-            }
             // parent: None
             // field count: 11
             //
@@ -3851,10 +3926,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_audioSounds = 0x48; // CPhysSurfacePropertiesSoundNames
                 constexpr std::ptrdiff_t m_audioParams = 0xA8; // CPhysSurfacePropertiesAudio
             }
+            // class CNmBoneMaskValueNode__CDefinition has zero fields
             // parent: None
-            // field count: 0
-            namespace CNmBoneMaskValueNode__CDefinition {
-            }
             // parent: None
             // field count: 5
             //
@@ -3887,12 +3960,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t vector = 0x14; // Vector
                 constexpr std::ptrdiff_t position = 0x20; // Vector
             }
+            // class CParticleRemapFloatInput has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CParticleRemapFloatInput {
-            }
             // parent: None
             // field count: 2
             //
@@ -3954,16 +4025,12 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bEnableVerticalCurvedPaths = 0x154; // bool
                 constexpr std::ptrdiff_t m_bEnableRootHeightDamping = 0x155; // bool
             }
+            // class CNmOrientationWarpEvent has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CNmOrientationWarpEvent {
-            }
+            // class CNmIDValueNode__CDefinition has zero fields
             // parent: None
-            // field count: 0
-            namespace CNmIDValueNode__CDefinition {
-            }
             // parent: None
             // field count: 2
             //
@@ -3999,12 +4066,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bTranslationAxis = 0xD0; // bool[3]
                 constexpr std::ptrdiff_t m_bScaleSpeed = 0xD3; // bool
             }
+            // class CNmControlParameterBoolNode__CDefinition has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CNmControlParameterBoolNode__CDefinition {
-            }
             // parent: None
             // field count: 11
             namespace CNmChainLookatTask {
@@ -4134,12 +4199,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nElementIndexArray = 0x60; // CUtlVector<int32>
                 constexpr std::ptrdiff_t m_nElementMaskArray = 0x78; // CUtlVector<uint32>
             }
+            // class CPairedSequenceComponentUpdater has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CPairedSequenceComponentUpdater {
-            }
             // parent: None
             // field count: 13
             //
@@ -4181,12 +4244,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_ankleBoneIndex = 0x20; // int32
                 constexpr std::ptrdiff_t m_toeBoneIndex = 0x24; // int32
             }
+            // class CParentConstraint has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CParentConstraint {
-            }
             // parent: None
             // field count: 2
             //
@@ -4318,16 +4379,12 @@ namespace cs2_dumper {
             namespace PulseCursorYieldToken_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // int32
             }
+            // class CNmSampleTask has zero fields
             // parent: None
-            // field count: 0
-            namespace CNmSampleTask {
-            }
+            // class CStaticPoseCacheBuilder has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CStaticPoseCacheBuilder {
-            }
             // parent: None
             // field count: 11
             //
@@ -4573,16 +4630,12 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_GroupName = 0x48; // CUtlString
                 constexpr std::ptrdiff_t m_nChoice = 0x50; // int32
             }
+            // class CCurrentVelocityMetricEvaluator has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CCurrentVelocityMetricEvaluator {
-            }
+            // class CNmBoolValueNode__CDefinition has zero fields
             // parent: None
-            // field count: 0
-            namespace CNmBoolValueNode__CDefinition {
-            }
             // parent: None
             // field count: 5
             //
@@ -4725,10 +4778,8 @@ namespace cs2_dumper {
             namespace CModelConfigElement_SetMaterialGroup {
                 constexpr std::ptrdiff_t m_MaterialGroupName = 0x48; // CUtlString
             }
+            // class IParticleEffect has zero fields
             // parent: None
-            // field count: 0
-            namespace IParticleEffect {
-            }
             // parent: None
             // field count: 7
             //
@@ -4823,12 +4874,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nInputValueNodeIdx = 0x10; // int16
                 constexpr std::ptrdiff_t m_mode = 0x14; // NmCachedValueMode_t
             }
+            // class CPerParticleFloatInput has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CPerParticleFloatInput {
-            }
             // parent: None
             // field count: 1
             //
@@ -5094,18 +5143,14 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_hBuffer = 0x0; // uint64
                 constexpr std::ptrdiff_t m_nBindOffsetBytes = 0x10; // uint32
             }
+            // class CNmExternalGraphNode__CDefinition has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CNmExternalGraphNode__CDefinition {
-            }
+            // class CParticleCollectionRendererFloatInput has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CParticleCollectionRendererFloatInput {
-            }
             // parent: None
             // field count: 2
             //
@@ -5249,12 +5294,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_name = 0x0; // CBufferString
                 constexpr std::ptrdiff_t m_nType = 0x10; // int32
             }
+            // class CNmDurationScaleNode__CDefinition has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CNmDurationScaleNode__CDefinition {
-            }
             // parent: None
             // field count: 4
             //
@@ -5270,12 +5313,10 @@ namespace cs2_dumper {
             namespace PulseRuntimeBlackboardReferenceIndex_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // int16
             }
+            // class CMovementHandshakeAnimTag has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CMovementHandshakeAnimTag {
-            }
             // parent: None
             // field count: 2
             namespace CBoneConstraintPoseSpaceBone__Input_t {
@@ -5402,10 +5443,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_componentID = 0x18; // AnimComponentID
                 constexpr std::ptrdiff_t m_bSetEnabled = 0x1C; // bool
             }
+            // class CNmOverlayBlendTask has zero fields
             // parent: None
-            // field count: 0
-            namespace CNmOverlayBlendTask {
-            }
             // parent: None
             // field count: 2
             //
@@ -5414,10 +5453,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nInputValueNodeIdx = 0x18; // int16
                 constexpr std::ptrdiff_t m_flDefaultInputValue = 0x1C; // float32
             }
+            // class CNmValueNode__CDefinition has zero fields
             // parent: None
-            // field count: 0
-            namespace CNmValueNode__CDefinition {
-            }
             // parent: None
             // field count: 3
             //
@@ -5427,12 +5464,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_OwningAnimNodePaths = 0xC; // AnimNodeID[11]
                 constexpr std::ptrdiff_t m_nOwningAnimNodePathCount = 0x38; // int32
             }
+            // class CBindPoseUpdateNode has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CBindPoseUpdateNode {
-            }
             // parent: None
             // field count: 2
             //
@@ -5488,12 +5523,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flDistanceScale_MinScale = 0x13C; // float32
                 constexpr std::ptrdiff_t m_bEnableDistanceScaling = 0x140; // bool
             }
+            // class CNmReferencePoseNode__CDefinition has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CNmReferencePoseNode__CDefinition {
-            }
             // parent: None
             // field count: 11
             //
@@ -5651,12 +5684,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flMin = 0x14; // float32
                 constexpr std::ptrdiff_t m_flMax = 0x18; // float32
             }
+            // class CParticleCollectionFloatInput has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CParticleCollectionFloatInput {
-            }
             // parent: None
             // field count: 9
             //
@@ -5805,12 +5836,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nTargetAxis = 0x60; // int32
                 constexpr std::ptrdiff_t m_nSlaveAxis = 0x64; // int32
             }
+            // class CNmSpeedScaleNode__CDefinition has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CNmSpeedScaleNode__CDefinition {
-            }
             // parent: None
             // field count: 1
             //
@@ -5862,16 +5891,12 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nWrittenByInstruction = 0x58; // int32
                 constexpr std::ptrdiff_t m_nLastReadByInstruction = 0x5C; // int32
             }
+            // class CNmFloatValueNode__CDefinition has zero fields
             // parent: None
-            // field count: 0
-            namespace CNmFloatValueNode__CDefinition {
-            }
+            // class CWarpSectionAnimTagBase has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CWarpSectionAnimTagBase {
-            }
             // parent: None
             // field count: 3
             //
@@ -6097,18 +6122,14 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_sMorphChannelName = 0x30; // CUtlString
                 constexpr std::ptrdiff_t m_flRemap = 0x38; // float32[4]
             }
+            // class CPointConstraint has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CPointConstraint {
-            }
+            // class CCurrentRotationVelocityMetricEvaluator has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CCurrentRotationVelocityMetricEvaluator {
-            }
             // parent: None
             // field count: 2
             //
@@ -6125,10 +6146,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_value = 0x0; // CAnimVariant
                 constexpr std::ptrdiff_t m_flCycle = 0x14; // float32
             }
+            // class CNmFollowBoneTask has zero fields
             // parent: None
-            // field count: 0
-            namespace CNmFollowBoneTask {
-            }
             // parent: None
             // field count: 46
             //
@@ -6225,16 +6244,12 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bIsPassthroughRootMotion = 0x0; // bitfield:1
                 constexpr std::ptrdiff_t m_bPreEvaluatePassthroughTransitionPath = 0x0; // bitfield:1
             }
+            // class CNmTargetValueNode__CDefinition has zero fields
             // parent: None
-            // field count: 0
-            namespace CNmTargetValueNode__CDefinition {
-            }
+            // class COrientConstraint has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace COrientConstraint {
-            }
             // parent: None
             // field count: 12
             //
@@ -6363,12 +6378,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_blendValueSource = 0xA8; // AnimValueSource
                 constexpr std::ptrdiff_t m_hBlendParameter = 0xAC; // CAnimParamHandle
             }
+            // class CLeafUpdateNode has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CLeafUpdateNode {
-            }
             // parent: None
             // field count: 2
             //
@@ -6476,10 +6489,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bConstrainTwist = 0x14D; // bool
                 constexpr std::ptrdiff_t m_flMaxTwist = 0x150; // float32
             }
+            // class CNmCachedPoseWriteTask has zero fields
             // parent: None
-            // field count: 0
-            namespace CNmCachedPoseWriteTask {
-            }
             // parent: None
             // field count: 10
             //
@@ -6523,12 +6534,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_comparison = 0x12; // CNmIDComparisonNode::Comparison_t
                 constexpr std::ptrdiff_t m_comparisionIDs = 0x18; // CUtlLeanVectorFixedGrowable<CGlobalSymbol,4>
             }
+            // class CEditableMotionGraph has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CEditableMotionGraph {
-            }
             // parent: None
             // field count: 1
             //
@@ -6536,12 +6545,10 @@ namespace cs2_dumper {
             namespace CNmConstFloatNode__CDefinition {
                 constexpr std::ptrdiff_t m_flValue = 0x10; // float32
             }
+            // class CStringAnimTag has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CStringAnimTag {
-            }
             // parent: None
             // field count: 1
             //
@@ -6580,16 +6587,12 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nPriority = 0x58; // int32
                 constexpr std::ptrdiff_t m_bodyGroupSettings = 0x60; // CUtlVector<CBodyGroupSetting>
             }
+            // class CNmModelSpaceBlendTask has zero fields
             // parent: None
-            // field count: 0
-            namespace CNmModelSpaceBlendTask {
-            }
+            // class CNmZeroPoseNode__CDefinition has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CNmZeroPoseNode__CDefinition {
-            }
             // parent: None
             // field count: 5
             //
@@ -6703,10 +6706,8 @@ namespace cs2_dumper {
             namespace CModelConfigElement_SetRenderColor {
                 constexpr std::ptrdiff_t m_Color = 0x48; // Color
             }
+            // class CNmAdditiveBlendTask has zero fields
             // parent: None
-            // field count: 0
-            namespace CNmAdditiveBlendTask {
-            }
             // parent: None
             // field count: 5
             //
@@ -6743,12 +6744,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nSourceStateNodeIdx = 0x10; // int16
                 constexpr std::ptrdiff_t m_infoType = 0x12; // CNmCurrentSyncEventNode::InfoType_t
             }
+            // class CNmControlParameterTargetNode__CDefinition has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CNmControlParameterTargetNode__CDefinition {
-            }
             // parent: None
             // field count: 2
             //
@@ -6787,12 +6786,10 @@ namespace cs2_dumper {
             namespace PulseRuntimeChunkIndex_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // int32
             }
+            // class CTaskHandshakeAnimTag has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CTaskHandshakeAnimTag {
-            }
             // parent: None
             // field count: 13
             //
@@ -6846,18 +6843,14 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nWeightListIndex = 0x70; // int32
                 constexpr std::ptrdiff_t m_poseControlMethod = 0x74; // RagdollPoseControl
             }
+            // class CBoneConstraintBase has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CBoneConstraintBase {
-            }
+            // class CPathAnimMotorUpdater has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CPathAnimMotorUpdater {
-            }
             // parent: None
             // field count: 4
             //
@@ -7110,12 +7103,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_startTime = 0x8; // NmPercent_t
                 constexpr std::ptrdiff_t m_duration = 0xC; // NmPercent_t
             }
+            // class CParticleCollectionRendererVecInput has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CParticleCollectionRendererVecInput {
-            }
             // parent: None
             // field count: 6
             //
@@ -7128,12 +7119,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bHasOffsets = 0x2A; // bool
                 constexpr std::ptrdiff_t m_bIsSet = 0x2B; // bool
             }
+            // class CNmControlParameterIDNode__CDefinition has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CNmControlParameterIDNode__CDefinition {
-            }
             // parent: None
             // field count: 1
             //
@@ -7188,10 +7177,8 @@ namespace cs2_dumper {
             namespace CAnimTagManagerUpdater {
                 constexpr std::ptrdiff_t m_tags = 0x38; // CUtlVector<CSmartPtr<CAnimTagBase>>
             }
+            // class CParticleProperty has zero fields
             // parent: None
-            // field count: 0
-            namespace CParticleProperty {
-            }
         }
     }
 }
