@@ -1,18 +1,19 @@
 //  dumped by https://moonlightrblx.github.io/sdkviewer
-// timestamp: 2025-11-24 00:52:15.620031200 UTC
+// timestamp: 2025-11-24 15:57:49.568833300 UTC
 
 #pragma once
 
 #include <cstddef>
 
-namespace cs2_dumper {
-    namespace schemas {
+namespace dump {
+    namespace offsets {
         // module: schemasystem.dll
         // class count: 7
         // enum count: 2
         namespace schemasystem_dll {
             // alignment: 1
             // member count: 82
+            // underlying type: uint8_t
             enum class fieldtype_t : uint8_t {
                 FIELD_VOID = 0x0,
                 FIELD_FLOAT32 = 0x1,
@@ -99,17 +100,16 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class ThreeState_t : uint32_t {
                 TRS_FALSE = 0x0,
                 TRS_TRUE = 0x1,
                 TRS_NONE = 0x2
             };
+            // class InfoForResourceTypeCResourceManifestInternal has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace InfoForResourceTypeCResourceManifestInternal {
-            }
             // parent: None
             // field count: 23
             namespace CSchemaSystemInternalRegistration {
