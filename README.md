@@ -6,6 +6,8 @@ Constantly updated cs2 offsets (faster than a2x)
 - 15 stars: auto schema and sdk dumpers. 
 - 20 stars: release source of everything
 
+- i did remove rust and c# support. unfourtunately i don't work with these languages enough to actually keep up with syntax etc.
+- this may change in the future but for now this is not going to change.
 
 > [!IMPORTANT]
 > Schema generation is currently bugged.  (every offset is pointing to 0x20 or similar value)
