@@ -1,18 +1,19 @@
 //  dumped by https://moonlightrblx.github.io/sdkviewer
-// timestamp: 2025-11-24 00:52:15.620031200 UTC
+// timestamp: 2025-11-24 15:57:49.568833300 UTC
 
 #pragma once
 
 #include <cstddef>
 
-namespace cs2_dumper {
-    namespace schemas {
+namespace dump {
+    namespace offsets {
         // module: rendersystemdx11.dll
         // class count: 8
         // enum count: 8
         namespace rendersystemdx11_dll {
             // alignment: 4
             // member count: 14
+            // underlying type: uint32_t
             enum class RenderPrimitiveType_t : uint32_t {
                 RENDER_PRIM_POINTS = 0x0,
                 RENDER_PRIM_LINES = 0x1,
@@ -31,6 +32,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 13
+            // underlying type: uint32_t
             enum class RenderBufferFlags_t : uint32_t {
                 RENDER_BUFFER_USAGE_NONE = 0x0,
                 RENDER_BUFFER_USAGE_VERTEX_BUFFER = 0x1,
@@ -48,6 +50,7 @@ namespace cs2_dumper {
             };
             // alignment: 1
             // member count: 3
+            // underlying type: uint8_t
             enum class RsCullMode_t : uint8_t {
                 RS_CULL_NONE = 0x0,
                 RS_CULL_BACK = 0x1,
@@ -55,6 +58,7 @@ namespace cs2_dumper {
             };
             // alignment: 1
             // member count: 8
+            // underlying type: uint8_t
             enum class RsComparison_t : uint8_t {
                 RS_CMP_NEVER = 0x0,
                 RS_CMP_LESS = 0x1,
@@ -67,12 +71,14 @@ namespace cs2_dumper {
             };
             // alignment: 1
             // member count: 2
+            // underlying type: uint8_t
             enum class RsFillMode_t : uint8_t {
                 RS_FILL_SOLID = 0x0,
                 RS_FILL_WIREFRAME = 0x1
             };
             // alignment: 1
             // member count: 8
+            // underlying type: uint8_t
             enum class RenderMultisampleType_t : uint8_t {
                 RENDER_MULTISAMPLE_INVALID = 0xFFFFFFFFFFFFFFFF,
                 RENDER_MULTISAMPLE_NONE = 0x0,
@@ -85,6 +91,7 @@ namespace cs2_dumper {
             };
             // alignment: 1
             // member count: 4
+            // underlying type: uint8_t
             enum class InputLayoutVariation_t : uint8_t {
                 INPUT_LAYOUT_VARIATION_DEFAULT = 0x0,
                 INPUT_LAYOUT_VARIATION_STREAM1_INSTANCEID = 0x1,
@@ -93,6 +100,7 @@ namespace cs2_dumper {
             };
             // alignment: 1
             // member count: 3
+            // underlying type: uint8_t
             enum class RenderSlotType_t : uint8_t {
                 RENDER_SLOT_INVALID = 0xFFFFFFFFFFFFFFFF,
                 RENDER_SLOT_PER_VERTEX = 0x0,
