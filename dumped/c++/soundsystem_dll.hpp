@@ -1,24 +1,26 @@
 //  dumped by https://moonlightrblx.github.io/sdkviewer
-// timestamp: 2025-11-24 00:52:15.620031200 UTC
+// timestamp: 2025-11-24 15:57:49.568833300 UTC
 
 #pragma once
 
 #include <cstddef>
 
-namespace cs2_dumper {
-    namespace schemas {
+namespace dump {
+    namespace offsets {
         // module: soundsystem.dll
         // class count: 74
         // enum count: 20
         namespace soundsystem_dll {
             // alignment: 4
             // member count: 2
+            // underlying type: uint32_t
             enum class EMode_t : uint32_t {
                 Peak = 0x0,
                 RMS = 0x1
             };
             // alignment: 4
             // member count: 39
+            // underlying type: uint32_t
             enum class VMixGraphCommandID_t : uint32_t {
                 CMD_INVALID = 0xFFFFFFFFFFFFFFFF,
                 CMD_CONTROL_INPUT_STORE = 0x1,
@@ -62,6 +64,7 @@ namespace cs2_dumper {
             };
             // alignment: 1
             // member count: 5
+            // underlying type: uint8_t
             enum class EWaveform : uint8_t {
                 Sine = 0x0,
                 Square = 0x1,
@@ -71,6 +74,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 5
+            // underlying type: uint32_t
             enum class VMixLFOShape_t : uint32_t {
                 LFO_SHAPE_SINE = 0x0,
                 LFO_SHAPE_SQUARE = 0x1,
@@ -80,6 +84,7 @@ namespace cs2_dumper {
             };
             // alignment: 2
             // member count: 10
+            // underlying type: uint16_t
             enum class VMixFilterType_t : uint16_t {
                 FILTER_UNKNOWN = 0xFFFFFFFFFFFFFFFF,
                 FILTER_LOWPASS = 0x0,
@@ -94,6 +99,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class SosActionStopType_t : uint32_t {
                 SOS_STOPTYPE_NONE = 0x0,
                 SOS_STOPTYPE_TIME = 0x1,
@@ -101,6 +107,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 6
+            // underlying type: uint32_t
             enum class SosEditItemType_t : uint32_t {
                 SOS_EDIT_ITEM_TYPE_SOUNDEVENTS = 0x0,
                 SOS_EDIT_ITEM_TYPE_SOUNDEVENT = 0x1,
@@ -111,6 +118,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 5
+            // underlying type: uint32_t
             enum class PlayBackMode_t : uint32_t {
                 Random = 0x0,
                 RandomNoRepeats = 0x1,
@@ -120,6 +128,7 @@ namespace cs2_dumper {
             };
             // alignment: 2
             // member count: 32
+            // underlying type: uint16_t
             enum class VMixProcessorType_t : uint16_t {
                 VPROCESSOR_UNKNOWN = 0x0,
                 VPROCESSOR_RT_PITCH = 0x1,
@@ -156,6 +165,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class SosGroupFieldBehavior_t : uint32_t {
                 kIgnore = 0x0,
                 kBranch = 0x1,
@@ -163,6 +173,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 30
+            // underlying type: uint32_t
             enum class soundlevel_t : uint32_t {
                 SNDLVL_NONE = 0x0,
                 SNDLVL_20dB = 0x14,
@@ -197,12 +208,14 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 2
+            // underlying type: uint32_t
             enum class VMixPannerType_t : uint32_t {
                 PANNER_TYPE_LINEAR = 0x0,
                 PANNER_TYPE_EQUAL_POWER = 0x1
             };
             // alignment: 4
             // member count: 6
+            // underlying type: uint32_t
             enum class VMixChannelOperation_t : uint32_t {
                 VMIX_CHAN_STEREO = 0x0,
                 VMIX_CHAN_LEFT = 0x1,
@@ -213,6 +226,7 @@ namespace cs2_dumper {
             };
             // alignment: 1
             // member count: 13
+            // underlying type: uint8_t
             enum class EMidiNote : uint8_t {
                 C = 0x0,
                 C_Sharp = 0x1,
@@ -230,6 +244,7 @@ namespace cs2_dumper {
             };
             // alignment: 1
             // member count: 4
+            // underlying type: uint8_t
             enum class CVSoundFormat_t : uint8_t {
                 PCM16 = 0x0,
                 PCM8 = 0x1,
@@ -238,6 +253,7 @@ namespace cs2_dumper {
             };
             // alignment: 1
             // member count: 9
+            // underlying type: uint8_t
             enum class VMixFilterSlope_t : uint8_t {
                 FILTER_SLOPE_1POLE_6dB = 0x0,
                 FILTER_SLOPE_1POLE_12dB = 0x1,
@@ -251,12 +267,14 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 2
+            // underlying type: uint32_t
             enum class SosActionLimitSortType_t : uint32_t {
                 SOS_LIMIT_SORTTYPE_HIGHEST = 0x0,
                 SOS_LIMIT_SORTTYPE_LOWEST = 0x1
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class VMixSubgraphSwitchInterpolationType_t : uint32_t {
                 SUBGRAPH_INTERPOLATION_TEMPORAL_CROSSFADE = 0x0,
                 SUBGRAPH_INTERPOLATION_TEMPORAL_FADE_OUT = 0x1,
@@ -264,12 +282,14 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 2
+            // underlying type: uint32_t
             enum class SosGroupType_t : uint32_t {
                 SOS_GROUPTYPE_DYNAMIC = 0x0,
                 SOS_GROUPTYPE_STATIC = 0x1
             };
             // alignment: 4
             // member count: 2
+            // underlying type: uint32_t
             enum class SosActionSetParamSortType_t : uint32_t {
                 SOS_SETPARAM_SORTTYPE_HIGHEST = 0x0,
                 SOS_SETPARAM_SORTTYPE_LOWEST = 0x1
@@ -327,12 +347,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nNumDelayVariations = 0xC8; // int32
                 constexpr std::ptrdiff_t m_grainResources = 0xD0; // CUtlVector<CStrongHandle<InfoForResourceTypeCVoiceContainerBase>>
             }
+            // class CVoiceContainerDefault has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CVoiceContainerDefault {
-            }
             // parent: None
             // field count: 11
             //
@@ -413,12 +431,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flOutputGain = 0x48; // float32
                 constexpr std::ptrdiff_t m_flTaps = 0x4C; // float32
             }
+            // class CVoiceContainerNull has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CVoiceContainerNull {
-            }
             // parent: None
             // field count: 3
             //
@@ -524,12 +540,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flOutputGain = 0x48; // float32
                 constexpr std::ptrdiff_t m_flTaps = 0x4C; // float32
             }
+            // class CSosGroupActionSchema has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CSosGroupActionSchema {
-            }
             // parent: None
             // field count: 16
             //
@@ -753,12 +767,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_sound = 0x0; // CSoundContainerReference
                 constexpr std::ptrdiff_t m_flVolumeDB = 0x18; // float32
             }
+            // class CSoundInfoHeader has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CSoundInfoHeader {
-            }
             // parent: None
             // field count: 5
             //
