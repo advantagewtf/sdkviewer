@@ -1,2 +1,4 @@
 *.min.*
 min/
+js/min
+css/min
