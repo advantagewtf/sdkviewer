@@ -1,18 +1,19 @@
 //  dumped by https://moonlightrblx.github.io/sdkviewer
-// timestamp: 2025-11-24 00:52:15.620031200 UTC
+// timestamp: 2025-11-24 15:57:49.568833300 UTC
 
 #pragma once
 
 #include <cstddef>
 
-namespace cs2_dumper {
-    namespace schemas {
+namespace dump {
+    namespace offsets {
         // module: worldrenderer.dll
         // class count: 25
         // enum count: 2
         namespace worldrenderer_dll {
             // alignment: 4
             // member count: 15
+            // underlying type: uint32_t
             enum class ObjectTypeFlags_t : uint32_t {
                 OBJECT_TYPE_NONE = 0x0,
                 OBJECT_TYPE_MODEL = 0x8,
@@ -32,6 +33,7 @@ namespace cs2_dumper {
             };
             // alignment: 1
             // member count: 4
+            // underlying type: uint8_t
             enum class AggregateInstanceStream_t : uint8_t {
                 AGGREGATE_INSTANCE_STREAM_NONE = 0x0,
                 AGGREGATE_INSTANCE_STREAM_LIGHTMAPUV_UNORM16 = 0x1,
@@ -122,10 +124,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_ChildNodeIndices = 0x30; // CUtlVector<int32>
                 constexpr std::ptrdiff_t m_worldNodePrefix = 0x48; // CUtlString
             }
+            // class VMapResourceData_t has zero fields
             // parent: None
-            // field count: 0
-            namespace VMapResourceData_t {
-            }
             // parent: None
             // field count: 2
             //
@@ -238,12 +238,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nOffset = 0x0; // uint32
                 constexpr std::ptrdiff_t m_nElementCount = 0x4; // uint32
             }
+            // class InfoForResourceTypeVMapResourceData_t has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace InfoForResourceTypeVMapResourceData_t {
-            }
             // parent: None
             // field count: 4
             //
