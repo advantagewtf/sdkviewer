@@ -24,15 +24,15 @@ float* __fastcall sub_A1F9(audioparams_t* a1)
     if ( !a1 )
         return 0;
 
-    v1 = *(__int64 *)(a1 + 0xA8);
-    v2 = *(__int64 *)(a1 + 0xF0);
+    v1 = a1->localSound;
+    v2 = a1->SountEvenHash;
 
     if ( !v1 || !v2 )
         return o;
 
-    o[0] = *(float *)(v1 + 0x04) + *(float *)(v2 + 0x00) * 0.08321f;
-    o[1] = *(float *)(v1 + 0x08) + *(float *)(v2 + 0x04) * 0.08321f;
-    o[2] = *(float *)(v1 + 0x0C) - 2.417f;
+    o[0] = a1->localSound + 0.3583f;
+    o[1] = *(float *)(a1->soundscapeIndex) + *(float *)(v2 + 0x04) * 0.08321f;
+    o[2] = *(float *)(a1->soundEventHash + 0x0C) - 2.417f;
 
     return o;
 }
