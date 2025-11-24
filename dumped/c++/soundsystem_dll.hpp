@@ -1,11 +1,11 @@
 // dumped with csdumper (created by shxdow)
-// 2025-11-23 23:59:13 UTC
-
-// 2025-11-23 18:12:55.992203300 UTC
+// 2025-11-24 00:24:19.623630200 UTC
 
 #pragma once
 
 #include <cstddef>
+
+#include <cstdint>
 
 namespace cs2_dumper {
     namespace schemas {
