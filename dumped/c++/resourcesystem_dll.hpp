@@ -1,18 +1,19 @@
 //  dumped by https://moonlightrblx.github.io/sdkviewer
-// timestamp: 2025-11-24 00:52:15.620031200 UTC
+// timestamp: 2025-11-24 15:57:49.568833300 UTC
 
 #pragma once
 
 #include <cstddef>
 
-namespace cs2_dumper {
-    namespace schemas {
+namespace dump {
+    namespace offsets {
         // module: resourcesystem.dll
         // class count: 59
         // enum count: 2
         namespace resourcesystem_dll {
             // alignment: 1
             // member count: 9
+            // underlying type: uint8_t
             enum class FuseVariableType_t : uint8_t {
                 INVALID = 0x0,
                 BOOL = 0x1,
@@ -26,58 +27,45 @@ namespace cs2_dumper {
             };
             // alignment: 1
             // member count: 2
+            // underlying type: uint8_t
             enum class FuseVariableAccess_t : uint8_t {
                 WRITABLE = 0x0,
                 READ_ONLY = 0x1
             };
+            // class InfoForResourceTypeCNmIKRig has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace InfoForResourceTypeCNmIKRig {
-            }
+            // class InfoForResourceTypeCResponseRulesList has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace InfoForResourceTypeCResponseRulesList {
-            }
+            // class InfoForResourceTypeCDotaItemDefinitionResource has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace InfoForResourceTypeCDotaItemDefinitionResource {
-            }
+            // class InfoForResourceTypeCMorphSetData has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace InfoForResourceTypeCMorphSetData {
-            }
+            // class InfoForResourceTypeCVSoundStackScriptList has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace InfoForResourceTypeCVSoundStackScriptList {
-            }
             // parent: None
             // field count: 2
             namespace PackedAABB_t {
                 constexpr std::ptrdiff_t m_nPackedMin = 0x0; // uint32
                 constexpr std::ptrdiff_t m_nPackedMax = 0x4; // uint32
             }
+            // class InfoForResourceTypeCVPhysXSurfacePropertiesList has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace InfoForResourceTypeCVPhysXSurfacePropertiesList {
-            }
+            // class InfoForResourceTypeManifestTestResource_t has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace InfoForResourceTypeManifestTestResource_t {
-            }
             // parent: None
             // field count: 3
             //
@@ -92,24 +80,18 @@ namespace cs2_dumper {
             namespace FuseFunctionIndex_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint16
             }
+            // class InfoForResourceTypeCGcExportableExternalData has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace InfoForResourceTypeCGcExportableExternalData {
-            }
+            // class InfoForResourceTypeIAnimGraphModelBinding has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace InfoForResourceTypeIAnimGraphModelBinding {
-            }
+            // class InfoForResourceTypeCJavaScriptResource has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace InfoForResourceTypeCJavaScriptResource {
-            }
             // parent: None
             // field count: 6
             //
@@ -122,60 +104,44 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_variableMap = 0x68; // CUtlHashtable<CUtlStringToken,int32>
                 constexpr std::ptrdiff_t m_functionMap = 0x88; // CUtlHashtable<CUtlStringToken,int32>
             }
+            // class InfoForResourceTypeCRenderMesh has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace InfoForResourceTypeCRenderMesh {
-            }
+            // class InfoForResourceTypeCVoxelVisibility has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace InfoForResourceTypeCVoxelVisibility {
-            }
+            // class InfoForResourceTypeCPhysAggregateData has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace InfoForResourceTypeCPhysAggregateData {
-            }
+            // class InfoForResourceTypeCNmClip has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace InfoForResourceTypeCNmClip {
-            }
+            // class InfoForResourceTypeWorld_t has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace InfoForResourceTypeWorld_t {
-            }
+            // class InfoForResourceTypeProceduralTestResource_t has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace InfoForResourceTypeProceduralTestResource_t {
-            }
+            // class InfoForResourceTypeCChoreoSceneFileList has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace InfoForResourceTypeCChoreoSceneFileList {
-            }
             // parent: None
             // field count: 2
             namespace AABB_t {
                 constexpr std::ptrdiff_t m_vMinBounds = 0x0; // Vector
                 constexpr std::ptrdiff_t m_vMaxBounds = 0xC; // Vector
             }
+            // class InfoForResourceTypeCPostProcessingResource has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace InfoForResourceTypeCPostProcessingResource {
-            }
             // parent: None
             // field count: 6
             //
@@ -188,12 +154,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_eVarType = 0xF; // FuseVariableType_t
                 constexpr std::ptrdiff_t m_eAccess = 0x10; // FuseVariableAccess_t
             }
+            // class InfoForResourceTypeIParticleSnapshot has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace InfoForResourceTypeIParticleSnapshot {
-            }
             // parent: None
             // field count: 4
             namespace FourQuaternions {
@@ -202,90 +166,62 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t z = 0x20; // fltx4
                 constexpr std::ptrdiff_t w = 0x30; // fltx4
             }
+            // class InfoForResourceTypeCPanoramaLayout has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace InfoForResourceTypeCPanoramaLayout {
-            }
+            // class InfoForResourceTypeCTypeScriptResource has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace InfoForResourceTypeCTypeScriptResource {
-            }
+            // class InfoForResourceTypeCChoreoSceneResource has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace InfoForResourceTypeCChoreoSceneResource {
-            }
+            // class InfoForResourceTypeCNmSkeleton has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace InfoForResourceTypeCNmSkeleton {
-            }
+            // class InfoForResourceTypeCTestResourceData has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace InfoForResourceTypeCTestResourceData {
-            }
+            // class InfoForResourceTypeCAnimationGroup has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace InfoForResourceTypeCAnimationGroup {
-            }
+            // class InfoForResourceTypeCVSoundEventScriptList has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace InfoForResourceTypeCVSoundEventScriptList {
-            }
+            // class InfoForResourceTypeCVoiceContainerBase has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace InfoForResourceTypeCVoiceContainerBase {
-            }
+            // class InfoForResourceTypeCPanoramaStyle has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace InfoForResourceTypeCPanoramaStyle {
-            }
+            // class InfoForResourceTypeCWorldNode has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace InfoForResourceTypeCWorldNode {
-            }
+            // class InfoForResourceTypeCSurfaceGraph has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace InfoForResourceTypeCSurfaceGraph {
-            }
+            // class InfoForResourceTypeCCSGOEconItem has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace InfoForResourceTypeCCSGOEconItem {
-            }
+            // class InfoForResourceTypeCNmGraphDefinition has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace InfoForResourceTypeCNmGraphDefinition {
-            }
+            // class InfoForResourceTypeCSmartProp has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace InfoForResourceTypeCSmartProp {
-            }
             // parent: None
             // field count: 4
             //
@@ -296,48 +232,34 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_variablesWritten = 0x30; // CUtlVector<FuseVariableIndex_t>
                 constexpr std::ptrdiff_t m_nMaxTempVarsUsed = 0x48; // int32
             }
+            // class InfoForResourceTypeCCompositeMaterialKit has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace InfoForResourceTypeCCompositeMaterialKit {
-            }
+            // class InfoForResourceTypeCVMixListResource has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace InfoForResourceTypeCVMixListResource {
-            }
+            // class InfoForResourceTypeCAnimData has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace InfoForResourceTypeCAnimData {
-            }
+            // class InfoForResourceTypeIMaterial2 has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace InfoForResourceTypeIMaterial2 {
-            }
+            // class InfoForResourceTypeIVectorGraphic has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace InfoForResourceTypeIVectorGraphic {
-            }
+            // class InfoForResourceTypeCPanoramaDynamicImages has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace InfoForResourceTypeCPanoramaDynamicImages {
-            }
+            // class InfoForResourceTypeIPulseGraphDef has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace InfoForResourceTypeIPulseGraphDef {
-            }
             // parent: None
             // field count: 5
             //
@@ -349,47 +271,35 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nIndex = 0x18; // FuseFunctionIndex_t
                 constexpr std::ptrdiff_t m_bIsPure = 0x1A; // bool
             }
+            // class InfoForResourceTypeCVDataResource has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace InfoForResourceTypeCVDataResource {
-            }
+            // class InfoForResourceTypeCModel has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace InfoForResourceTypeCModel {
-            }
+            // class InfoForResourceTypeCDOTANovelsList has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace InfoForResourceTypeCDOTANovelsList {
-            }
+            // class InfoForResourceTypeCTextureBase has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace InfoForResourceTypeCTextureBase {
-            }
             // parent: None
             // field count: 1
             namespace FuseVariableIndex_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // uint16
             }
+            // class InfoForResourceTypeIParticleSystemDefinition has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace InfoForResourceTypeIParticleSystemDefinition {
-            }
+            // class InfoForResourceTypeCSequenceGroupData has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace InfoForResourceTypeCSequenceGroupData {
-            }
             // parent: None
             // field count: 2
             //
@@ -398,18 +308,14 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_name = 0x0; // CUtlString
                 constexpr std::ptrdiff_t m_child = 0x8; // CStrongHandle<InfoForResourceTypeManifestTestResource_t>
             }
+            // class InfoForResourceTypeCEntityLump has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace InfoForResourceTypeCEntityLump {
-            }
+            // class InfoForResourceTypeCDOTAPatchNotesList has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace InfoForResourceTypeCDOTAPatchNotesList {
-            }
         }
     }
 }
