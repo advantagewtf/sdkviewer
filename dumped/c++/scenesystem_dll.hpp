@@ -1,18 +1,19 @@
 //  dumped by https://moonlightrblx.github.io/sdkviewer
-// timestamp: 2025-11-24 00:52:15.620031200 UTC
+// timestamp: 2025-11-24 15:57:49.568833300 UTC
 
 #pragma once
 
 #include <cstddef>
 
-namespace cs2_dumper {
-    namespace schemas {
+namespace dump {
+    namespace offsets {
         // module: scenesystem.dll
         // class count: 9
         // enum count: 3
         namespace scenesystem_dll {
             // alignment: 1
             // member count: 6
+            // underlying type: uint8_t
             enum class DecalMode_t : uint8_t {
                 kDecalInvalid = 0xFF,
                 kDecalBlood = 0x0,
@@ -23,6 +24,7 @@ namespace cs2_dumper {
             };
             // alignment: 1
             // member count: 4
+            // underlying type: uint8_t
             enum class DisableShadows_t : uint8_t {
                 kDisableShadows_None = 0x0,
                 kDisableShadows_All = 0x1,
@@ -31,6 +33,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 6
+            // underlying type: uint32_t
             enum class ESceneObjectVisualization : uint32_t {
                 SCENEOBJECT_VIS_NONE = 0x0,
                 SCENEOBJECT_VIS_OBJECT = 0x1,
@@ -71,12 +74,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nViewId = 0x0; // uint64
                 constexpr std::ptrdiff_t m_ViewName = 0x8; // CUtlString
             }
+            // class CSSDSMsg_PostLayer has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CSSDSMsg_PostLayer {
-            }
             // parent: None
             // field count: 5
             //
@@ -88,12 +89,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_LayerName = 0x20; // CUtlString
                 constexpr std::ptrdiff_t m_displayText = 0x28; // CUtlString
             }
+            // class CSSDSMsg_PreLayer has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CSSDSMsg_PreLayer {
-            }
             // parent: None
             // field count: 3
             //
