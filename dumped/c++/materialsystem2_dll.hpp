@@ -1,18 +1,19 @@
 //  dumped by https://moonlightrblx.github.io/sdkviewer
-// timestamp: 2025-11-24 00:52:15.620031200 UTC
+// timestamp: 2025-11-24 15:57:49.568833300 UTC
 
 #pragma once
 
 #include <cstddef>
 
-namespace cs2_dumper {
-    namespace schemas {
+namespace dump {
+    namespace offsets {
         // module: materialsystem2.dll
         // class count: 14
         // enum count: 5
         namespace materialsystem2_dll {
             // alignment: 4
             // member count: 4
+            // underlying type: uint32_t
             enum class VertJustification_e : uint32_t {
                 VERT_JUSTIFICATION_TOP = 0x0,
                 VERT_JUSTIFICATION_CENTER = 0x1,
@@ -21,6 +22,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class LayoutPositionType_e : uint32_t {
                 LAYOUTPOSITIONTYPE_VIEWPORT_RELATIVE = 0x0,
                 LAYOUTPOSITIONTYPE_FRACTIONAL = 0x1,
@@ -28,6 +30,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class ViewFadeMode_t : uint32_t {
                 VIEW_FADE_CONSTANT_COLOR = 0x0,
                 VIEW_FADE_MODULATE = 0x1,
@@ -35,6 +38,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class BloomBlendMode_t : uint32_t {
                 BLOOM_BLEND_ADD = 0x0,
                 BLOOM_BLEND_SCREEN = 0x1,
@@ -42,6 +46,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 4
+            // underlying type: uint32_t
             enum class HorizJustification_e : uint32_t {
                 HORIZ_JUSTIFICATION_LEFT = 0x0,
                 HORIZ_JUSTIFICATION_CENTER = 0x1,
