@@ -1,6 +1,4 @@
-// dumped with csdumper (created by shxdow)
-// 2025-11-23 23:58:56 UTC
-
+// Generated using https://github.com/a2x/cs2-dumper
 // 2025-11-05 05:55:33.103563200 UTC
 
 #pragma once
