@@ -1,18 +1,19 @@
 //  dumped by https://moonlightrblx.github.io/sdkviewer
-// timestamp: 2025-11-24 00:52:15.620031200 UTC
+// timestamp: 2025-11-24 15:57:49.568833300 UTC
 
 #pragma once
 
 #include <cstddef>
 
-namespace cs2_dumper {
-    namespace schemas {
+namespace dump {
+    namespace offsets {
         // module: engine2.dll
         // class count: 48
         // enum count: 2
         namespace engine2_dll {
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class EntityDormancyType_t : uint32_t {
                 ENTITY_NOT_DORMANT = 0x0,
                 ENTITY_DORMANT = 0x1,
@@ -20,16 +21,15 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 4
+            // underlying type: uint32_t
             enum class EntityIOTargetType_t : uint32_t {
                 ENTITY_IO_TARGET_INVALID = 0xFFFFFFFFFFFFFFFF,
                 ENTITY_IO_TARGET_ENTITYNAME = 0x2,
                 ENTITY_IO_TARGET_EHANDLE = 0x6,
                 ENTITY_IO_TARGET_ENTITYNAME_OR_CLASSNAME = 0x7
             };
+            // class EventClientPostSimulate_t has zero fields
             // parent: None
-            // field count: 0
-            namespace EventClientPostSimulate_t {
-            }
             // parent: None
             // field count: 3
             namespace EventSimpleLoopFrameUpdate_t {
@@ -64,10 +64,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flRenderFrameTimeUnbounded = 0x30; // float32
                 constexpr std::ptrdiff_t m_bRenderOnly = 0x34; // bool
             }
+            // class EventServerPostSimulate_t has zero fields
             // parent: None
-            // field count: 0
-            namespace EventServerPostSimulate_t {
-            }
             // parent: None
             // field count: 4
             namespace CEntityComponentHelper {
@@ -81,27 +79,19 @@ namespace cs2_dumper {
             namespace GameTime_t {
                 constexpr std::ptrdiff_t m_Value = 0x0; // float32
             }
+            // class EventServerEndAsyncPostTickWork_t has zero fields
             // parent: None
-            // field count: 0
-            namespace EventServerEndAsyncPostTickWork_t {
-            }
+            // class EventClientAdvanceTick_t has zero fields
             // parent: None
-            // field count: 0
-            namespace EventClientAdvanceTick_t {
-            }
+            // class EntInput_t has zero fields
             // parent: None
-            // field count: 0
-            namespace EntInput_t {
-            }
             // parent: None
             // field count: 1
             namespace CNetworkVarChainer {
                 constexpr std::ptrdiff_t m_PathIndex = 0x20; // ChangeAccessorFieldPathIndex_t
             }
+            // class EventClientSimulate_t has zero fields
             // parent: None
-            // field count: 0
-            namespace EventClientSimulate_t {
-            }
             // parent: None
             // field count: 5
             namespace EventClientPostOutput_t {
@@ -144,14 +134,10 @@ namespace cs2_dumper {
             namespace EventAppShutdown_t {
                 constexpr std::ptrdiff_t m_nDummy0 = 0x0; // int32
             }
+            // class EventServerSimulate_t has zero fields
             // parent: None
-            // field count: 0
-            namespace EventServerSimulate_t {
-            }
+            // class EventServerPostAdvanceTick_t has zero fields
             // parent: None
-            // field count: 0
-            namespace EventServerPostAdvanceTick_t {
-            }
             // parent: None
             // field count: 1
             namespace EventProfileStorageAvailable_t {
@@ -162,14 +148,10 @@ namespace cs2_dumper {
             namespace EventPostDataUpdate_t {
                 constexpr std::ptrdiff_t m_nCount = 0x0; // int32
             }
+            // class EventClientPreSimulate_t has zero fields
             // parent: None
-            // field count: 0
-            namespace EventClientPreSimulate_t {
-            }
+            // class EventClientPauseSimulate_t has zero fields
             // parent: None
-            // field count: 0
-            namespace EventClientPauseSimulate_t {
-            }
             // parent: None
             // field count: 1
             namespace EventClientProcessNetworking_t {
@@ -183,22 +165,14 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nTotalTicksThisFrame = 0x38; // int32
                 constexpr std::ptrdiff_t m_nTotalTicks = 0x3C; // int32
             }
+            // class EventSplitScreenStateChanged_t has zero fields
             // parent: None
-            // field count: 0
-            namespace EventSplitScreenStateChanged_t {
-            }
+            // class EventClientPostAdvanceTick_t has zero fields
             // parent: None
-            // field count: 0
-            namespace EventClientPostAdvanceTick_t {
-            }
+            // class CVariantDefaultAllocator has zero fields
             // parent: None
-            // field count: 0
-            namespace CVariantDefaultAllocator {
-            }
+            // class EventModInitialized_t has zero fields
             // parent: None
-            // field count: 0
-            namespace EventModInitialized_t {
-            }
             // parent: None
             // field count: 6
             namespace EventClientPreOutput_t {
@@ -217,10 +191,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flFrameTime = 0x2C; // float32
                 constexpr std::ptrdiff_t m_bScheduleSendTickPacket = 0x30; // bool
             }
+            // class EventServerAdvanceTick_t has zero fields
             // parent: None
-            // field count: 0
-            namespace EventServerAdvanceTick_t {
-            }
             // parent: None
             // field count: 8
             namespace EventSetTime_t {
@@ -233,10 +205,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flRenderFrameTimeUnscaled = 0x50; // float64
                 constexpr std::ptrdiff_t m_flTickRemainder = 0x58; // float64
             }
+            // class EntOutput_t has zero fields
             // parent: None
-            // field count: 0
-            namespace EntOutput_t {
-            }
             // parent: None
             // field count: 3
             namespace EventSimulate_t {
@@ -244,18 +214,12 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bFirstTick = 0x28; // bool
                 constexpr std::ptrdiff_t m_bLastTick = 0x29; // bool
             }
+            // class EventClientAdvanceNonRenderedFrame_t has zero fields
             // parent: None
-            // field count: 0
-            namespace EventClientAdvanceNonRenderedFrame_t {
-            }
+            // class EventServerProcessNetworking_t has zero fields
             // parent: None
-            // field count: 0
-            namespace EventServerProcessNetworking_t {
-            }
+            // class CEmptyEntityInstance has zero fields
             // parent: None
-            // field count: 0
-            namespace CEmptyEntityInstance {
-            }
             // parent: None
             // field count: 7
             namespace EntComponentInfo_t {
@@ -280,10 +244,8 @@ namespace cs2_dumper {
             namespace EventClientPollNetworking_t {
                 constexpr std::ptrdiff_t m_nTickCount = 0x0; // int32
             }
+            // class EventServerBeginAsyncPostTickWork_t has zero fields
             // parent: None
-            // field count: 0
-            namespace EventServerBeginAsyncPostTickWork_t {
-            }
             // parent: None
             // field count: 4
             namespace EventClientProcessInput_t {
@@ -292,10 +254,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flTickInterval = 0x2C; // float32
                 constexpr std::ptrdiff_t m_flTickStartTime = 0x30; // float64
             }
+            // class EventServerPollNetworking_t has zero fields
             // parent: None
-            // field count: 0
-            namespace EventServerPollNetworking_t {
-            }
         }
     }
 }
