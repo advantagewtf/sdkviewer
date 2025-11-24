@@ -1,18 +1,19 @@
 //  dumped by https://moonlightrblx.github.io/sdkviewer
-// timestamp: 2025-11-24 00:52:15.620031200 UTC
+// timestamp: 2025-11-24 15:57:49.568833300 UTC
 
 #pragma once
 
 #include <cstddef>
 
-namespace cs2_dumper {
-    namespace schemas {
+namespace dump {
+    namespace offsets {
         // module: particles.dll
         // class count: 429
         // enum count: 71
         namespace particles_dll {
             // alignment: 4
             // member count: 6
+            // underlying type: uint32_t
             enum class ParticleSetMethod_t : uint32_t {
                 PARTICLE_SET_REPLACE_VALUE = 0x0,
                 PARTICLE_SET_SCALE_INITIAL_VALUE = 0x1,
@@ -23,6 +24,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 7
+            // underlying type: uint32_t
             enum class Detail2Combo_t : uint32_t {
                 DETAIL_2_COMBO_UNINITIALIZED = 0xFFFFFFFFFFFFFFFF,
                 DETAIL_2_COMBO_OFF = 0x0,
@@ -34,6 +36,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 4
+            // underlying type: uint32_t
             enum class MissingParentInheritBehavior_t : uint32_t {
                 MISSING_PARENT_DO_NOTHING = 0xFFFFFFFFFFFFFFFF,
                 MISSING_PARENT_KILL = 0x0,
@@ -42,6 +45,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class ParticleTraceMissBehavior_t : uint32_t {
                 PARTICLE_TRACE_MISS_BEHAVIOR_NONE = 0x0,
                 PARTICLE_TRACE_MISS_BEHAVIOR_KILL = 0x1,
@@ -49,6 +53,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 7
+            // underlying type: uint32_t
             enum class PFuncVisualizationType_t : uint32_t {
                 PFUNC_VISUALIZATION_SPHERE_WIREFRAME = 0x0,
                 PFUNC_VISUALIZATION_SPHERE_SOLID = 0x1,
@@ -60,6 +65,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 4
+            // underlying type: uint32_t
             enum class ParticleVRHandChoiceList_t : uint32_t {
                 PARTICLE_VRHAND_LEFT = 0x0,
                 PARTICLE_VRHAND_RIGHT = 0x1,
@@ -68,12 +74,14 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 2
+            // underlying type: uint32_t
             enum class ParticleReplicationMode_t : uint32_t {
                 PARTICLE_REPLICATIONMODE_NONE = 0x0,
                 PARTICLE_REPLICATIONMODE_REPLICATE_FOR_EACH_PARENT_PARTICLE = 0x1
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class ParticleFanType_t : uint32_t {
                 PARTICLE_FAN_TYPE_FAN = 0x0,
                 PARTICLE_FAN_TYPE_ROTOR_WASH = 0x1,
@@ -81,6 +89,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class PetGroundType_t : uint32_t {
                 PET_GROUND_NONE = 0x0,
                 PET_GROUND_GRID = 0x1,
@@ -88,6 +97,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class InheritableBoolType_t : uint32_t {
                 INHERITABLE_BOOL_INHERIT = 0x0,
                 INHERITABLE_BOOL_FALSE = 0x1,
@@ -95,6 +105,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 6
+            // underlying type: uint32_t
             enum class ParticlePostProcessPriorityGroup_t : uint32_t {
                 PARTICLE_POST_PROCESS_PRIORITY_LEVEL_VOLUME = 0x0,
                 PARTICLE_POST_PROCESS_PRIORITY_LEVEL_OVERRIDE = 0x1,
@@ -105,6 +116,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 7
+            // underlying type: uint32_t
             enum class ParticleCollisionGroup_t : uint32_t {
                 PARTICLE_COLLISION_GROUP_DEFAULT = 0x4,
                 PARTICLE_COLLISION_GROUP_DEBRIS = 0x5,
@@ -116,6 +128,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 5
+            // underlying type: uint32_t
             enum class ParticleColorBlendMode_t : uint32_t {
                 PARTICLEBLEND_DEFAULT = 0x0,
                 PARTICLEBLEND_OVERLAY = 0x1,
@@ -125,6 +138,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 13
+            // underlying type: uint32_t
             enum class ParticleColorBlendType_t : uint32_t {
                 PARTICLE_COLOR_BLEND_MULTIPLY = 0x0,
                 PARTICLE_COLOR_BLEND_MULTIPLY2X = 0x1,
@@ -142,6 +156,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 4
+            // underlying type: uint32_t
             enum class DetailCombo_t : uint32_t {
                 DETAIL_COMBO_OFF = 0x0,
                 DETAIL_COMBO_ADD = 0x1,
@@ -150,6 +165,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 12
+            // underlying type: uint32_t
             enum class ScalarExpressionType_t : uint32_t {
                 SCALAR_EXPRESSION_UNINITIALIZED = 0xFFFFFFFFFFFFFFFF,
                 SCALAR_EXPRESSION_ADD = 0x0,
@@ -166,6 +182,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 14
+            // underlying type: uint32_t
             enum class SpriteCardPerParticleScale_t : uint32_t {
                 SPRITECARD_TEXTURE_PP_SCALE_NONE = 0x0,
                 SPRITECARD_TEXTURE_PP_SCALE_PARTICLE_AGE = 0x1,
@@ -184,18 +201,21 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 2
+            // underlying type: uint32_t
             enum class BlurFilterType_t : uint32_t {
                 BLURFILTER_GAUSSIAN = 0x0,
                 BLURFILTER_BOX = 0x1
             };
             // alignment: 4
             // member count: 2
+            // underlying type: uint32_t
             enum class StandardLightingAttenuationStyle_t : uint32_t {
                 LIGHT_STYLE_OLD = 0x0,
                 LIGHT_STYLE_NEW = 0x1
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class ParticleParentSetMode_t : uint32_t {
                 PARTICLE_SET_PARENT_NO = 0x0,
                 PARTICLE_SET_PARENT_IMMEDIATE = 0x1,
@@ -203,6 +223,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 6
+            // underlying type: uint32_t
             enum class ParticleLightingQuality_t : uint32_t {
                 PARTICLE_LIGHTING_PER_PARTICLE = 0x0,
                 PARTICLE_LIGHTING_PER_VERTEX = 0x1,
@@ -213,6 +234,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 8
+            // underlying type: uint32_t
             enum class SetStatisticExpressionType_t : uint32_t {
                 SET_EXPRESSION_UNINITIALIZED = 0xFFFFFFFFFFFFFFFF,
                 SET_EXPRESSION_SUM = 0x0,
@@ -225,6 +247,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 11
+            // underlying type: uint32_t
             enum class EventTypeSelection_t : uint32_t {
                 PARTICLE_EVENT_TYPE_MASK_NONE = 0x0,
                 PARTICLE_EVENT_TYPE_MASK_SPAWNED = 0x1,
@@ -240,12 +263,14 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 2
+            // underlying type: uint32_t
             enum class ParticleMassMode_t : uint32_t {
                 PARTICLE_MASSMODE_RADIUS_CUBED = 0x0,
                 PARTICLE_MASSMODE_RADIUS_SQUARED = 0x2
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class ParticleDirectionNoiseType_t : uint32_t {
                 PARTICLE_DIR_NOISE_PERLIN = 0x0,
                 PARTICLE_DIR_NOISE_CURL = 0x1,
@@ -253,12 +278,14 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 2
+            // underlying type: uint32_t
             enum class ParticleHitboxBiasType_t : uint32_t {
                 PARTICLE_HITBOX_BIAS_ENTITY = 0x0,
                 PARTICLE_HITBOX_BIAS_HITBOX = 0x1
             };
             // alignment: 4
             // member count: 6
+            // underlying type: uint32_t
             enum class ParticleControlPointAxis_t : uint32_t {
                 PARTICLE_CP_AXIS_X = 0x0,
                 PARTICLE_CP_AXIS_Y = 0x1,
@@ -269,6 +296,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 12
+            // underlying type: uint32_t
             enum class ParticlePinDistance_t : uint32_t {
                 PARTICLE_PIN_DISTANCE_NONE = 0xFFFFFFFFFFFFFFFF,
                 PARTICLE_PIN_DISTANCE_NEIGHBOR = 0x0,
@@ -285,6 +313,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 7
+            // underlying type: uint32_t
             enum class VectorFloatExpressionType_t : uint32_t {
                 VECTOR_FLOAT_EXPRESSION_UNINITIALIZED = 0xFFFFFFFFFFFFFFFF,
                 VECTOR_FLOAT_EXPRESSION_DOTPRODUCT = 0x0,
@@ -296,6 +325,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class ParticleFogType_t : uint32_t {
                 PARTICLE_FOG_GAME_DEFAULT = 0x0,
                 PARTICLE_FOG_ENABLED = 0x1,
@@ -303,6 +333,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 10
+            // underlying type: uint32_t
             enum class VectorExpressionType_t : uint32_t {
                 VECTOR_EXPRESSION_UNINITIALIZED = 0xFFFFFFFFFFFFFFFF,
                 VECTOR_EXPRESSION_ADD = 0x0,
@@ -317,6 +348,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class ParticleRotationLockType_t : uint32_t {
                 PARTICLE_ROTATION_LOCK_NONE = 0x0,
                 PARTICLE_ROTATION_LOCK_ROTATIONS = 0x1,
@@ -324,12 +356,14 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 2
+            // underlying type: uint32_t
             enum class HitboxLerpType_t : uint32_t {
                 HITBOX_LERP_LIFETIME = 0x0,
                 HITBOX_LERP_CONSTANT = 0x1
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class AnimationType_t : uint32_t {
                 ANIMATION_TYPE_FIXED_RATE = 0x0,
                 ANIMATION_TYPE_FIT_LIFETIME = 0x1,
@@ -337,6 +371,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 7
+            // underlying type: uint32_t
             enum class ParticleAttrBoxFlags_t : uint32_t {
                 PARTICLE_ATTR_BOX_FLAGS_NONE = 0x0,
                 PARTICLE_ATTR_BOX_FLAGS_WATER = 0x1,
@@ -348,6 +383,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 5
+            // underlying type: uint32_t
             enum class ParticleTopology_t : uint32_t {
                 PARTICLE_TOPOLOGY_POINTS = 0x0,
                 PARTICLE_TOPOLOGY_LINES = 0x1,
@@ -357,6 +393,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class ParticleLightBehaviorChoiceList_t : uint32_t {
                 PARTICLE_LIGHT_BEHAVIOR_FOLLOW_DIRECTION = 0x0,
                 PARTICLE_LIGHT_BEHAVIOR_ROPE = 0x1,
@@ -364,6 +401,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 4
+            // underlying type: uint32_t
             enum class ModelHitboxType_t : uint32_t {
                 MODEL_HITBOX_TYPE_STANDARD = 0x0,
                 MODEL_HITBOX_TYPE_RAW_BONES = 0x1,
@@ -372,6 +410,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 4
+            // underlying type: uint32_t
             enum class ParticleOrientationType_t : uint32_t {
                 PARTICLE_ORIENTATION_NONE = 0x0,
                 PARTICLE_ORIENTATION_VELOCITY = 0x1,
@@ -380,6 +419,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 4
+            // underlying type: uint32_t
             enum class ParticleTraceSet_t : uint32_t {
                 PARTICLE_TRACE_SET_ALL = 0x0,
                 PARTICLE_TRACE_SET_STATIC = 0x1,
@@ -388,6 +428,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 7
+            // underlying type: uint32_t
             enum class ParticleTextureLayerBlendType_t : uint32_t {
                 SPRITECARD_TEXTURE_BLEND_MULTIPLY = 0x0,
                 SPRITECARD_TEXTURE_BLEND_MOD2X = 0x1,
@@ -399,6 +440,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class ParticleSelection_t : uint32_t {
                 PARTICLE_SELECTION_FIRST = 0x0,
                 PARTICLE_SELECTION_LAST = 0x1,
@@ -406,12 +448,14 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 2
+            // underlying type: uint32_t
             enum class SnapshotIndexType_t : uint32_t {
                 SNAPSHOT_INDEX_INCREMENT = 0x0,
                 SNAPSHOT_INDEX_DIRECT = 0x1
             };
             // alignment: 4
             // member count: 7
+            // underlying type: uint32_t
             enum class ParticleOutputBlendMode_t : uint32_t {
                 PARTICLE_OUTPUT_BLEND_MODE_ALPHA = 0x0,
                 PARTICLE_OUTPUT_BLEND_MODE_ADD = 0x1,
@@ -423,18 +467,21 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 2
+            // underlying type: uint32_t
             enum class ParticleLightnintBranchBehavior_t : uint32_t {
                 PARTICLE_LIGHTNING_BRANCH_CURRENT_DIR = 0x0,
                 PARTICLE_LIGHTNING_BRANCH_ENDPOINT_DIR = 0x1
             };
             // alignment: 4
             // member count: 2
+            // underlying type: uint32_t
             enum class MaterialProxyType_t : uint32_t {
                 MATERIAL_PROXY_STATUS_EFFECT = 0x0,
                 MATERIAL_PROXY_TINT = 0x1
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class ParticleDepthFeatheringMode_t : uint32_t {
                 PARTICLE_DEPTH_FEATHERING_OFF = 0x0,
                 PARTICLE_DEPTH_FEATHERING_ON_OPTIONAL = 0x1,
@@ -442,12 +489,14 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 2
+            // underlying type: uint32_t
             enum class ParticleLightUnitChoiceList_t : uint32_t {
                 PARTICLE_LIGHT_UNIT_CANDELAS = 0x0,
                 PARTICLE_LIGHT_UNIT_LUMENS = 0x1
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class ParticleFalloffFunction_t : uint32_t {
                 PARTICLE_FALLOFF_CONSTANT = 0x0,
                 PARTICLE_FALLOFF_LINEAR = 0x1,
@@ -455,6 +504,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class ParticleSequenceCropOverride_t : uint32_t {
                 PARTICLE_SEQUENCE_CROP_OVERRIDE_DEFAULT = 0xFFFFFFFFFFFFFFFF,
                 PARTICLE_SEQUENCE_CROP_OVERRIDE_FORCE_OFF = 0x0,
@@ -462,6 +512,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 4
+            // underlying type: uint32_t
             enum class ParticleDetailLevel_t : uint32_t {
                 PARTICLEDETAIL_LOW = 0x0,
                 PARTICLEDETAIL_MEDIUM = 0x1,
@@ -470,6 +521,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class BBoxVolumeType_t : uint32_t {
                 BBOX_VOLUME = 0x0,
                 BBOX_DIMENSIONS = 0x1,
@@ -477,6 +529,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 12
+            // underlying type: uint32_t
             enum class SpriteCardTextureType_t : uint32_t {
                 SPRITECARD_TEXTURE_DIFFUSE = 0x0,
                 SPRITECARD_TEXTURE_ZOOM = 0x1,
@@ -493,6 +546,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 4
+            // underlying type: uint32_t
             enum class ParticleAlphaReferenceType_t : uint32_t {
                 PARTICLE_ALPHA_REFERENCE_ALPHA_ALPHA = 0x0,
                 PARTICLE_ALPHA_REFERENCE_OPAQUE_ALPHA = 0x1,
@@ -501,6 +555,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 15
+            // underlying type: uint32_t
             enum class SpriteCardTextureChannel_t : uint32_t {
                 SPRITECARD_TEXTURE_CHANNEL_MIX_RGB = 0x0,
                 SPRITECARD_TEXTURE_CHANNEL_MIX_RGBA = 0x1,
@@ -520,6 +575,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 4
+            // underlying type: uint32_t
             enum class RenderModelSubModelFieldType_t : uint32_t {
                 SUBMODEL_AS_BODYGROUP_SUBMODEL = 0x0,
                 SUBMODEL_AS_MESHGROUP_INDEX = 0x1,
@@ -528,12 +584,14 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 2
+            // underlying type: uint32_t
             enum class ParticleHitboxDataSelection_t : uint32_t {
                 PARTICLE_HITBOX_AVERAGE_SPEED = 0x0,
                 PARTICLE_HITBOX_COUNT = 0x1
             };
             // alignment: 4
             // member count: 6
+            // underlying type: uint32_t
             enum class ParticleOrientationChoiceList_t : uint32_t {
                 PARTICLE_ORIENTATION_SCREEN_ALIGNED = 0x0,
                 PARTICLE_ORIENTATION_SCREEN_Z_ALIGNED = 0x1,
@@ -544,6 +602,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 5
+            // underlying type: uint32_t
             enum class ParticleCollisionMode_t : uint32_t {
                 COLLISION_MODE_PER_PARTICLE_TRACE = 0x3,
                 COLLISION_MODE_USE_NEAREST_TRACE = 0x2,
@@ -553,12 +612,14 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 2
+            // underlying type: uint32_t
             enum class ParticleSortingChoiceList_t : uint32_t {
                 PARTICLE_SORTING_NEAREST = 0x0,
                 PARTICLE_SORTING_CREATION_TIME = 0x1
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class ParticleEndcapMode_t : uint32_t {
                 PARTICLE_ENDCAP_ALWAYS_ON = 0xFFFFFFFFFFFFFFFF,
                 PARTICLE_ENDCAP_ENDCAP_OFF = 0x0,
@@ -566,6 +627,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class ClosestPointTestType_t : uint32_t {
                 PARTICLE_CLOSEST_TYPE_BOX = 0x0,
                 PARTICLE_CLOSEST_TYPE_CAPSULE = 0x1,
@@ -573,6 +635,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 6
+            // underlying type: uint32_t
             enum class ParticleImpulseType_t : uint32_t {
                 IMPULSE_TYPE_NONE = 0x0,
                 IMPULSE_TYPE_GENERIC = 0x1,
@@ -583,6 +646,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class ParticleLiquidContents_t : uint32_t {
                 PARTICLE_LIQUID_NONE = 0x0,
                 PARTICLE_LIQUID_OIL = 0x1,
@@ -590,18 +654,21 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 2
+            // underlying type: uint32_t
             enum class SpriteCardShaderType_t : uint32_t {
                 SPRITECARD_SHADER_BASE = 0x0,
                 SPRITECARD_SHADER_CUSTOM = 0x1
             };
             // alignment: 4
             // member count: 2
+            // underlying type: uint32_t
             enum class ParticleOmni2LightTypeChoiceList_t : uint32_t {
                 PARTICLE_OMNI2_LIGHT_TYPE_POINT = 0x0,
                 PARTICLE_OMNI2_LIGHT_TYPE_SPHERE = 0x1
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class ParticleLightFogLightingMode_t : uint32_t {
                 PARTICLE_LIGHT_FOG_LIGHTING_MODE_NONE = 0x0,
                 PARTICLE_LIGHT_FOG_LIGHTING_MODE_DYNAMIC = 0x2,
@@ -609,6 +676,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 4
+            // underlying type: uint32_t
             enum class ParticleLightTypeChoiceList_t : uint32_t {
                 PARTICLE_LIGHT_TYPE_POINT = 0x0,
                 PARTICLE_LIGHT_TYPE_SPOT = 0x1,
@@ -617,6 +685,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 4
+            // underlying type: uint32_t
             enum class ParticleOrientationSetMode_t : uint32_t {
                 PARTICLE_ORIENTATION_SET_NONE = 0xFFFFFFFFFFFFFFFF,
                 PARTICLE_ORIENTATION_SET_FROM_VELOCITY = 0x0,
@@ -625,6 +694,7 @@ namespace cs2_dumper {
             };
             // alignment: 8
             // member count: 10
+            // underlying type: uint64_t
             enum class ParticleCollisionMask_t : uint64_t {
                 PARTICLE_MASK_ALL = 0xFFFFFFFFFFFFFFFF,
                 PARTICLE_MASK_SOLID = 0xC3001,
@@ -639,14 +709,13 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 2
+            // underlying type: uint32_t
             enum class TextureRepetitionMode_t : uint32_t {
                 TEXTURE_REPETITION_PARTICLE = 0x0,
                 TEXTURE_REPETITION_PATH = 0x1
             };
+            // class IParticleCollection has zero fields
             // parent: None
-            // field count: 0
-            namespace IParticleCollection {
-            }
             // parent: None
             // field count: 1
             namespace ParticleAttributeIndex_t {
@@ -1003,12 +1072,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flOutputMax = 0x1E8; // float32
                 constexpr std::ptrdiff_t m_flRemapTime = 0x1EC; // float32
             }
+            // class C_INIT_RandomNamedModelSequence has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace C_INIT_RandomNamedModelSequence {
-            }
             // parent: None
             // field count: 4
             //
@@ -1154,12 +1221,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bBlendFramesSeq0 = 0x2B74; // bool
                 constexpr std::ptrdiff_t m_bMaxLuminanceBlendingSequence0 = 0x2B75; // bool
             }
+            // class CSpinUpdateBase has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CSpinUpdateBase {
-            }
             // parent: None
             // field count: 3
             //
@@ -1534,12 +1599,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nAttributeToCopy = 0x1D8; // ParticleAttributeIndex_t
                 constexpr std::ptrdiff_t m_nEventType = 0x1DC; // EventTypeSelection_t
             }
+            // class C_OP_Callback has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace C_OP_Callback {
-            }
             // parent: None
             // field count: 16
             //
@@ -1659,12 +1722,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_fLifetimeMax = 0x1DC; // float32
                 constexpr std::ptrdiff_t m_fLifetimeRandExponent = 0x1E0; // float32
             }
+            // class C_INIT_RemapParticleCountToNamedModelSequenceScalar has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace C_INIT_RemapParticleCountToNamedModelSequenceScalar {
-            }
             // parent: None
             // field count: 8
             //
@@ -1762,12 +1823,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flRadiusEnd = 0xEE0; // CParticleCollectionFloatInput
                 constexpr std::ptrdiff_t m_flDedicatedPool = 0x1050; // CParticleCollectionFloatInput
             }
+            // class C_OP_RemapNamedModelMeshGroupOnceTimed has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace C_OP_RemapNamedModelMeshGroupOnceTimed {
-            }
             // parent: None
             // field count: 1
             //
@@ -1814,12 +1873,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_szParticleConfig = 0x240; // CUtlString
                 constexpr std::ptrdiff_t m_AggregationPos = 0x248; // CPerParticleVecInput
             }
+            // class CParticleFunctionForce has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CParticleFunctionForce {
-            }
             // parent: None
             // field count: 4
             //
@@ -1982,12 +2039,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nCPOutField = 0x1EC; // int32
                 constexpr std::ptrdiff_t m_nCPSSPosOut = 0x1F0; // int32
             }
+            // class C_OP_SpinUpdate has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace C_OP_SpinUpdate {
-            }
             // parent: None
             // field count: 5
             //
@@ -2038,12 +2093,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_vecOffsetLoc = 0x1F4; // Vector
                 constexpr std::ptrdiff_t m_flWorldTimeScale = 0x200; // float32
             }
+            // class C_OP_Spin has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace C_OP_Spin {
-            }
             // parent: None
             // field count: 3
             //
@@ -2342,12 +2395,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flBehindOutputRemap = 0x890; // CParticleRemapFloatInput
                 constexpr std::ptrdiff_t m_nBehindSetMethod = 0xA00; // ParticleSetMethod_t
             }
+            // class CParticleFunctionOperator has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CParticleFunctionOperator {
-            }
             // parent: None
             // field count: 5
             //
@@ -2367,12 +2418,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nCPInput = 0x1D0; // int32
                 constexpr std::ptrdiff_t m_nFieldOutput = 0x1D4; // ParticleAttributeIndex_t
             }
+            // class C_INIT_RandomYaw has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace C_INIT_RandomYaw {
-            }
             // parent: None
             // field count: 3
             //
@@ -2502,12 +2551,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bShouldSort = 0x370; // bool
                 constexpr std::ptrdiff_t m_controlPointConfigurations = 0x3B8; // CUtlVector<ParticleControlPointConfiguration_t>
             }
+            // class C_OP_RemapNamedModelMeshGroupEndCap has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace C_OP_RemapNamedModelMeshGroupEndCap {
-            }
             // parent: None
             // field count: 10
             //
@@ -3130,12 +3177,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nFieldOutput = 0x204; // ParticleAttributeIndex_t
                 constexpr std::ptrdiff_t m_bEaseInOut = 0x208; // bool
             }
+            // class C_INIT_RemapNamedModelSequenceToScalar has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace C_INIT_RemapNamedModelSequenceToScalar {
-            }
             // parent: None
             // field count: 7
             //
@@ -3274,12 +3319,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nChildGroupID = 0x1E0; // int32
                 constexpr std::ptrdiff_t m_bOnlyChildren = 0x1E4; // bool
             }
+            // class C_OP_RenderClothForce has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace C_OP_RenderClothForce {
-            }
             // parent: None
             // field count: 7
             //
@@ -3407,12 +3450,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flScale = 0x350; // CParticleCollectionFloatInput
                 constexpr std::ptrdiff_t m_vecScale = 0x4C0; // CParticleCollectionVecInput
             }
+            // class C_INIT_RandomRotation has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace C_INIT_RandomRotation {
-            }
             // parent: None
             // field count: 3
             //
@@ -3503,12 +3544,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bUseQuat = 0x244; // bool
                 constexpr std::ptrdiff_t m_bWriteNormal = 0x245; // bool
             }
+            // class C_INIT_RandomRotationSpeed has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace C_INIT_RandomRotationSpeed {
-            }
             // parent: None
             // field count: 7
             //
@@ -3665,12 +3704,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_vecRotation = 0x340; // CPerParticleVecInput
                 constexpr std::ptrdiff_t m_flRotLerp = 0x9F8; // CPerParticleFloatInput
             }
+            // class C_OP_RemapNamedModelBodyPartOnceTimed has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace C_OP_RemapNamedModelBodyPartOnceTimed {
-            }
             // parent: None
             // field count: 4
             //
@@ -3740,12 +3777,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flOutputRemap = 0x350; // CParticleRemapFloatInput
                 constexpr std::ptrdiff_t m_nSetMethod = 0x4C0; // ParticleSetMethod_t
             }
+            // class C_INIT_RandomNamedModelBodyPart has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace C_INIT_RandomNamedModelBodyPart {
-            }
             // parent: None
             // field count: 16
             //
@@ -3788,12 +3823,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_Pos = 0x8; // CPerParticleVecInput
                 constexpr std::ptrdiff_t m_nOrientationMode = 0x6C0; // ParticleOrientationSetMode_t
             }
+            // class C_INIT_RemapParticleCountToNamedModelBodyPartScalar has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace C_INIT_RemapParticleCountToNamedModelBodyPartScalar {
-            }
             // parent: None
             // field count: 19
             //
@@ -4048,12 +4081,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flDistance = 0x1E0; // CParticleCollectionFloatInput
                 constexpr std::ptrdiff_t m_bCullInside = 0x350; // bool
             }
+            // class C_OP_RemapNamedModelSequenceEndCap has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace C_OP_RemapNamedModelSequenceEndCap {
-            }
             // parent: None
             // field count: 11
             //
@@ -4418,12 +4449,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_vForce = 0x350; // CPerParticleVecInput
                 constexpr std::ptrdiff_t m_nCP = 0xA08; // int32
             }
+            // class C_INIT_RandomNamedModelMeshGroup has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace C_INIT_RandomNamedModelMeshGroup {
-            }
             // parent: None
             // field count: 18
             //
@@ -4541,12 +4570,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bProportionalOp = 0x214; // bool
                 constexpr std::ptrdiff_t m_bEaseOut = 0x215; // bool
             }
+            // class C_OP_RemapNamedModelSequenceOnceTimed has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace C_OP_RemapNamedModelSequenceOnceTimed {
-            }
             // parent: None
             // field count: 2
             //
@@ -4568,12 +4595,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bUseParticleCount = 0x1E1; // bool
                 constexpr std::ptrdiff_t m_PathParams = 0x1F0; // CPathParameters
             }
+            // class C_OP_RemapNamedModelBodyPartEndCap has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace C_OP_RemapNamedModelBodyPartEndCap {
-            }
             // parent: None
             // field count: 3
             //
@@ -4636,12 +4661,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_pTextureSelfIllum = 0x240; // CStrongHandle<InfoForResourceTypeCTextureBase>
                 constexpr std::ptrdiff_t m_pTextureDetail = 0x248; // CStrongHandle<InfoForResourceTypeCTextureBase>
             }
+            // class IParticleSystemDefinition has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace IParticleSystemDefinition {
-            }
             // parent: None
             // field count: 1
             //
@@ -4996,12 +5019,10 @@ namespace cs2_dumper {
             namespace C_OP_RadiusDecay {
                 constexpr std::ptrdiff_t m_flMinRadius = 0x1D0; // float32
             }
+            // class C_INIT_RemapNamedModelBodyPartToScalar has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace C_INIT_RemapNamedModelBodyPartToScalar {
-            }
             // parent: None
             // field count: 12
             //
@@ -5364,12 +5385,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_vMaxRandomDisplacement = 0x9A0; // CParticleCollectionVecInput
                 constexpr std::ptrdiff_t m_flModellingScale = 0x1058; // CParticleCollectionFloatInput
             }
+            // class C_OP_EndCapDecay has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace C_OP_EndCapDecay {
-            }
             // parent: None
             // field count: 7
             //
@@ -5425,12 +5444,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nVariableField = 0x8; // ParticleAttributeIndex_t
                 constexpr std::ptrdiff_t m_flScale = 0xC; // float32
             }
+            // class CParticleFunctionConstraint has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CParticleFunctionConstraint {
-            }
             // parent: None
             // field count: 7
             //
@@ -5521,12 +5538,10 @@ namespace cs2_dumper {
             namespace CParticleFunctionEmitter {
                 constexpr std::ptrdiff_t m_nEmitterIndex = 0x1D0; // int32
             }
+            // class C_INIT_RemapNamedModelMeshGroupToScalar has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace C_INIT_RemapNamedModelMeshGroupToScalar {
-            }
             // parent: None
             // field count: 2
             //
@@ -5677,12 +5692,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nColorBlendType = 0x524; // ParticleColorBlendType_t
                 constexpr std::ptrdiff_t m_nForcedStatusEffects = 0x528; // ParticleAttrBoxFlags_t
             }
+            // class C_OP_SpinYaw has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace C_OP_SpinYaw {
-            }
             // parent: None
             // field count: 1
             //
@@ -5821,12 +5834,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flControlPointOrientationAmount = 0x240; // float32
                 constexpr std::ptrdiff_t m_nControlPointForLinearDirection = 0x244; // int32
             }
+            // class C_OP_WorldCollideConstraint has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace C_OP_WorldCollideConstraint {
-            }
             // parent: None
             // field count: 6
             //
@@ -5912,12 +5923,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_InputValue = 0x1D8; // CParticleCollectionVecInput
                 constexpr std::ptrdiff_t m_nOutputField = 0x890; // ParticleAttributeIndex_t
             }
+            // class C_INIT_RemapParticleCountToNamedModelMeshGroupScalar has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace C_INIT_RemapParticleCountToNamedModelMeshGroupScalar {
-            }
             // parent: None
             // field count: 4
             //
