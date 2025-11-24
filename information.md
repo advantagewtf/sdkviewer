@@ -113,3 +113,46 @@ float __fastcall C_CSWeaponBaseGun::GetWeaponSpread(__int64 a1) // a1 is a point
     return result;
 }
 ```
+
+
+# Other sigs
+### SetLocalPlayerReady
+#### SIG: `40 53 48 83 EC ? 48 8B DA 48 8D 15 ? ? ? ? 48 8B CB FF 15` @CLIENT.dll
+
+#### hk_popup_accept_match_found
+#### SIG `40 56 57 41 57 48 83 EC ? 48 8B 3D ? ? ? ? 4D 85 C0` @CLIENT.dll
+
+#### get_inaccuracy
+#### SIG: `48 89 5C 24 ? 55 56 57 48 81 EC ? ? ? ? 44 0F 29 84 24`
+
+### get_spread
+#### SIG: `48 89 5C 24 ? 55 56 57 48 81 EC ? ? ? ? 44 0F 29 84 24`
+
+
+### get_hitboxes_num
+#### SIG:`E8 ? ? ? ? 85 C0 7E ? 83 7F 20 00`
+
+### run_command
+#### SIG:`48 8B C4 48 81 EC ? ? ? ? 48 89 58 ? 48 89 70 ? 48 8B F1`
+
+### c_engine_trace::init_trace_info
+#### SIG:`48 89 5C 24 ? 57 48 83 EC ? 48 8B D9 33 FF 48 8B 0D ? ? ? ? 48 85 C9`
+
+### c_engine_trace::clip_ray_entity
+#### SIG:`48 8B C4 48 89 58 ? 48 89 48 ? 55 56 57 41 54 41 56`
+
+### get_local_controller
+#### SIG:`E8 ? ? ? ? 48 85 C0 74 ? 8B CB E8`
+
+
+### get_removed_aim_punch_angle
+#### SIG:`E8 ? ? ? ? 4C 8B C0 48 8D 55 ? 48 8B CB E8 ? ? ? ? 48 8D 0D`
+
+### setup_bones
+#### SIG:`E8 ? ? ? ? 49 8B 94 24 ? ? ? ? 48 8B CF`
+
+### handle_bullet_penetration
+#### SIG:`48 8B C4 44 89 48 ? 48 89 50 ? 48 89 48 ? 55 57`
+
+### interpolate_shoot_position
+#### SIG:`E8 ? ? ? ? 41 8B 86 ? ? ? ? C1 E8`
