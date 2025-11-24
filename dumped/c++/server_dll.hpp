@@ -1,18 +1,19 @@
 //  dumped by https://moonlightrblx.github.io/sdkviewer
-// timestamp: 2025-11-24 00:52:15.620031200 UTC
+// timestamp: 2025-11-24 15:57:49.568833300 UTC
 
 #pragma once
 
 #include <cstddef>
 
-namespace cs2_dumper {
-    namespace schemas {
+namespace dump {
+    namespace offsets {
         // module: server.dll
         // class count: 718
         // enum count: 150
         namespace server_dll {
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class PropDoorRotatingOpenDirection_e : uint32_t {
                 DOOR_ROTATING_OPEN_BOTH_WAYS = 0x0,
                 DOOR_ROTATING_OPEN_FORWARD = 0x1,
@@ -20,17 +21,20 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 1
+            // underlying type: uint32_t
             enum class PulseCollisionGroup_t : uint32_t {
                 DEFAULT = 0x0
             };
             // alignment: 4
             // member count: 2
+            // underlying type: uint32_t
             enum class SceneOnPlayerDeath_t : uint32_t {
                 SCENE_ONPLAYERDEATH_DO_NOTHING = 0x0,
                 SCENE_ONPLAYERDEATH_CANCEL = 0x1
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class LessonPanelLayoutFileTypes_t : uint32_t {
                 LAYOUT_HAND_DEFAULT = 0x0,
                 LAYOUT_WORLD_DEFAULT = 0x1,
@@ -38,6 +42,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 5
+            // underlying type: uint32_t
             enum class TimelineCompression_t : uint32_t {
                 TIMELINE_COMPRESSION_SUM = 0x0,
                 TIMELINE_COMPRESSION_COUNT_PER_INTERVAL = 0x1,
@@ -47,6 +52,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class SubclassVDataChangeType_t : uint32_t {
                 SUBCLASS_VDATA_CREATED = 0x0,
                 SUBCLASS_VDATA_SUBCLASS_CHANGED = 0x1,
@@ -54,6 +60,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class C4LightEffect_t : uint32_t {
                 eLightEffectNone = 0x0,
                 eLightEffectDropped = 0x1,
@@ -61,6 +68,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 5
+            // underlying type: uint32_t
             enum class StanceType_t : uint32_t {
                 STANCE_CURRENT = 0xFFFFFFFFFFFFFFFF,
                 STANCE_DEFAULT = 0x0,
@@ -70,6 +78,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class Explosions : uint32_t {
                 expRandom = 0x0,
                 expDirected = 0x1,
@@ -77,6 +86,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 11
+            // underlying type: uint32_t
             enum class PreviewCharacterMode : uint32_t {
                 INVALID = 0xFFFFFFFFFFFFFFFF,
                 DIORAMA = 0x0,
@@ -92,6 +102,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 4
+            // underlying type: uint32_t
             enum class ObserverInterpState_t : uint32_t {
                 OBSERVER_INTERP_NONE = 0x0,
                 OBSERVER_INTERP_STARTING = 0x1,
@@ -100,6 +111,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class WorldTextPanelOrientation_t : uint32_t {
                 WORLDTEXT_ORIENTATION_DEFAULT = 0x0,
                 WORLDTEXT_ORIENTATION_FACEUSER = 0x1,
@@ -107,6 +119,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 7
+            // underlying type: uint32_t
             enum class EDestructibleParts_DestroyParameterFlags : uint32_t {
                 None = 0x0,
                 GenerateBreakpieces = 0x1,
@@ -118,6 +131,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class WorldTextPanelHorizontalAlign_t : uint32_t {
                 WORLDTEXT_HORIZONTAL_ALIGN_LEFT = 0x0,
                 WORLDTEXT_HORIZONTAL_ALIGN_CENTER = 0x1,
@@ -125,6 +139,7 @@ namespace cs2_dumper {
             };
             // alignment: 1
             // member count: 3
+            // underlying type: uint8_t
             enum class SequenceFinishNotifyState_t : uint8_t {
                 eDoNotNotify = 0x0,
                 eNotifyWhenFinished = 0x1,
@@ -132,6 +147,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class SoundEventStartType_t : uint32_t {
                 SOUNDEVENT_START_PLAYER = 0x0,
                 SOUNDEVENT_START_WORLD = 0x1,
@@ -139,6 +155,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 5
+            // underlying type: uint32_t
             enum class AnimGraphDebugDrawType_t : uint32_t {
                 None = 0x0,
                 WsPosition = 0x1,
@@ -148,6 +165,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 4
+            // underlying type: uint32_t
             enum class TrainOrientationType_t : uint32_t {
                 TrainOrientation_Fixed = 0x0,
                 TrainOrientation_AtPathTracks = 0x1,
@@ -156,6 +174,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 7
+            // underlying type: uint32_t
             enum class CSWeaponCategory : uint32_t {
                 WEAPONCATEGORY_OTHER = 0x0,
                 WEAPONCATEGORY_MELEE = 0x1,
@@ -167,12 +186,14 @@ namespace cs2_dumper {
             };
             // alignment: 1
             // member count: 2
+            // underlying type: uint8_t
             enum class BeginDeathLifeStateTransition_t : uint8_t {
                 TRANSITION_TO_LIFESTATE_DYING = 0x0,
                 TRANSITION_TO_LIFESTATE_DEAD = 0x1
             };
             // alignment: 4
             // member count: 5
+            // underlying type: uint32_t
             enum class PointOrientGoalDirectionType_t : uint32_t {
                 eAbsOrigin = 0x0,
                 eCenter = 0x1,
@@ -182,6 +203,7 @@ namespace cs2_dumper {
             };
             // alignment: 1
             // member count: 9
+            // underlying type: uint8_t
             enum class ItemFlagTypes_t : uint8_t {
                 ITEM_FLAG_NONE = 0x0,
                 ITEM_FLAG_CAN_SELECT_WITHOUT_AMMO = 0x1,
@@ -195,6 +217,7 @@ namespace cs2_dumper {
             };
             // alignment: 1
             // member count: 10
+            // underlying type: uint8_t
             enum class SurroundingBoundsType_t : uint8_t {
                 USE_OBB_COLLISION_BOUNDS = 0x0,
                 USE_BEST_COLLISION_BOUNDS = 0x1,
@@ -209,6 +232,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 6
+            // underlying type: uint32_t
             enum class LifeState_t : uint32_t {
                 LIFE_ALIVE = 0x0,
                 LIFE_DYING = 0x1,
@@ -219,12 +243,14 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 2
+            // underlying type: uint32_t
             enum class PointOrientConstraint_t : uint32_t {
                 eNone = 0x0,
                 ePreserveUpAxis = 0x1
             };
             // alignment: 4
             // member count: 5
+            // underlying type: uint32_t
             enum class NPCFollowFormation_t : uint32_t {
                 Default = 0xFFFFFFFFFFFFFFFF,
                 CloseCircle = 0x0,
@@ -234,6 +260,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class CSWeaponMode : uint32_t {
                 Primary_Mode = 0x0,
                 Secondary_Mode = 0x1,
@@ -241,6 +268,7 @@ namespace cs2_dumper {
             };
             // alignment: 1
             // member count: 3
+            // underlying type: uint8_t
             enum class OnFrame : uint8_t {
                 ONFRAME_UNKNOWN = 0x0,
                 ONFRAME_TRUE = 0x1,
@@ -248,6 +276,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 12
+            // underlying type: uint32_t
             enum class Materials : uint32_t {
                 matGlass = 0x0,
                 matWood = 0x1,
@@ -264,6 +293,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 9
+            // underlying type: uint32_t
             enum class BloodType : uint32_t {
                 None = 0xFFFFFFFFFFFFFFFF,
                 ColorRed = 0x0,
@@ -277,6 +307,7 @@ namespace cs2_dumper {
             };
             // alignment: 1
             // member count: 5
+            // underlying type: uint8_t
             enum class NavScope_t : uint8_t {
                 eGround = 0x0,
                 eAir = 0x1,
@@ -286,6 +317,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 4
+            // underlying type: uint32_t
             enum class BreakableContentsType_t : uint32_t {
                 BC_DEFAULT = 0x0,
                 BC_EMPTY = 0x1,
@@ -294,6 +326,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 5
+            // underlying type: uint32_t
             enum class AnimLoopMode_t : uint32_t {
                 ANIM_LOOP_MODE_INVALID = 0xFFFFFFFFFFFFFFFF,
                 ANIM_LOOP_MODE_NOT_LOOPING = 0x0,
@@ -303,6 +336,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 14
+            // underlying type: uint32_t
             enum class Class_T : uint32_t {
                 CLASS_NONE = 0x0,
                 CLASS_PLAYER = 0x1,
@@ -321,12 +355,14 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 2
+            // underlying type: uint32_t
             enum class filter_t : uint32_t {
                 FILTER_AND = 0x0,
                 FILTER_OR = 0x1
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class CSWeaponSilencerType : uint32_t {
                 WEAPONSILENCER_NONE = 0x0,
                 WEAPONSILENCER_DETACHABLE = 0x1,
@@ -334,12 +370,14 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 2
+            // underlying type: uint32_t
             enum class EProceduralRagdollWeightIndexPropagationMethod : uint32_t {
                 Bone = 0x0,
                 BoneAndChildren = 0x1
             };
             // alignment: 4
             // member count: 17
+            // underlying type: uint32_t
             enum class BaseExplosionTypes_t : uint32_t {
                 EXPLOSION_TYPE_DEFAULT = 0x0,
                 EXPLOSION_TYPE_GRENADE = 0x1,
@@ -361,6 +399,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 40
+            // underlying type: uint32_t
             enum class GameAnimEventIndex_t : uint32_t {
                 AE_EMPTY = 0x0,
                 AE_CL_PLAYSOUND = 0x1,
@@ -405,6 +444,7 @@ namespace cs2_dumper {
             };
             // alignment: 1
             // member count: 3
+            // underlying type: uint8_t
             enum class FixAngleSet_t : uint8_t {
                 None = 0x0,
                 Absolute = 0x1,
@@ -412,6 +452,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 5
+            // underlying type: uint32_t
             enum class IChoreoServices__ScriptState_t : uint32_t {
                 SCRIPT_PLAYING = 0x0,
                 SCRIPT_WAIT = 0x1,
@@ -421,6 +462,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 5
+            // underlying type: uint32_t
             enum class Touch_t : uint32_t {
                 touch_none = 0x0,
                 touch_player_only = 0x1,
@@ -430,6 +472,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class TrainVelocityType_t : uint32_t {
                 TrainVelocity_Instantaneous = 0x0,
                 TrainVelocity_LinearBlend = 0x1,
@@ -437,6 +480,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 13
+            // underlying type: uint32_t
             enum class CSWeaponType : uint32_t {
                 WEAPONTYPE_KNIFE = 0x0,
                 WEAPONTYPE_PISTOL = 0x1,
@@ -454,6 +498,7 @@ namespace cs2_dumper {
             };
             // alignment: 1
             // member count: 4
+            // underlying type: uint8_t
             enum class NavScopeFlags_t : uint8_t {
                 eGround = 0x1,
                 eAir = 0x2,
@@ -462,6 +507,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class EntFinderMethod_t : uint32_t {
                 ENT_FIND_METHOD_NEAREST = 0x0,
                 ENT_FIND_METHOD_FARTHEST = 0x1,
@@ -469,6 +515,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class TestInputOutputCombinationsEnum_t : uint32_t {
                 ZERO = 0x0,
                 ONE = 0x1,
@@ -476,6 +523,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 4
+            // underlying type: uint32_t
             enum class PropDoorRotatingSpawnPos_t : uint32_t {
                 DOOR_SPAWN_CLOSED = 0x0,
                 DOOR_SPAWN_OPEN_FORWARD = 0x1,
@@ -484,12 +532,14 @@ namespace cs2_dumper {
             };
             // alignment: 1
             // member count: 2
+            // underlying type: uint8_t
             enum class ShardSolid_t : uint8_t {
                 SHARD_SOLID = 0x0,
                 SHARD_DEBRIS = 0x1
             };
             // alignment: 1
             // member count: 3
+            // underlying type: uint8_t
             enum class EntityPlatformTypes_t : uint8_t {
                 ENTITY_NOT_PLATFORM = 0x0,
                 ENTITY_PLATFORM_PLAYER_FOLLOWS_YAW = 0x1,
@@ -497,6 +547,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 5
+            // underlying type: uint32_t
             enum class PulseNPCCondition_t : uint32_t {
                 COND_SEE_PLAYER = 0x1,
                 COND_LOST_PLAYER = 0x2,
@@ -506,6 +557,7 @@ namespace cs2_dumper {
             };
             // alignment: 1
             // member count: 13
+            // underlying type: uint8_t
             enum class RenderMode_t : uint8_t {
                 kRenderNormal = 0x0,
                 kRenderTransColor = 0x1,
@@ -523,6 +575,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class ForcedCrouchState_t : uint32_t {
                 FORCEDCROUCH_NONE = 0x0,
                 FORCEDCROUCH_CROUCHED = 0x1,
@@ -530,12 +583,14 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 2
+            // underlying type: uint32_t
             enum class PerformanceMode_t : uint32_t {
                 PM_NORMAL = 0x0,
                 PM_NO_GIBS = 0x1
             };
             // alignment: 4
             // member count: 8
+            // underlying type: uint32_t
             enum class TOGGLE_STATE : uint32_t {
                 TS_AT_TOP = 0x0,
                 TS_AT_BOTTOM = 0x1,
@@ -548,6 +603,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 74
+            // underlying type: uint32_t
             enum class loadout_slot_t : uint32_t {
                 LOADOUT_SLOT_PROMOTED = 0xFFFFFFFFFFFFFFFE,
                 LOADOUT_SLOT_INVALID = 0xFFFFFFFFFFFFFFFF,
@@ -626,6 +682,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 4
+            // underlying type: uint32_t
             enum class EDestructiblePartDamagePassThroughType : uint32_t {
                 Normal = 0x0,
                 Absorb = 0x1,
@@ -634,6 +691,7 @@ namespace cs2_dumper {
             };
             // alignment: 8
             // member count: 20
+            // underlying type: uint64_t
             enum class NavAttributeEnum : uint64_t {
                 NAV_MESH_AVOID = 0x80,
                 NAV_MESH_STAIRS = 0x1000,
@@ -658,6 +716,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class MoveLinearAuthoredPos_t : uint32_t {
                 MOVELINEAR_AUTHORED_AT_START_POSITION = 0x0,
                 MOVELINEAR_AUTHORED_AT_OPEN_POSITION = 0x1,
@@ -665,6 +724,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 4
+            // underlying type: uint32_t
             enum class ValueRemapperMomentumType_t : uint32_t {
                 MomentumType_None = 0x0,
                 MomentumType_Friction = 0x1,
@@ -673,6 +733,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 12
+            // underlying type: uint32_t
             enum class Hull_t : uint32_t {
                 HULL_HUMAN = 0x0,
                 HULL_SMALL_CENTERED = 0x1,
@@ -689,6 +750,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 6
+            // underlying type: uint32_t
             enum class PreviewWeaponState : uint32_t {
                 DROPPED = 0x0,
                 HOLSTERED = 0x1,
@@ -699,6 +761,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 9
+            // underlying type: uint32_t
             enum class EInButtonState : uint32_t {
                 IN_BUTTON_UP = 0x0,
                 IN_BUTTON_DOWN = 0x1,
@@ -712,6 +775,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 4
+            // underlying type: uint32_t
             enum class BeamClipStyle_t : uint32_t {
                 kNOCLIP = 0x0,
                 kGEOCLIP = 0x1,
@@ -720,6 +784,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 4
+            // underlying type: uint32_t
             enum class WeaponAttackType_t : uint32_t {
                 eInvalid = 0xFFFFFFFFFFFFFFFF,
                 ePrimary = 0x0,
@@ -728,6 +793,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 4
+            // underlying type: uint32_t
             enum class CDebugOverlayFilterTextType_t : uint32_t {
                 FILTER_TEXT_NONE = 0x0,
                 MATCH = 0x1,
@@ -736,6 +802,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 8
+            // underlying type: uint32_t
             enum class CSPlayerBlockingUseAction_t : uint32_t {
                 k_CSPlayerBlockingUseAction_None = 0x0,
                 k_CSPlayerBlockingUseAction_DefusingDefault = 0x1,
@@ -748,6 +815,7 @@ namespace cs2_dumper {
             };
             // alignment: 1
             // member count: 5
+            // underlying type: uint8_t
             enum class ShatterDamageCause : uint8_t {
                 SHATTERDAMAGE_BULLET = 0x0,
                 SHATTERDAMAGE_MELEE = 0x1,
@@ -757,6 +825,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 4
+            // underlying type: uint32_t
             enum class ScriptedOnDeath_t : uint32_t {
                 SS_ONDEATH_NOT_APPLICABLE = 0xFFFFFFFFFFFFFFFF,
                 SS_ONDEATH_UNDEFINED = 0x0,
@@ -765,6 +834,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 4
+            // underlying type: uint32_t
             enum class ChoreoLookAtSpeed_t : uint32_t {
                 eInvalid = 0xFFFFFFFFFFFFFFFF,
                 eSlow = 0x0,
@@ -773,6 +843,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 17
+            // underlying type: uint32_t
             enum class gear_slot_t : uint32_t {
                 GEAR_SLOT_INVALID = 0xFFFFFFFFFFFFFFFF,
                 GEAR_SLOT_RIFLE = 0x0,
@@ -794,6 +865,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 10
+            // underlying type: uint32_t
             enum class CSPlayerState : uint32_t {
                 STATE_ACTIVE = 0x0,
                 STATE_WELCOME = 0x1,
@@ -808,12 +880,14 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 2
+            // underlying type: uint32_t
             enum class ScriptedConflictResponse_t : uint32_t {
                 SS_CONFLICT_ENQUEUE = 0x0,
                 SS_CONFLICT_INTERRUPT = 0x1
             };
             // alignment: 1
             // member count: 7
+            // underlying type: uint8_t
             enum class WaterLevel_t : uint8_t {
                 WL_NotInWater = 0x0,
                 WL_Feet = 0x1,
@@ -825,6 +899,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class WorldTextPanelVerticalAlign_t : uint32_t {
                 WORLDTEXT_VERTICAL_ALIGN_TOP = 0x0,
                 WORLDTEXT_VERTICAL_ALIGN_CENTER = 0x1,
@@ -832,6 +907,7 @@ namespace cs2_dumper {
             };
             // alignment: 1
             // member count: 4
+            // underlying type: uint8_t
             enum class RelativeLocationType_t : uint8_t {
                 WORLD_SPACE_POSITION = 0x0,
                 RELATIVE_TO_ENTITY_IN_LOCAL_SPACE = 0x1,
@@ -840,6 +916,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 4
+            // underlying type: uint32_t
             enum class AmmoPosition_t : uint32_t {
                 AMMO_POSITION_INVALID = 0xFFFFFFFFFFFFFFFF,
                 AMMO_POSITION_PRIMARY = 0x0,
@@ -848,6 +925,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 11
+            // underlying type: uint32_t
             enum class CDebugOverlayFilterType_t : uint32_t {
                 NONE = 0x0,
                 TEXT = 0x1,
@@ -863,6 +941,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 24
+            // underlying type: uint32_t
             enum class PreviewEOMCelebration : uint32_t {
                 INVALID = 0xFFFFFFFFFFFFFFFF,
                 WALKUP = 0x0,
@@ -891,6 +970,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 5
+            // underlying type: uint32_t
             enum class EntityDisolveType_t : uint32_t {
                 ENTITY_DISSOLVE_INVALID = 0xFFFFFFFFFFFFFFFF,
                 ENTITY_DISSOLVE_NORMAL = 0x0,
@@ -900,6 +980,7 @@ namespace cs2_dumper {
             };
             // alignment: 8
             // member count: 21
+            // underlying type: uint64_t
             enum class InputBitMask_t : uint64_t {
                 IN_NONE = 0x0,
                 IN_ALL = 0xFFFFFFFFFFFFFFFF,
@@ -925,6 +1006,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 14
+            // underlying type: uint32_t
             enum class HitGroup_t : uint32_t {
                 HITGROUP_INVALID = 0xFFFFFFFFFFFFFFFF,
                 HITGROUP_GENERIC = 0x0,
@@ -943,6 +1025,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 11
+            // underlying type: uint32_t
             enum class ChickenActivity : uint32_t {
                 IDLE = 0x0,
                 SQUAT = 0x1,
@@ -958,12 +1041,14 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 2
+            // underlying type: uint32_t
             enum class PointWorldTextReorientMode_t : uint32_t {
                 POINT_WORLD_TEXT_REORIENT_NONE = 0x0,
                 POINT_WORLD_TEXT_REORIENT_AROUND_UP = 0x1
             };
             // alignment: 8
             // member count: 40
+            // underlying type: uint64_t
             enum class DebugOverlayBits_t : uint64_t {
                 OVERLAY_TEXT_BIT = 0x1,
                 OVERLAY_NAME_BIT = 0x2,
@@ -1008,6 +1093,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class AmmoFlags_t : uint32_t {
                 AMMO_FORCE_DROP_IF_CARRIED = 0x1,
                 AMMO_RESERVE_STAYS_WITH_WEAPON = 0x2,
@@ -1015,6 +1101,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 4
+            // underlying type: uint32_t
             enum class DecalFlags_t : uint32_t {
                 eNone = 0x0,
                 eCannotClear = 0x1,
@@ -1023,6 +1110,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 6
+            // underlying type: uint32_t
             enum class HierarchyType_t : uint32_t {
                 HIERARCHY_NONE = 0x0,
                 HIERARCHY_BONE_MERGE = 0x1,
@@ -1033,6 +1121,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class doorCheck_e : uint32_t {
                 DOOR_CHECK_FORWARD = 0x0,
                 DOOR_CHECK_BACKWARD = 0x1,
@@ -1040,6 +1129,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 7
+            // underlying type: uint32_t
             enum class BeamType_t : uint32_t {
                 BEAM_INVALID = 0x0,
                 BEAM_POINTS = 0x1,
@@ -1051,6 +1141,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 4
+            // underlying type: uint32_t
             enum class EntitySubclassScope_t : uint32_t {
                 SUBCLASS_SCOPE_NONE = 0xFFFFFFFFFFFFFFFF,
                 SUBCLASS_SCOPE_PRECIPITATION = 0x0,
@@ -1059,12 +1150,14 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 2
+            // underlying type: uint32_t
             enum class PointTemplateClientOnlyEntityBehavior_t : uint32_t {
                 CREATE_FOR_CURRENTLY_CONNECTED_CLIENTS_ONLY = 0x0,
                 CREATE_FOR_CLIENTS_WHO_CONNECT_LATER = 0x1
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class CDebugOverlayCombinedTypes_t : uint32_t {
                 ALL = 0x0,
                 ANY = 0x1,
@@ -1072,6 +1165,7 @@ namespace cs2_dumper {
             };
             // alignment: 1
             // member count: 4
+            // underlying type: uint8_t
             enum class ShatterGlassStressType : uint8_t {
                 SHATTERGLASS_BLUNT = 0x0,
                 SHATTERGLASS_BALLISTIC = 0x1,
@@ -1080,6 +1174,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class TrackOrientationType_t : uint32_t {
                 TrackOrientation_Fixed = 0x0,
                 TrackOrientation_FacePath = 0x1,
@@ -1087,6 +1182,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 5
+            // underlying type: uint32_t
             enum class WeaponSwitchReason_t : uint32_t {
                 eDrawn = 0x0,
                 eEquipped = 0x1,
@@ -1096,12 +1192,14 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 2
+            // underlying type: uint32_t
             enum class ValueRemapperRatchetType_t : uint32_t {
                 RatchetType_Absolute = 0x0,
                 RatchetType_EachEngage = 0x1
             };
             // alignment: 4
             // member count: 5
+            // underlying type: uint32_t
             enum class NavDirType : uint32_t {
                 NORTH = 0x0,
                 EAST = 0x1,
@@ -1111,12 +1209,14 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 2
+            // underlying type: uint32_t
             enum class CRR_Response__ResponseEnum_t : uint32_t {
                 MAX_RESPONSE_NAME = 0xC0,
                 MAX_RULE_NAME = 0x80
             };
             // alignment: 4
             // member count: 4
+            // underlying type: uint32_t
             enum class MoveMountingAmount_t : uint32_t {
                 MOVE_MOUNT_NONE = 0x0,
                 MOVE_MOUNT_LOW = 0x1,
@@ -1125,6 +1225,7 @@ namespace cs2_dumper {
             };
             // alignment: 1
             // member count: 3
+            // underlying type: uint8_t
             enum class HoverPoseFlags_t : uint8_t {
                 eNone = 0x0,
                 ePosition = 0x1,
@@ -1132,6 +1233,7 @@ namespace cs2_dumper {
             };
             // alignment: 1
             // member count: 20
+            // underlying type: uint8_t
             enum class RenderFx_t : uint8_t {
                 kRenderFxNone = 0x0,
                 kRenderFxPulseSlow = 0x1,
@@ -1156,6 +1258,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 35
+            // underlying type: uint32_t
             enum class vote_create_failed_t : uint32_t {
                 VOTE_FAILED_GENERIC = 0x0,
                 VOTE_FAILED_TRANSITIONING_PLAYERS = 0x1,
@@ -1195,6 +1298,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 27
+            // underlying type: uint32_t
             enum class RumbleEffect_t : uint32_t {
                 RUMBLE_INVALID = 0xFFFFFFFFFFFFFFFF,
                 RUMBLE_STOP_ALL = 0x0,
@@ -1226,6 +1330,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 6
+            // underlying type: uint32_t
             enum class LatchDirtyPermission_t : uint32_t {
                 LATCH_DIRTY_DISALLOW = 0x0,
                 LATCH_DIRTY_SERVER_CONTROLLED = 0x1,
@@ -1236,6 +1341,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 5
+            // underlying type: uint32_t
             enum class DoorState_t : uint32_t {
                 DOOR_STATE_CLOSED = 0x0,
                 DOOR_STATE_OPENING = 0x1,
@@ -1245,6 +1351,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 4
+            // underlying type: uint32_t
             enum class ChoreoLookAtMode_t : uint32_t {
                 eInvalid = 0xFFFFFFFFFFFFFFFF,
                 eChest = 0x0,
@@ -1253,6 +1360,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class ChatIgnoreType_t : uint32_t {
                 CHAT_IGNORE_NONE = 0x0,
                 CHAT_IGNORE_ALL = 0x1,
@@ -1260,6 +1368,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 7
+            // underlying type: uint32_t
             enum class PlayerConnectedState : uint32_t {
                 PlayerNeverConnected = 0xFFFFFFFFFFFFFFFF,
                 PlayerConnected = 0x0,
@@ -1271,6 +1380,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class SimpleConstraintSoundProfile__SimpleConstraintsSoundProfileKeypoints_t : uint32_t {
                 kMIN_THRESHOLD = 0x0,
                 kMIN_FULL = 0x1,
@@ -1278,11 +1388,13 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 1
+            // underlying type: uint32_t
             enum class navproperties_t : uint32_t {
                 NAV_IGNORE = 0x1
             };
             // alignment: 2
             // member count: 7
+            // underlying type: uint16_t
             enum class EntityEffects_t : uint16_t {
                 DEPRICATED_EF_NOINTERP = 0x8,
                 EF_NOSHADOW = 0x10,
@@ -1294,6 +1406,7 @@ namespace cs2_dumper {
             };
             // alignment: 1
             // member count: 9
+            // underlying type: uint8_t
             enum class SolidType_t : uint8_t {
                 SOLID_NONE = 0x0,
                 SOLID_BSP = 0x1,
@@ -1307,6 +1420,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 23
+            // underlying type: uint32_t
             enum class DamageTypes_t : uint32_t {
                 DMG_GENERIC = 0x0,
                 DMG_CRUSH = 0x1,
@@ -1334,6 +1448,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class PointWorldTextJustifyVertical_t : uint32_t {
                 POINT_WORLD_TEXT_JUSTIFY_VERTICAL_BOTTOM = 0x0,
                 POINT_WORLD_TEXT_JUSTIFY_VERTICAL_CENTER = 0x1,
@@ -1341,12 +1456,14 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 2
+            // underlying type: uint32_t
             enum class attributeprovidertypes_t : uint32_t {
                 PROVIDER_GENERIC = 0x0,
                 PROVIDER_WEAPON = 0x1
             };
             // alignment: 1
             // member count: 6
+            // underlying type: uint8_t
             enum class MoveCollide_t : uint8_t {
                 MOVECOLLIDE_DEFAULT = 0x0,
                 MOVECOLLIDE_FLY_BOUNCE = 0x1,
@@ -1357,6 +1474,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 7
+            // underlying type: uint32_t
             enum class IChoreoServices__ChoreoState_t : uint32_t {
                 STATE_PRE_SCRIPT = 0x0,
                 STATE_WAIT_FOR_SCRIPT = 0x1,
@@ -1368,6 +1486,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 4
+            // underlying type: uint32_t
             enum class ValueRemapperOutputType_t : uint32_t {
                 OutputType_AnimationCycle = 0x0,
                 OutputType_RotationX = 0x1,
@@ -1376,6 +1495,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class PointTemplateOwnerSpawnGroupType_t : uint32_t {
                 INSERT_INTO_POINT_TEMPLATE_SPAWN_GROUP = 0x0,
                 INSERT_INTO_CURRENTLY_ACTIVE_SPAWN_GROUP = 0x1,
@@ -1383,6 +1503,7 @@ namespace cs2_dumper {
             };
             // alignment: 1
             // member count: 3
+            // underlying type: uint8_t
             enum class EContributionScoreFlag_t : uint8_t {
                 k_EContributionScoreFlag_Default = 0x0,
                 k_EContributionScoreFlag_Objective = 0x1,
@@ -1390,6 +1511,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class eSplinePushType : uint32_t {
                 k_eSplinePushAlong = 0x0,
                 k_eSplinePushAway = 0x1,
@@ -1397,6 +1519,7 @@ namespace cs2_dumper {
             };
             // alignment: 2
             // member count: 30
+            // underlying type: uint16_t
             enum class WeaponGameplayAnimState : uint16_t {
                 WPN_ANIMSTATE_UNINITIALIZED = 0x0,
                 WPN_ANIMSTATE_DROPPED = 0x1,
@@ -1431,12 +1554,14 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 2
+            // underlying type: uint32_t
             enum class EDestructiblePartRadiusDamageApplyType : uint32_t {
                 ScaleByExplosionRadius = 0x0,
                 PrioritizeClosestPart = 0x1
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class EntityDistanceMode_t : uint32_t {
                 eOriginToOrigin = 0x0,
                 eCenterToCenter = 0x1,
@@ -1444,12 +1569,14 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 2
+            // underlying type: uint32_t
             enum class PulseTraceContents_t : uint32_t {
                 STATIC_LEVEL = 0x0,
                 SOLID = 0x1
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class PointWorldTextJustifyHorizontal_t : uint32_t {
                 POINT_WORLD_TEXT_JUSTIFY_HORIZONTAL_LEFT = 0x0,
                 POINT_WORLD_TEXT_JUSTIFY_HORIZONTAL_CENTER = 0x1,
@@ -1457,6 +1584,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 6
+            // underlying type: uint32_t
             enum class ShakeCommand_t : uint32_t {
                 SHAKE_START = 0x0,
                 SHAKE_STOP = 0x1,
@@ -1467,6 +1595,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 24
+            // underlying type: uint32_t
             enum class Flags_t : uint32_t {
                 FL_ONGROUND = 0x1,
                 FL_DUCKING = 0x2,
@@ -1495,6 +1624,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class TRAIN_CODE : uint32_t {
                 TRAIN_SAFE = 0x0,
                 TRAIN_BLOCKING = 0x1,
@@ -1502,6 +1632,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 4
+            // underlying type: uint32_t
             enum class DestructiblePartDestructionDeathBehavior_t : uint32_t {
                 eDoNotKill = 0x0,
                 eKill = 0x1,
@@ -1510,6 +1641,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class BrushSolidities_e : uint32_t {
                 BRUSHSOLID_TOGGLE = 0x0,
                 BRUSHSOLID_NEVER = 0x1,
@@ -1517,6 +1649,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 13
+            // underlying type: uint32_t
             enum class QuestProgress__Reason : uint32_t {
                 QUEST_NONINITIALIZED = 0x0,
                 QUEST_OK = 0x1,
@@ -1534,18 +1667,21 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 2
+            // underlying type: uint32_t
             enum class ModifyDamageReturn_t : uint32_t {
                 CONTINUE_TO_APPLY_DAMAGE = 0x0,
                 ABORT_DO_NOT_APPLY_DAMAGE = 0x1
             };
             // alignment: 4
             // member count: 2
+            // underlying type: uint32_t
             enum class ShadowType_t : uint32_t {
                 SHADOWS_NONE = 0x0,
                 SHADOWS_SIMPLE = 0x1
             };
             // alignment: 4
             // member count: 6
+            // underlying type: uint32_t
             enum class GrenadeType_t : uint32_t {
                 GRENADE_TYPE_EXPLOSIVE = 0x0,
                 GRENADE_TYPE_FLASH = 0x1,
@@ -1556,12 +1692,14 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 2
+            // underlying type: uint32_t
             enum class ValueRemapperInputType_t : uint32_t {
                 InputType_PlayerShootPosition = 0x0,
                 InputType_PlayerShootPositionAroundAxis = 0x1
             };
             // alignment: 1
             // member count: 8
+            // underlying type: uint8_t
             enum class EKillTypes_t : uint8_t {
                 KILL_NONE = 0x0,
                 KILL_DEFAULT = 0x1,
@@ -1574,6 +1712,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 25
+            // underlying type: uint32_t
             enum class WeaponSound_t : uint32_t {
                 WEAPON_SOUND_EMPTY = 0x0,
                 WEAPON_SOUND_SECONDARY_EMPTY = 0x1,
@@ -1603,6 +1742,7 @@ namespace cs2_dumper {
             };
             // alignment: 8
             // member count: 20
+            // underlying type: uint64_t
             enum class TakeDamageFlags_t : uint64_t {
                 DFLAG_NONE = 0x0,
                 DFLAG_SUPPRESS_HEALTH_CHANGES = 0x1,
@@ -1627,12 +1767,14 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 2
+            // underlying type: uint32_t
             enum class ValueRemapperHapticsType_t : uint32_t {
                 HaticsType_Default = 0x0,
                 HaticsType_None = 0x1
             };
             // alignment: 4
             // member count: 10
+            // underlying type: uint32_t
             enum class Disposition_t : uint32_t {
                 D_ER = 0x0,
                 D_HT = 0x1,
@@ -1647,12 +1789,14 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 2
+            // underlying type: uint32_t
             enum class RotatorTargetSpace_t : uint32_t {
                 ROTATOR_TARGET_WORLDSPACE = 0x0,
                 ROTATOR_TARGET_LOCALSPACE = 0x1
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class CanPlaySequence_t : uint32_t {
                 CANNOT_PLAY = 0x0,
                 CAN_PLAY_NOW = 0x1,
@@ -1660,6 +1804,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 5
+            // underlying type: uint32_t
             enum class MedalRank_t : uint32_t {
                 MEDAL_RANK_NONE = 0x0,
                 MEDAL_RANK_BRONZE = 0x1,
@@ -1669,6 +1814,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 6
+            // underlying type: uint32_t
             enum class ObserverMode_t : uint32_t {
                 OBS_MODE_NONE = 0x0,
                 OBS_MODE_FIXED = 0x1,
@@ -1679,12 +1825,14 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 2
+            // underlying type: uint32_t
             enum class FuncDoorSpawnPos_t : uint32_t {
                 FUNC_DOOR_SPAWN_CLOSED = 0x0,
                 FUNC_DOOR_SPAWN_OPEN = 0x1
             };
             // alignment: 4
             // member count: 3
+            // underlying type: uint32_t
             enum class EOverrideBlockLOS_t : uint32_t {
                 BLOCK_LOS_DEFAULT = 0x0,
                 BLOCK_LOS_FORCE_FALSE = 0x1,
@@ -1692,6 +1840,7 @@ namespace cs2_dumper {
             };
             // alignment: 4
             // member count: 4
+            // underlying type: uint32_t
             enum class EntityAttachmentType_t : uint32_t {
                 eAbsOrigin = 0x0,
                 eCenter = 0x1,
@@ -1700,6 +1849,7 @@ namespace cs2_dumper {
             };
             // alignment: 1
             // member count: 14
+            // underlying type: uint8_t
             enum class MoveType_t : uint8_t {
                 MOVETYPE_NONE = 0x0,
                 MOVETYPE_OBSOLETE = 0x1,
@@ -1716,10 +1866,8 @@ namespace cs2_dumper {
                 MOVETYPE_INVALID = 0xB,
                 MOVETYPE_MAX_BITS = 0x5
             };
+            // class CWeaponNOVA has zero fields
             // parent: CCSWeaponBaseShotgun
-            // field count: 0
-            namespace CWeaponNOVA {
-            }
             // parent: CModelPointEntity
             // field count: 16
             //
@@ -1772,14 +1920,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_pOutputOnSpawned = 0x540; // CEntityIOOutput
                 constexpr std::ptrdiff_t m_pOutputOnFailedSpawn = 0x568; // CEntityIOOutput
             }
+            // class CPulseGraphInstance_GameBlackboard has zero fields
             // parent: None
-            // field count: 0
-            namespace CPulseGraphInstance_GameBlackboard {
-            }
+            // class CPointEntity has zero fields
             // parent: CBaseEntity
-            // field count: 0
-            namespace CPointEntity {
-            }
             // parent: CBaseFilter
             // field count: 5
             namespace CFilterEnemy {
@@ -1789,10 +1933,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nMaxSquadmatesPerEnemy = 0x558; // int32
                 constexpr std::ptrdiff_t m_iszPlayerName = 0x560; // CUtlSymbolLarge
             }
+            // class CCSGO_WingmanIntroCounterTerroristPosition has zero fields
             // parent: CCSGO_WingmanIntroCharacterPosition
-            // field count: 0
-            namespace CCSGO_WingmanIntroCounterTerroristPosition {
-            }
             // parent: None
             // field count: 2
             //
@@ -1801,10 +1943,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bTagSelfWhenComplete = 0x98; // bool
                 constexpr std::ptrdiff_t m_nDesiredKillPriority = 0x9C; // PulseCursorCancelPriority_t
             }
+            // class CFuncTrackAuto has zero fields
             // parent: CFuncTrackChange
-            // field count: 0
-            namespace CFuncTrackAuto {
-            }
             // parent: CBaseEntity
             // field count: 77
             namespace CScriptedSequence {
@@ -1891,14 +2031,10 @@ namespace cs2_dumper {
             namespace CFogTrigger {
                 constexpr std::ptrdiff_t m_fog = 0x9A8; // fogparams_t
             }
+            // class CInfoTeleportDestination has zero fields
             // parent: CPointEntity
-            // field count: 0
-            namespace CInfoTeleportDestination {
-            }
+            // class CPointBroadcastClientCommand has zero fields
             // parent: CPointEntity
-            // field count: 0
-            namespace CPointBroadcastClientCommand {
-            }
             // parent: CPlayerPawnComponent
             // field count: 2
             //
@@ -1907,10 +2043,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flPlayerPingTokens = 0x40; // GameTime_t[5]
                 constexpr std::ptrdiff_t m_hPlayerPing = 0x54; // CHandle<CPlayerPing>
             }
+            // class CHEGrenade has zero fields
             // parent: CBaseCSGrenade
-            // field count: 0
-            namespace CHEGrenade {
-            }
             // parent: CBaseEntity
             // field count: 8
             namespace CPhysicsSpring {
@@ -1940,18 +2074,12 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nRefundableCurrency = 0x3C; // int32
                 constexpr std::ptrdiff_t m_bSetBonus = 0x40; // bool
             }
+            // class CBaseTriggerAPI has zero fields
             // parent: None
-            // field count: 0
-            namespace CBaseTriggerAPI {
-            }
+            // class CWeaponRevolver has zero fields
             // parent: CCSWeaponBaseGun
-            // field count: 0
-            namespace CWeaponRevolver {
-            }
+            // class CFuncTrainControls has zero fields
             // parent: CBaseModelEntity
-            // field count: 0
-            namespace CFuncTrainControls {
-            }
             // parent: None
             // field count: 4
             namespace CBtActionCombatPositioning {
@@ -1970,10 +2098,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t flFlinchModLarge = 0x38; // float32
                 constexpr std::ptrdiff_t flFriendlyFireDamageReductionRatio = 0x3C; // float32
             }
+            // class CFuncRetakeBarrier has zero fields
             // parent: CDynamicProp
-            // field count: 0
-            namespace CFuncRetakeBarrier {
-            }
             // parent: CBaseTrigger
             // field count: 2
             //
@@ -1982,10 +2108,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_BuoyancyHelper = 0x9A8; // CBuoyancyHelper
                 constexpr std::ptrdiff_t m_flFluidDensity = 0xAC0; // float32
             }
+            // class CTonemapController2Alias_env_tonemap_controller2 has zero fields
             // parent: CTonemapController2
-            // field count: 0
-            namespace CTonemapController2Alias_env_tonemap_controller2 {
-            }
             // parent: CPointEntity
             // field count: 9
             namespace CPathTrack {
@@ -2032,14 +2156,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_iszMessage = 0x7E8; // CUtlSymbolLarge
                 constexpr std::ptrdiff_t m_textParms = 0x7F0; // hudtextparms_t
             }
+            // class CGameEnd has zero fields
             // parent: CRulePointEntity
-            // field count: 0
-            namespace CGameEnd {
-            }
+            // class CInfoDeathmatchSpawn has zero fields
             // parent: SpawnPoint
-            // field count: 0
-            namespace CInfoDeathmatchSpawn {
-            }
             // parent: CPlayerControllerComponent
             // field count: 10
             //
@@ -2056,10 +2176,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_unCurrentLoadoutHash = 0xF50; // uint64
                 constexpr std::ptrdiff_t m_vecServerAuthoritativeWeaponSlots = 0xF58; // CUtlVectorEmbeddedNetworkVar<ServerAuthoritativeWeaponSlot_t>
             }
+            // class CPulse_ResumePoint has zero fields
             // parent: None
-            // field count: 0
-            namespace CPulse_ResumePoint {
-            }
             // parent: CBaseAnimGraph
             // field count: 7
             //
@@ -2104,10 +2222,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bRampDown = 0xA61; // bool
                 constexpr std::ptrdiff_t m_nManagerFanIdx = 0xA64; // int32
             }
+            // class CPhysHingeAlias_phys_hinge_local has zero fields
             // parent: CPhysHinge
-            // field count: 0
-            namespace CPhysHingeAlias_phys_hinge_local {
-            }
             // parent: CLogicalEntity
             // field count: 6
             namespace CLogicCase {
@@ -2124,10 +2240,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_iszEventName = 0x4F0; // CUtlSymbolLarge
                 constexpr std::ptrdiff_t m_flRange = 0x4F8; // float32
             }
+            // class CWeaponBizon has zero fields
             // parent: CCSWeaponBaseGun
-            // field count: 0
-            namespace CWeaponBizon {
-            }
             // parent: CRuleBrushEntity
             // field count: 4
             namespace CGamePlayerZone {
@@ -2202,10 +2316,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_NextSpreadTimer = 0x13E0; // CountdownTimer
                 constexpr std::ptrdiff_t m_nSourceItemDefIndex = 0x13F8; // uint16
             }
+            // class CTouchExpansionComponent has zero fields
             // parent: CEntityComponent
-            // field count: 0
-            namespace CTouchExpansionComponent {
-            }
             // parent: None
             // field count: 3
             //
@@ -2224,10 +2336,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_Start = 0x94; // PointCameraSettings_t
                 constexpr std::ptrdiff_t m_End = 0xA4; // PointCameraSettings_t
             }
+            // class CWeaponSCAR20 has zero fields
             // parent: CCSWeaponBaseGun
-            // field count: 0
-            namespace CWeaponSCAR20 {
-            }
             // parent: CBaseModelEntity
             // field count: 3
             namespace CFuncInteractionLayerClip {
@@ -2235,10 +2345,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_iszInteractsAs = 0x7E0; // CUtlSymbolLarge
                 constexpr std::ptrdiff_t m_iszInteractsWith = 0x7E8; // CUtlSymbolLarge
             }
+            // class CCSObserver_UseServices has zero fields
             // parent: CPlayer_UseServices
-            // field count: 0
-            namespace CCSObserver_UseServices {
-            }
             // parent: CBaseTrigger
             // field count: 2
             namespace CTriggerDetectBulletFire {
@@ -2252,10 +2360,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flLastUseTimeStamp = 0x44; // GameTime_t
                 constexpr std::ptrdiff_t m_flTimeLastUsedWindow = 0x48; // GameTime_t
             }
+            // class CWeaponAWP has zero fields
             // parent: CCSWeaponBaseGun
-            // field count: 0
-            namespace CWeaponAWP {
-            }
             // parent: None
             // field count: 2
             //
@@ -2528,10 +2634,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flRadioTokenSlots = 0x4C; // GameTime_t[3]
                 constexpr std::ptrdiff_t m_bIgnoreRadio = 0x58; // bool
             }
+            // class CWeaponSG556 has zero fields
             // parent: CCSWeaponBaseGun
-            // field count: 0
-            namespace CWeaponSG556 {
-            }
             // parent: CPhysConstraint
             // field count: 9
             namespace CRagdollConstraint {
@@ -2545,18 +2649,12 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_yfriction = 0x57C; // float32
                 constexpr std::ptrdiff_t m_zfriction = 0x580; // float32
             }
+            // class CFuncVehicleClip has zero fields
             // parent: CBaseModelEntity
-            // field count: 0
-            namespace CFuncVehicleClip {
-            }
+            // class CDEagle has zero fields
             // parent: CCSWeaponBaseGun
-            // field count: 0
-            namespace CDEagle {
-            }
+            // class CWeaponFamas has zero fields
             // parent: CCSWeaponBaseGun
-            // field count: 0
-            namespace CWeaponFamas {
-            }
             // parent: CPointEntity
             // field count: 1
             namespace CEnvSplash {
@@ -2567,18 +2665,12 @@ namespace cs2_dumper {
             namespace CPointCameraVFOV {
                 constexpr std::ptrdiff_t m_flVerticalFOV = 0x550; // float32
             }
+            // class CCSGO_WingmanIntroTerroristPosition has zero fields
             // parent: CCSGO_WingmanIntroCharacterPosition
-            // field count: 0
-            namespace CCSGO_WingmanIntroTerroristPosition {
-            }
+            // class CTestPulseIOAPI has zero fields
             // parent: None
-            // field count: 0
-            namespace CTestPulseIOAPI {
-            }
+            // class CCSWeaponBaseShotgun has zero fields
             // parent: CCSWeaponBase
-            // field count: 0
-            namespace CCSWeaponBaseShotgun {
-            }
             // parent: None
             // field count: 7
             //
@@ -2611,10 +2703,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bAllowMovableNavMeshDockingOnEntireEntity = 0x8F1; // bool
                 constexpr std::ptrdiff_t m_bCreateNavObstacle = 0x8F2; // bool
             }
+            // class CPhysMotorAPI has zero fields
             // parent: None
-            // field count: 0
-            namespace CPhysMotorAPI {
-            }
             // parent: None
             // field count: 2
             //
@@ -2628,10 +2718,8 @@ namespace cs2_dumper {
             namespace CScriptItem {
                 constexpr std::ptrdiff_t m_MoveTypeOverride = 0xB70; // MoveType_t
             }
+            // class CDynamicPropAlias_prop_dynamic_override has zero fields
             // parent: CDynamicProp
-            // field count: 0
-            namespace CDynamicPropAlias_prop_dynamic_override {
-            }
             // parent: CBaseToggle
             // field count: 12
             //
@@ -2668,10 +2756,8 @@ namespace cs2_dumper {
             namespace CPulseCell_Step_EntFire {
                 constexpr std::ptrdiff_t m_Input = 0x48; // CUtlString
             }
+            // class CCSObserver_ObserverServices has zero fields
             // parent: CPlayer_ObserverServices
-            // field count: 0
-            namespace CCSObserver_ObserverServices {
-            }
             // parent: CBaseEntity
             // field count: 5
             //
@@ -2715,10 +2801,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_iStartAttachment = 0x828; // AttachmentHandle_t
                 constexpr std::ptrdiff_t m_iEndAttachment = 0x829; // AttachmentHandle_t
             }
+            // class CSmokeGrenade has zero fields
             // parent: CBaseCSGrenade
-            // field count: 0
-            namespace CSmokeGrenade {
-            }
             // parent: CBaseFlex
             // field count: 10
             //
@@ -2735,10 +2819,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nNavHullIdx = 0xB9C; // uint32
                 constexpr std::ptrdiff_t m_movementStats = 0xBA0; // CMovementStatsProperty
             }
+            // class CPathQueryComponent has zero fields
             // parent: CEntityComponent
-            // field count: 0
-            namespace CPathQueryComponent {
-            }
             // parent: CLogicalEntity
             // field count: 5
             namespace CLogicRelay {
@@ -2758,10 +2840,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flPlaybackRate = 0x10; // float32
                 constexpr std::ptrdiff_t m_flCyclesPerSecond = 0x14; // float32
             }
+            // class CPlayer_ItemServices has zero fields
             // parent: CPlayerPawnComponent
-            // field count: 0
-            namespace CPlayer_ItemServices {
-            }
             // parent: None
             // field count: 4
             namespace CPulse_OutflowConnection {
@@ -2782,14 +2862,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_OnVariantVector = 0x5E0; // CEntityIOOutput
                 constexpr std::ptrdiff_t m_bAllowEmptyInputs = 0x608; // bool
             }
+            // class CWeaponUMP45 has zero fields
             // parent: CCSWeaponBaseGun
-            // field count: 0
-            namespace CWeaponUMP45 {
-            }
+            // class CGamePlayerEquip has zero fields
             // parent: CRulePointEntity
-            // field count: 0
-            namespace CGamePlayerEquip {
-            }
             // parent: CBaseEntity
             // field count: 7
             namespace CPointEntityFinder {
@@ -2837,26 +2913,16 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_PlayerDied = 0x548; // CEntityIOOutput
                 constexpr std::ptrdiff_t m_RequestedPlayerHealth = 0x570; // CEntityOutputTemplate<int32>
             }
+            // class CCSGO_TeamIntroCharacterPosition has zero fields
             // parent: CCSGO_TeamPreviewCharacterPosition
-            // field count: 0
-            namespace CCSGO_TeamIntroCharacterPosition {
-            }
+            // class CBasePlayerControllerAPI has zero fields
             // parent: None
-            // field count: 0
-            namespace CBasePlayerControllerAPI {
-            }
+            // class CHostageRescueZoneShim has zero fields
             // parent: CBaseTrigger
-            // field count: 0
-            namespace CHostageRescueZoneShim {
-            }
+            // class CSimpleMarkupVolumeTagged has zero fields
             // parent: CMarkupVolumeTagged
-            // field count: 0
-            namespace CSimpleMarkupVolumeTagged {
-            }
+            // class CEnvSoundscapeAlias_snd_soundscape has zero fields
             // parent: CEnvSoundscape
-            // field count: 0
-            namespace CEnvSoundscapeAlias_snd_soundscape {
-            }
             // parent: CPlayerPawnComponent
             // field count: 2
             //
@@ -2874,10 +2940,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bEnableRendering = 0x58; // bool
                 constexpr std::ptrdiff_t m_bInterpolationReadyToDraw = 0xA8; // bool
             }
+            // class CWaterBullet has zero fields
             // parent: CBaseAnimGraph
-            // field count: 0
-            namespace CWaterBullet {
-            }
             // parent: CBaseTrigger
             // field count: 3
             namespace CTriggerSoundscape {
@@ -2885,10 +2949,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_SoundscapeName = 0x9B0; // CUtlSymbolLarge
                 constexpr std::ptrdiff_t m_spectators = 0x9B8; // CUtlVector<CHandle<CBasePlayerPawn>>
             }
+            // class CPointTeleportAPI has zero fields
             // parent: None
-            // field count: 0
-            namespace CPointTeleportAPI {
-            }
             // parent: CBaseCombatCharacter
             // field count: 1
             namespace CHostageExpresserShim {
@@ -2899,10 +2961,8 @@ namespace cs2_dumper {
             namespace CPointChildModifier {
                 constexpr std::ptrdiff_t m_bOrphanInsteadOfDeletingChildrenOnRemove = 0x4F0; // bool
             }
+            // class CWeaponHKP2000 has zero fields
             // parent: CCSWeaponBaseGun
-            // field count: 0
-            namespace CWeaponHKP2000 {
-            }
             // parent: CPhysicsProp
             // field count: 3
             //
@@ -2941,10 +3001,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bRolledOutroCredits = 0x518; // bool
                 constexpr std::ptrdiff_t m_flLogoLength = 0x51C; // float32
             }
+            // class CWeaponFiveSeven has zero fields
             // parent: CCSWeaponBaseGun
-            // field count: 0
-            namespace CWeaponFiveSeven {
-            }
             // parent: CBaseEntity
             // field count: 7
             namespace CFishPool {
@@ -2977,10 +3035,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_vecLastMovementImpulses = 0x1B8; // Vector
                 constexpr std::ptrdiff_t m_vecOldViewAngles = 0x220; // QAngle
             }
+            // class CRagdollPropAlias_physics_prop_ragdoll has zero fields
             // parent: CRagdollProp
-            // field count: 0
-            namespace CRagdollPropAlias_physics_prop_ragdoll {
-            }
             // parent: CBaseProp
             // field count: 32
             //
@@ -3079,14 +3135,10 @@ namespace cs2_dumper {
             namespace COrnamentProp {
                 constexpr std::ptrdiff_t m_initialOwner = 0xD50; // CUtlSymbolLarge
             }
+            // class CCSPlayer_CameraServices has zero fields
             // parent: CCSPlayerBase_CameraServices
-            // field count: 0
-            namespace CCSPlayer_CameraServices {
-            }
+            // class CModelPointEntity has zero fields
             // parent: CBaseModelEntity
-            // field count: 0
-            namespace CModelPointEntity {
-            }
             // parent: CBarnLight
             // field count: 1
             //
@@ -3207,10 +3259,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_vMins = 0x5B8; // Vector
                 constexpr std::ptrdiff_t m_vMaxs = 0x5C4; // Vector
             }
+            // class CItemSoda has zero fields
             // parent: CBaseAnimGraph
-            // field count: 0
-            namespace CItemSoda {
-            }
             // parent: None
             // field count: 2
             //
@@ -3250,12 +3300,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flWaitIntervalHigh = 0xC; // float32
                 constexpr std::ptrdiff_t m_bCompleteOnNextWake = 0x10; // bool
             }
+            // class CPulseCell_BaseRequirement has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CPulseCell_BaseRequirement {
-            }
             // parent: CModelPointEntity
             // field count: 15
             namespace CEnvExplosion {
@@ -3275,12 +3323,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_iszEntityIgnoreName = 0x820; // CUtlSymbolLarge
                 constexpr std::ptrdiff_t m_hEntityIgnore = 0x828; // CHandle<CBaseEntity>
             }
+            // class CPulseCell_BaseState has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CPulseCell_BaseState {
-            }
             // parent: None
             // field count: 4
             //
@@ -3291,12 +3337,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_RequirementNodeIDs = 0x50; // CUtlVector<PulseDocNodeID_t>
                 constexpr std::ptrdiff_t m_nCursorStateBlockIndex = 0x68; // CUtlVector<int32>
             }
+            // class CPulseCell_IsRequirementValid has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CPulseCell_IsRequirementValid {
-            }
             // parent: CBaseTrigger
             // field count: 2
             //
@@ -3385,10 +3429,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_iszSoundAreaType = 0x4F8; // CUtlSymbolLarge
                 constexpr std::ptrdiff_t m_vPos = 0x500; // Vector
             }
+            // class CWeaponM4A1Silencer has zero fields
             // parent: CCSWeaponBaseGun
-            // field count: 0
-            namespace CWeaponM4A1Silencer {
-            }
             // parent: 
             // field count: 7
             //
@@ -3402,12 +3444,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nCompressionType = 0x21C; // TimelineCompression_t
                 constexpr std::ptrdiff_t m_bStopped = 0x220; // bool
             }
+            // class CPulseCursorFuncs has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CPulseCursorFuncs {
-            }
             // parent: 
             // field count: 4
             //
@@ -3426,10 +3466,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_OutflowID = 0x0; // CGlobalSymbol
                 constexpr std::ptrdiff_t m_Connection = 0x8; // CPulse_OutflowConnection
             }
+            // class CItemAssaultSuit has zero fields
             // parent: CItem
-            // field count: 0
-            namespace CItemAssaultSuit {
-            }
             // parent: CBaseModelEntity
             // field count: 24
             //
@@ -3468,22 +3506,14 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nTeam = 0x50C; // int32
                 constexpr std::ptrdiff_t m_OnEventFired = 0x510; // CEntityIOOutput
             }
+            // class CCSGO_TeamSelectTerroristPosition has zero fields
             // parent: CCSGO_TeamSelectCharacterPosition
-            // field count: 0
-            namespace CCSGO_TeamSelectTerroristPosition {
-            }
+            // class CInfoData has zero fields
             // parent: CServerOnlyEntity
-            // field count: 0
-            namespace CInfoData {
-            }
+            // class CWeaponNegev has zero fields
             // parent: CCSWeaponBaseGun
-            // field count: 0
-            namespace CWeaponNegev {
-            }
+            // class CWeaponElite has zero fields
             // parent: CCSWeaponBaseGun
-            // field count: 0
-            namespace CWeaponElite {
-            }
             // parent: CBaseCombatCharacter
             // field count: 25
             //
@@ -3523,10 +3553,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nItemDefIndex = 0x30; // uint16
                 constexpr std::ptrdiff_t m_nCount = 0x32; // uint16
             }
+            // class CBasePulseGraphInstance has zero fields
             // parent: None
-            // field count: 0
-            namespace CBasePulseGraphInstance {
-            }
             // parent: CBaseFilter
             // field count: 3
             namespace FilterHealth {
@@ -3534,10 +3562,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_iHealthMin = 0x54C; // int32
                 constexpr std::ptrdiff_t m_iHealthMax = 0x550; // int32
             }
+            // class CCSSprite has zero fields
             // parent: CSprite
-            // field count: 0
-            namespace CCSSprite {
-            }
             // parent: CLogicalEntity
             // field count: 5
             namespace CMathColorBlend {
@@ -3547,10 +3573,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_OutColor2 = 0x4FC; // Color
                 constexpr std::ptrdiff_t m_OutValue = 0x500; // CEntityOutputTemplate<Color>
             }
+            // class CShower has zero fields
             // parent: CModelPointEntity
-            // field count: 0
-            namespace CShower {
-            }
             // parent: None
             // field count: 1
             //
@@ -3563,42 +3587,28 @@ namespace cs2_dumper {
             namespace CScriptNavBlocker {
                 constexpr std::ptrdiff_t m_vExtent = 0x7F0; // Vector
             }
+            // class CEntityBlocker has zero fields
             // parent: CBaseModelEntity
-            // field count: 0
-            namespace CEntityBlocker {
-            }
+            // class SignatureOutflow_Resume has zero fields
             // parent: None
-            // field count: 0
-            namespace SignatureOutflow_Resume {
-            }
+            // class CPathSimpleAPI has zero fields
             // parent: None
-            // field count: 0
-            namespace CPathSimpleAPI {
-            }
+            // class CCSObserverPawn has zero fields
             // parent: CCSPlayerPawnBase
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CCSObserverPawn {
-            }
             // parent: CBaseTrigger
             // field count: 2
             namespace CTriggerActiveWeaponDetect {
                 constexpr std::ptrdiff_t m_OnTouchedActiveWeapon = 0x9A8; // CEntityIOOutput
                 constexpr std::ptrdiff_t m_iszWeaponClassName = 0x9D0; // CUtlSymbolLarge
             }
+            // class CFuncLadderAlias_func_useableladder has zero fields
             // parent: CFuncLadder
-            // field count: 0
-            namespace CFuncLadderAlias_func_useableladder {
-            }
+            // class CSpriteOriented has zero fields
             // parent: CSprite
-            // field count: 0
-            namespace CSpriteOriented {
-            }
+            // class CPointServerCommand has zero fields
             // parent: CPointEntity
-            // field count: 0
-            namespace CPointServerCommand {
-            }
             // parent: 
             // field count: 13
             //
@@ -4078,10 +4088,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bEnabled = 0x4F4; // bool
                 constexpr std::ptrdiff_t m_nType = 0x4F8; // int32
             }
+            // class CFuncMoverAPI has zero fields
             // parent: None
-            // field count: 0
-            namespace CFuncMoverAPI {
-            }
             // parent: 
             // field count: 33
             //
@@ -4121,26 +4129,18 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flClientLocalScale = 0x140; // float32
                 constexpr std::ptrdiff_t m_vRenderOrigin = 0x144; // Vector
             }
+            // class CWeaponM249 has zero fields
             // parent: CCSWeaponBaseGun
-            // field count: 0
-            namespace CWeaponM249 {
-            }
+            // class CRopeKeyframeAlias_move_rope has zero fields
             // parent: CRopeKeyframe
-            // field count: 0
-            namespace CRopeKeyframeAlias_move_rope {
-            }
+            // class CPulseServerFuncs_Sounds has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CPulseServerFuncs_Sounds {
-            }
+            // class CPulsePhysicsConstraintsFuncs has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CPulsePhysicsConstraintsFuncs {
-            }
             // parent: CPlayerPawnComponent
             // field count: 4
             //
@@ -4151,10 +4151,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_iObserverLastMode = 0x48; // ObserverMode_t
                 constexpr std::ptrdiff_t m_bForcedObserverMode = 0x4C; // bool
             }
+            // class CLogicScript has zero fields
             // parent: CPointEntity
-            // field count: 0
-            namespace CLogicScript {
-            }
             // parent: None
             // field count: 3
             namespace CAttributeManager__cached_attribute_float_t {
@@ -4172,10 +4170,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_sNameFixupLocal = 0x1A8; // CUtlSymbolLarge
                 constexpr std::ptrdiff_t m_sProceduralWorldNameForRelays = 0x1B0; // CUtlSymbolLarge
             }
+            // class CSceneEntityAlias_logic_choreographed_scene has zero fields
             // parent: CSceneEntity
-            // field count: 0
-            namespace CSceneEntityAlias_logic_choreographed_scene {
-            }
             // parent: CBaseEntity
             // field count: 4
             //
@@ -4250,14 +4246,10 @@ namespace cs2_dumper {
             namespace CPulseCell_Outflow_PlayVCD {
                 constexpr std::ptrdiff_t m_hChoreoScene = 0xF0; // CStrongHandle<InfoForResourceTypeCChoreoSceneResource>
             }
+            // class CMultiplayRules has zero fields
             // parent: None
-            // field count: 0
-            namespace CMultiplayRules {
-            }
+            // class CMolotovGrenade has zero fields
             // parent: CBaseCSGrenade
-            // field count: 0
-            namespace CMolotovGrenade {
-            }
             // parent: CPhysForce
             // field count: 1
             namespace CPhysTorque {
@@ -4311,10 +4303,8 @@ namespace cs2_dumper {
             namespace CPhysicsWire {
                 constexpr std::ptrdiff_t m_nDensity = 0x4F0; // int32
             }
+            // class CFuncIllusionary has zero fields
             // parent: CBaseModelEntity
-            // field count: 0
-            namespace CFuncIllusionary {
-            }
             // parent: CPointEntity
             // field count: 5
             namespace CInfoDynamicShadowHint {
@@ -4329,10 +4319,8 @@ namespace cs2_dumper {
             namespace CMarkupVolume {
                 constexpr std::ptrdiff_t m_bDisabled = 0x7D8; // bool
             }
+            // class CCSGO_TeamSelectCounterTerroristPosition has zero fields
             // parent: CCSGO_TeamSelectCharacterPosition
-            // field count: 0
-            namespace CCSGO_TeamSelectCounterTerroristPosition {
-            }
             // parent: CBaseTrigger
             // field count: 1
             namespace CTriggerRemove {
@@ -4349,10 +4337,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bEnabled = 0x538; // bool
                 constexpr std::ptrdiff_t m_bStartDisabled = 0x539; // bool
             }
+            // class CServerOnlyModelEntity has zero fields
             // parent: CBaseModelEntity
-            // field count: 0
-            namespace CServerOnlyModelEntity {
-            }
             // parent: None
             // field count: 2
             //
@@ -4366,10 +4352,8 @@ namespace cs2_dumper {
             namespace CMarkupVolumeTagged_Nav {
                 constexpr std::ptrdiff_t m_nScopes = 0x818; // NavScopeFlags_t
             }
+            // class CInfoPlayerTerrorist has zero fields
             // parent: SpawnPoint
-            // field count: 0
-            namespace CInfoPlayerTerrorist {
-            }
             // parent: CLogicalEntity
             // field count: 3
             namespace CLogicAutosave {
@@ -4377,16 +4361,12 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_minHitPoints = 0x4F4; // int32
                 constexpr std::ptrdiff_t m_minHitPointsToCommit = 0x4F8; // int32
             }
+            // class CCSGO_TeamIntroTerroristPosition has zero fields
             // parent: CCSGO_TeamIntroCharacterPosition
-            // field count: 0
-            namespace CCSGO_TeamIntroTerroristPosition {
-            }
+            // class CPulseTestScriptLib has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CPulseTestScriptLib {
-            }
             // parent: None
             // field count: 1
             namespace CSingleplayRules {
@@ -4452,14 +4432,10 @@ namespace cs2_dumper {
             namespace CCSGameRulesProxy {
                 constexpr std::ptrdiff_t m_pGameRules = 0x4F0; // CCSGameRules*
             }
+            // class CPrecipitation has zero fields
             // parent: CBaseTrigger
-            // field count: 0
-            namespace CPrecipitation {
-            }
+            // class CCommentaryViewPosition has zero fields
             // parent: CSprite
-            // field count: 0
-            namespace CCommentaryViewPosition {
-            }
             // parent: CLogicalEntity
             // field count: 5
             namespace CEnvGlobal {
@@ -4469,10 +4445,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_initialstate = 0x524; // int32
                 constexpr std::ptrdiff_t m_counter = 0x528; // int32
             }
+            // class CLogicNPCCounterOBB has zero fields
             // parent: CLogicNPCCounterAABB
-            // field count: 0
-            namespace CLogicNPCCounterOBB {
-            }
             // parent: CBaseModelEntity
             // field count: 1
             namespace CPlatTrigger {
@@ -4614,14 +4588,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_iMaxPieces = 0x510; // int32
                 constexpr std::ptrdiff_t m_iLastFrame = 0x514; // int32
             }
+            // class CHandleDummy has zero fields
             // parent: CBaseEntity
-            // field count: 0
-            namespace CHandleDummy {
-            }
+            // class CFuncWallToggle has zero fields
             // parent: CFuncWall
-            // field count: 0
-            namespace CFuncWallToggle {
-            }
             // parent: CPlayerPawnComponent
             // field count: 1
             //
@@ -4639,18 +4609,12 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bUseAngles = 0x584; // bool
                 constexpr std::ptrdiff_t m_pNext = 0x588; // CSkyCamera*
             }
+            // class CPlayer_AutoaimServices has zero fields
             // parent: CPlayerPawnComponent
-            // field count: 0
-            namespace CPlayer_AutoaimServices {
-            }
+            // class CItemDefuserAlias_item_defuser has zero fields
             // parent: CItemDefuser
-            // field count: 0
-            namespace CItemDefuserAlias_item_defuser {
-            }
+            // class CPathCornerCrash has zero fields
             // parent: CPathCorner
-            // field count: 0
-            namespace CPathCornerCrash {
-            }
             // parent: CPhysConstraint
             // field count: 4
             namespace CPhysPulley {
@@ -4659,14 +4623,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_addLength = 0x584; // float32
                 constexpr std::ptrdiff_t m_gearRatio = 0x588; // float32
             }
+            // class CCSPetPlacement has zero fields
             // parent: CBaseEntity
-            // field count: 0
-            namespace CCSPetPlacement {
-            }
+            // class CWeaponMP5SD has zero fields
             // parent: CCSWeaponBaseGun
-            // field count: 0
-            namespace CWeaponMP5SD {
-            }
             // parent: CCSWeaponBase
             // field count: 2
             //
@@ -4699,10 +4659,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_AssociatedEntities = 0x40; // CNetworkUtlVectorBase<CHandle<CBaseModelEntity>>
                 constexpr std::ptrdiff_t m_AssociatedEntityNames = 0x58; // CNetworkUtlVectorBase<CUtlSymbolLarge>
             }
+            // class CWeaponUSPSilencer has zero fields
             // parent: CCSWeaponBaseGun
-            // field count: 0
-            namespace CWeaponUSPSilencer {
-            }
             // parent: CLogicalEntity
             // field count: 1
             namespace CSoundStackSave {
@@ -4715,10 +4673,8 @@ namespace cs2_dumper {
             namespace CPulseCell_Value_Curve {
                 constexpr std::ptrdiff_t m_Curve = 0x48; // CPiecewiseCurve
             }
+            // class CWeaponMag7 has zero fields
             // parent: CCSWeaponBaseGun
-            // field count: 0
-            namespace CWeaponMag7 {
-            }
             // parent: CLogicalEntity
             // field count: 9
             namespace CLogicMeasureMovement {
@@ -4749,22 +4705,14 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bPlayedArmingBeeps = 0x1244; // bool[7]
                 constexpr std::ptrdiff_t m_bBombPlanted = 0x124B; // bool
             }
+            // class CHostageCarriableProp has zero fields
             // parent: CBaseAnimGraph
-            // field count: 0
-            namespace CHostageCarriableProp {
-            }
+            // class CDynamicPropAlias_cable_dynamic has zero fields
             // parent: CDynamicProp
-            // field count: 0
-            namespace CDynamicPropAlias_cable_dynamic {
-            }
+            // class CBaseFlexAlias_funCBaseFlex has zero fields
             // parent: CBaseFlex
-            // field count: 0
-            namespace CBaseFlexAlias_funCBaseFlex {
-            }
+            // class CCSObserver_CameraServices has zero fields
             // parent: CCSPlayerBase_CameraServices
-            // field count: 0
-            namespace CCSObserver_CameraServices {
-            }
             // parent: CBaseEntity
             // field count: 2
             //
@@ -4773,10 +4721,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flFadeStartDist = 0x4F0; // float32
                 constexpr std::ptrdiff_t m_flFadeEndDist = 0x4F4; // float32
             }
+            // class CTakeDamageInfoAPI has zero fields
             // parent: None
-            // field count: 0
-            namespace CTakeDamageInfoAPI {
-            }
             // parent: CBasePlayerPawn
             // field count: 15
             //
@@ -4810,16 +4756,12 @@ namespace cs2_dumper {
             namespace CPulseCell_Inflow_EventHandler {
                 constexpr std::ptrdiff_t m_EventName = 0x80; // PulseSymbol_t
             }
+            // class CCSPointScriptEntity has zero fields
             // parent: CBaseEntity
-            // field count: 0
-            namespace CCSPointScriptEntity {
-            }
+            // class CPulseCell_BaseFlow has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CPulseCell_BaseFlow {
-            }
             // parent: CBaseTrigger
             // field count: 9
             //
@@ -4882,10 +4824,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_materialGroup = 0x3F4; // CUtlStringToken
                 constexpr std::ptrdiff_t m_nHitboxSet = 0x3F8; // uint8
             }
+            // class CEntityComponent has zero fields
             // parent: 
-            // field count: 0
-            namespace CEntityComponent {
-            }
             // parent: CBaseToggle
             // field count: 5
             namespace CBasePlatTrain {
@@ -4961,18 +4901,12 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flCurrentBrightnessMultiplier = 0x510; // float32
                 constexpr std::ptrdiff_t m_vecLights = 0x518; // CUtlVector<CHandle<CLightEntity>>
             }
+            // class CWeaponM4A1 has zero fields
             // parent: CCSWeaponBaseGun
-            // field count: 0
-            namespace CWeaponM4A1 {
-            }
+            // class CTriggerHostageReset has zero fields
             // parent: CBaseTrigger
-            // field count: 0
-            namespace CTriggerHostageReset {
-            }
+            // class CPulseAnimFuncs has zero fields
             // parent: None
-            // field count: 0
-            namespace CPulseAnimFuncs {
-            }
             // parent: CEconEntity
             // field count: 2
             namespace CEconWearable {
@@ -4984,16 +4918,12 @@ namespace cs2_dumper {
             namespace CPulseCell_WaitForCursorsWithTagBase__CursorState_t {
                 constexpr std::ptrdiff_t m_TagName = 0x0; // PulseSymbol_t
             }
+            // class CPulseArraylib has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CPulseArraylib {
-            }
+            // class CWeaponMAC10 has zero fields
             // parent: CCSWeaponBaseGun
-            // field count: 0
-            namespace CWeaponMAC10 {
-            }
             // parent: CBaseModelEntity
             // field count: 12
             //
@@ -5021,10 +4951,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bUseAngles = 0x558; // bool
                 constexpr std::ptrdiff_t m_iChangedVariables = 0x55C; // int32
             }
+            // class CPointTemplateAPI has zero fields
             // parent: None
-            // field count: 0
-            namespace CPointTemplateAPI {
-            }
             // parent: CBaseAnimGraph
             // field count: 8
             namespace CItem {
@@ -5112,10 +5040,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_ParamBoneOrAttachName = 0x48; // CUtlString
                 constexpr std::ptrdiff_t m_ParamBoneOrAttachNameChild = 0x50; // CUtlString
             }
+            // class CFlashbang has zero fields
             // parent: CBaseCSGrenade
-            // field count: 0
-            namespace CFlashbang {
-            }
             // parent: CEconEntity
             // field count: 8
             //
@@ -5241,14 +5167,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_ProviderType = 0x2C; // attributeprovidertypes_t
                 constexpr std::ptrdiff_t m_CachedResults = 0x30; // CUtlVector<CAttributeManager::cached_attribute_float_t>
             }
+            // class SignatureOutflow_Continue has zero fields
             // parent: None
-            // field count: 0
-            namespace SignatureOutflow_Continue {
-            }
+            // class CInfoTarget has zero fields
             // parent: CPointEntity
-            // field count: 0
-            namespace CInfoTarget {
-            }
             // parent: CPlayerPawnComponent
             // field count: 12
             //
@@ -5286,12 +5208,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_SourceOutput = 0x90; // PulseSymbol_t
                 constexpr std::ptrdiff_t m_ExpectedParamType = 0xA0; // CPulseValueFullType
             }
+            // class CPulseFuncs_GameParticleManager has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CPulseFuncs_GameParticleManager {
-            }
             // parent: CBaseFilter
             // field count: 1
             namespace CFilterAttributeInt {
@@ -5389,10 +5309,8 @@ namespace cs2_dumper {
             namespace CPulseCell_Step_SetAnimGraphParam {
                 constexpr std::ptrdiff_t m_ParamName = 0x48; // CUtlString
             }
+            // class CPlayer_FlashlightServices has zero fields
             // parent: CPlayerPawnComponent
-            // field count: 0
-            namespace CPlayer_FlashlightServices {
-            }
             // parent: CBasePlayerController
             // field count: 92
             //
@@ -5592,14 +5510,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_iszDecal = 0x8F0; // CUtlSymbolLarge
                 constexpr std::ptrdiff_t m_OnTouchedByEntity = 0x8F8; // CEntityIOOutput
             }
+            // class CLightSpotEntity has zero fields
             // parent: CLightEntity
-            // field count: 0
-            namespace CLightSpotEntity {
-            }
+            // class CWeaponSawedoff has zero fields
             // parent: CCSWeaponBaseShotgun
-            // field count: 0
-            namespace CWeaponSawedoff {
-            }
             // parent: CBaseTrigger
             // field count: 2
             namespace CTonemapTrigger {
@@ -5679,10 +5593,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bPrevHelmet = 0x3C; // bool
                 constexpr std::ptrdiff_t m_hItem = 0x40; // CEntityHandle
             }
+            // class CTriggerCallback has zero fields
             // parent: CBaseTrigger
-            // field count: 0
-            namespace CTriggerCallback {
-            }
             // parent: CSoundOpvarSetPointEntity
             // field count: 5
             namespace CSoundOpvarSetAutoRoomEntity {
@@ -5703,10 +5615,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_strEntityOutputParam = 0xE0; // CUtlString
                 constexpr std::ptrdiff_t m_bListenUntilCanceled = 0xE8; // bool
             }
+            // class CPushable has zero fields
             // parent: CBreakable
-            // field count: 0
-            namespace CPushable {
-            }
             // parent: CPointEntity
             // field count: 2
             namespace CRotatorTarget {
@@ -5835,14 +5745,10 @@ namespace cs2_dumper {
             namespace CScriptTriggerOnce {
                 constexpr std::ptrdiff_t m_vExtent = 0x9D0; // Vector
             }
+            // class CLightOrthoEntity has zero fields
             // parent: CLightEntity
-            // field count: 0
-            namespace CLightOrthoEntity {
-            }
+            // class CInfoInstructorHintHostageRescueZone has zero fields
             // parent: CPointEntity
-            // field count: 0
-            namespace CInfoInstructorHintHostageRescueZone {
-            }
             // parent: None
             // field count: 1
             //
@@ -5893,20 +5799,14 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_glovesItem = 0x7B8; // CEconItemView
                 constexpr std::ptrdiff_t m_weaponItem = 0xA60; // CEconItemView
             }
+            // class CGameRulesProxy has zero fields
             // parent: CBaseEntity
-            // field count: 0
-            namespace CGameRulesProxy {
-            }
+            // class CInfoLadderDismount has zero fields
             // parent: CBaseEntity
-            // field count: 0
-            namespace CInfoLadderDismount {
-            }
+            // class CPulseServerFuncs has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CPulseServerFuncs {
-            }
             // parent: CPointEntity
             // field count: 6
             namespace CMessage {
@@ -5936,10 +5836,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_timestamp = 0xC; // float32
                 constexpr std::ptrdiff_t m_timescale = 0x10; // float32
             }
+            // class CBaseModelEntityAPI has zero fields
             // parent: None
-            // field count: 0
-            namespace CBaseModelEntityAPI {
-            }
             // parent: CHostageExpresserShim
             // field count: 39
             //
@@ -6007,14 +5905,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nSendUpdate = 0x40; // int32
                 constexpr std::ptrdiff_t m_DamageList = 0x48; // CUtlVectorEmbeddedNetworkVar<CDamageRecord>
             }
+            // class CEnvCombinedLightProbeVolumeAlias_func_combined_light_probe_volume has zero fields
             // parent: CEnvCombinedLightProbeVolume
-            // field count: 0
-            namespace CEnvCombinedLightProbeVolumeAlias_func_combined_light_probe_volume {
-            }
+            // class CFilterLOS has zero fields
             // parent: CBaseFilter
-            // field count: 0
-            namespace CFilterLOS {
-            }
             // parent: CBaseEntity
             // field count: 7
             namespace CPointOrient {
@@ -6038,10 +5932,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t fog = 0x20; // fogparams_t
                 constexpr std::ptrdiff_t m_nWorldGroupID = 0x88; // WorldGroupId_t
             }
+            // class CWeaponP250 has zero fields
             // parent: CCSWeaponBaseGun
-            // field count: 0
-            namespace CWeaponP250 {
-            }
             // parent: 
             // field count: 4
             //
@@ -6101,16 +5993,12 @@ namespace cs2_dumper {
             namespace CPulseCell_SoundEventStart {
                 constexpr std::ptrdiff_t m_Type = 0x48; // SoundEventStartType_t
             }
+            // class CPulseCell_Step_DebugLog has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CPulseCell_Step_DebugLog {
-            }
+            // class CItem_Healthshot has zero fields
             // parent: CWeaponBaseItem
-            // field count: 0
-            namespace CItem_Healthshot {
-            }
             // parent: CBaseFlex
             // field count: 14
             //
@@ -6163,12 +6051,10 @@ namespace cs2_dumper {
             namespace CBodyComponentBaseAnimGraph {
                 constexpr std::ptrdiff_t m_animationController = 0x510; // CBaseAnimGraphController
             }
+            // class CPulseCell_BaseYieldingInflow has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CPulseCell_BaseYieldingInflow {
-            }
             // parent: None
             // field count: 1
             //
@@ -6263,23 +6149,17 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nStepside = 0x270; // int32
                 constexpr std::ptrdiff_t m_vecSmoothedVelocity = 0x274; // Vector
             }
+            // class CBaseEntityAPI has zero fields
             // parent: None
-            // field count: 0
-            namespace CBaseEntityAPI {
-            }
             // parent: None
             // field count: 1
             namespace CPulseCell_IsRequirementValid__Criteria_t {
                 constexpr std::ptrdiff_t m_bIsValid = 0x0; // bool
             }
+            // class CWeaponG3SG1 has zero fields
             // parent: CCSWeaponBaseGun
-            // field count: 0
-            namespace CWeaponG3SG1 {
-            }
+            // class CTriggerOnce has zero fields
             // parent: CTriggerMultiple
-            // field count: 0
-            namespace CTriggerOnce {
-            }
             // parent: None
             // field count: 21
             //
@@ -6354,14 +6234,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_hTargetEnt = 0x85C; // CHandle<CBaseEntity>
                 constexpr std::ptrdiff_t m_OnDeath = 0x860; // CEntityIOOutput
             }
+            // class CSoundOpvarSetOBBEntity has zero fields
             // parent: CSoundOpvarSetAABBEntity
-            // field count: 0
-            namespace CSoundOpvarSetOBBEntity {
-            }
+            // class CFilterMultipleAPI has zero fields
             // parent: None
-            // field count: 0
-            namespace CFilterMultipleAPI {
-            }
             // parent: CBaseCSGrenadeProjectile
             // field count: 4
             //
@@ -6372,10 +6248,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_fExpireTime = 0xC60; // GameTime_t
                 constexpr std::ptrdiff_t m_decoyWeaponDefIndex = 0xC70; // uint16
             }
+            // class CPrecipitationBlocker has zero fields
             // parent: CBaseModelEntity
-            // field count: 0
-            namespace CPrecipitationBlocker {
-            }
             // parent: CSoundOpvarSetPointEntity
             // field count: 3
             namespace CSoundOpvarSetPathCornerEntity {
@@ -6383,18 +6257,12 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flDistMaxSqr = 0x6C4; // float32
                 constexpr std::ptrdiff_t m_iszPathCornerEntityName = 0x6C8; // CUtlSymbolLarge
             }
+            // class CPointClientCommand has zero fields
             // parent: CPointEntity
-            // field count: 0
-            namespace CPointClientCommand {
-            }
+            // class CHostageRescueZone has zero fields
             // parent: CHostageRescueZoneShim
-            // field count: 0
-            namespace CHostageRescueZone {
-            }
+            // class CWorld has zero fields
             // parent: CBaseModelEntity
-            // field count: 0
-            namespace CWorld {
-            }
             // parent: 
             // field count: 8
             //
@@ -6425,18 +6293,12 @@ namespace cs2_dumper {
             namespace CPulseCell_Outflow_CycleOrdered {
                 constexpr std::ptrdiff_t m_Outputs = 0x48; // CUtlVector<CPulse_OutflowConnection>
             }
+            // class CWeaponGlock has zero fields
             // parent: CCSWeaponBaseGun
-            // field count: 0
-            namespace CWeaponGlock {
-            }
+            // class CHEGrenadeProjectile has zero fields
             // parent: CBaseCSGrenadeProjectile
-            // field count: 0
-            namespace CHEGrenadeProjectile {
-            }
+            // class CTriggerGravity has zero fields
             // parent: CBaseTrigger
-            // field count: 0
-            namespace CTriggerGravity {
-            }
             // parent: 
             // field count: 17
             //
@@ -6460,19 +6322,15 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_vCapsuleCenter2 = 0xA0; // Vector
                 constexpr std::ptrdiff_t m_flCapsuleRadius = 0xAC; // float32
             }
+            // class CWeaponGalilAR has zero fields
             // parent: CCSWeaponBaseGun
-            // field count: 0
-            namespace CWeaponGalilAR {
-            }
             // parent: CBaseFilter
             // field count: 1
             namespace CFilterMassGreater {
                 constexpr std::ptrdiff_t m_fFilterMass = 0x548; // float32
             }
+            // class CWeaponMP7 has zero fields
             // parent: CCSWeaponBaseGun
-            // field count: 0
-            namespace CWeaponMP7 {
-            }
             // parent: CCSWeaponBase
             // field count: 10
             //
@@ -6489,10 +6347,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bSkillBoltInterruptAvailable = 0x11EE; // bool
                 constexpr std::ptrdiff_t m_bSkillBoltLiftedFireKey = 0x11EF; // bool
             }
+            // class CEnableMotionFixup has zero fields
             // parent: CBaseEntity
-            // field count: 0
-            namespace CEnableMotionFixup {
-            }
             // parent: CLogicAutosave
             // field count: 4
             namespace CLogicActiveAutosave {
@@ -6564,10 +6420,8 @@ namespace cs2_dumper {
             namespace CFilterContext {
                 constexpr std::ptrdiff_t m_iFilterContext = 0x548; // CUtlSymbolLarge
             }
+            // class CLightEnvironmentEntity has zero fields
             // parent: CLightDirectionalEntity
-            // field count: 0
-            namespace CLightEnvironmentEntity {
-            }
             // parent: CBaseModelEntity
             // field count: 9
             //
@@ -6607,10 +6461,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bOverrideSunLightStrength = 0x536; // bool
                 constexpr std::ptrdiff_t m_bOverrideNoiseStrength = 0x537; // bool
             }
+            // class CServerOnlyEntity has zero fields
             // parent: CBaseEntity
-            // field count: 0
-            namespace CServerOnlyEntity {
-            }
             // parent: None
             // field count: 1
             //
@@ -6718,10 +6570,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flSensorInactivityThresholdSeconds = 0x7C; // float32
                 constexpr std::ptrdiff_t m_SensorInactivityTimer = 0x80; // CountdownTimer
             }
+            // class CCSGO_TeamIntroCounterTerroristPosition has zero fields
             // parent: CCSGO_TeamIntroCharacterPosition
-            // field count: 0
-            namespace CCSGO_TeamIntroCounterTerroristPosition {
-            }
             // parent: CBaseAnimGraph
             // field count: 26
             //
@@ -6784,10 +6634,8 @@ namespace cs2_dumper {
             namespace CCSPlayer_BuyServices {
                 constexpr std::ptrdiff_t m_vecSellbackPurchaseEntries = 0xC8; // CUtlVectorEmbeddedNetworkVar<SellbackPurchaseEntry_t>
             }
+            // class CWeaponAug has zero fields
             // parent: CCSWeaponBaseGun
-            // field count: 0
-            namespace CWeaponAug {
-            }
             // parent: CPhysConstraint
             // field count: 18
             namespace CPhysHinge {
@@ -6815,14 +6663,10 @@ namespace cs2_dumper {
             namespace CBuyZone {
                 constexpr std::ptrdiff_t m_LegacyTeamNum = 0x9A8; // int32
             }
+            // class CWeaponSSG08 has zero fields
             // parent: CCSWeaponBaseGun
-            // field count: 0
-            namespace CWeaponSSG08 {
-            }
+            // class CLogicRelayAPI has zero fields
             // parent: None
-            // field count: 0
-            namespace CLogicRelayAPI {
-            }
             // parent: CBaseEntity
             // field count: 7
             //
@@ -6836,14 +6680,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bCreateAsChildSpawnGroup = 0x52A; // bool
                 constexpr std::ptrdiff_t m_hLayerSpawnGroup = 0x52C; // uint32
             }
+            // class CBodyComponentBaseModelEntity has zero fields
             // parent: CBodyComponentSkeletonInstance
-            // field count: 0
-            namespace CBodyComponentBaseModelEntity {
-            }
+            // class CLogicProximity has zero fields
             // parent: CPointEntity
-            // field count: 0
-            namespace CLogicProximity {
-            }
             // parent: CPointEntity
             // field count: 1
             namespace CPointGiveAmmo {
@@ -7369,10 +7209,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_weaponPurchasesThisMatch = 0x220; // WeaponPurchaseTracker_t
                 constexpr std::ptrdiff_t m_weaponPurchasesThisRound = 0x290; // WeaponPurchaseTracker_t
             }
+            // class CPhysicalButton has zero fields
             // parent: CBaseButton
-            // field count: 0
-            namespace CPhysicalButton {
-            }
             // parent: CLogicalEntity
             // field count: 13
             namespace CInfoSpawnGroupLoadUnload {
@@ -7398,10 +7236,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_vMin = 0x510; // Vector
                 constexpr std::ptrdiff_t m_vMax = 0x51C; // Vector
             }
+            // class CCSObserver_MovementServices has zero fields
             // parent: CPlayer_MovementServices
-            // field count: 0
-            namespace CCSObserver_MovementServices {
-            }
             // parent: None
             // field count: 4
             //
@@ -7429,10 +7265,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_ReturnType = 0xA0; // CPulseValueFullType
                 constexpr std::ptrdiff_t m_Args = 0xB8; // CUtlLeanVector<CPulseRuntimeMethodArg>
             }
+            // class CDecoyGrenade has zero fields
             // parent: CBaseCSGrenade
-            // field count: 0
-            namespace CDecoyGrenade {
-            }
             // parent: 
             // field count: 13
             //
@@ -7452,10 +7286,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_szCustomName = 0x160; // char[161]
                 constexpr std::ptrdiff_t m_szCustomNameOverride = 0x201; // char[161]
             }
+            // class CIncendiaryGrenade has zero fields
             // parent: CMolotovGrenade
-            // field count: 0
-            namespace CIncendiaryGrenade {
-            }
             // parent: CPointEntity
             // field count: 1
             namespace CBaseDMStart {
@@ -7556,12 +7388,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bRemoveOnCompletion = 0xA61; // bool
                 constexpr std::ptrdiff_t m_hTarget = 0xA64; // CHandle<CBaseEntity>
             }
+            // class CPulseCell_BaseValue has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CPulseCell_BaseValue {
-            }
             // parent: CBaseEntity
             // field count: 8
             //
@@ -7582,10 +7412,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_iszParamName = 0x508; // CUtlSymbolLarge
                 constexpr std::ptrdiff_t m_flFloatValue = 0x510; // float32
             }
+            // class CPlayer_WaterServices has zero fields
             // parent: CPlayerPawnComponent
-            // field count: 0
-            namespace CPlayer_WaterServices {
-            }
             // parent: None
             // field count: 4
             //
@@ -7596,10 +7424,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_WhenTrue = 0x108; // CPulse_OutflowConnection
                 constexpr std::ptrdiff_t m_WhenFalse = 0x150; // CPulse_OutflowConnection
             }
+            // class CRotButton has zero fields
             // parent: CBaseButton
-            // field count: 0
-            namespace CRotButton {
-            }
             // parent: CPointEntity
             // field count: 2
             namespace CEnvViewPunch {
@@ -7641,10 +7467,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nCollisionGroup = 0x2A; // uint8
                 constexpr std::ptrdiff_t m_nCollisionFunctionMask = 0x2B; // uint8
             }
+            // class CItemKevlar has zero fields
             // parent: CItem
-            // field count: 0
-            namespace CItemKevlar {
-            }
             // parent: CBaseModelEntity
             // field count: 26
             namespace CFuncShatterglass {
@@ -7675,10 +7499,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_iSurfaceType = 0x908; // uint8
                 constexpr std::ptrdiff_t m_hMaterialDamageBase = 0x910; // CStrongHandle<InfoForResourceTypeIMaterial2>
             }
+            // class CNavWalkable has zero fields
             // parent: CPointEntity
-            // field count: 0
-            namespace CNavWalkable {
-            }
             // parent: CBaseAnimGraph
             // field count: 27
             //
@@ -7712,10 +7534,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_angCatchUpToPlayerEye = 0xE80; // QAngle
                 constexpr std::ptrdiff_t m_flLastSpinDetectionTime = 0xE8C; // GameTime_t
             }
+            // class CEnvSoundscapeProxyAlias_snd_soundscape_proxy has zero fields
             // parent: CEnvSoundscapeProxy
-            // field count: 0
-            namespace CEnvSoundscapeProxyAlias_snd_soundscape_proxy {
-            }
             // parent: CBaseEntity
             // field count: 14
             //
@@ -7743,12 +7563,10 @@ namespace cs2_dumper {
             namespace CPulseCell_Inflow_Yield {
                 constexpr std::ptrdiff_t m_UnyieldResume = 0x48; // CPulse_ResumePoint
             }
+            // class CPulseMathlib has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CPulseMathlib {
-            }
             // parent: CPointEntity
             // field count: 3
             namespace CPhysImpact {
@@ -7842,10 +7660,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nBloodType = 0x4E4; // BloodType
                 constexpr std::ptrdiff_t m_pPulseGraphInstance = 0x4E8; // CPulseGraphInstance_ServerEntity*
             }
+            // class CPlayer_UseServices has zero fields
             // parent: CPlayerPawnComponent
-            // field count: 0
-            namespace CPlayer_UseServices {
-            }
             // parent: 
             // field count: 2
             //
@@ -7862,10 +7678,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_vRefPosWorldSpace = 0x830; // VectorWS
                 constexpr std::ptrdiff_t m_flRefDot = 0x83C; // float32
             }
+            // class CCSGO_TeamSelectCharacterPosition has zero fields
             // parent: CCSGO_TeamPreviewCharacterPosition
-            // field count: 0
-            namespace CCSGO_TeamSelectCharacterPosition {
-            }
             // parent: None
             // field count: 1
             namespace CPulseCell_Unknown {
@@ -7885,18 +7699,12 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_force = 0x4F8; // float32
                 constexpr std::ptrdiff_t m_axis = 0x4FC; // VectorWS
             }
+            // class CInfoInstructorHintTarget has zero fields
             // parent: CPointEntity
-            // field count: 0
-            namespace CInfoInstructorHintTarget {
-            }
+            // class CSpriteAlias_env_glow has zero fields
             // parent: CSprite
-            // field count: 0
-            namespace CSpriteAlias_env_glow {
-            }
+            // class CFireCrackerBlast has zero fields
             // parent: CInferno
-            // field count: 0
-            namespace CFireCrackerBlast {
-            }
             // parent: CBaseModelEntity
             // field count: 4
             //
@@ -7925,10 +7733,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flFogMaxEnd = 0x808; // float32
                 constexpr std::ptrdiff_t m_bEnabled = 0x80C; // bool
             }
+            // class CInfoSpawnGroupLandmark has zero fields
             // parent: CPointEntity
-            // field count: 0
-            namespace CInfoSpawnGroupLandmark {
-            }
             // parent: CPointEntity
             // field count: 12
             namespace CPointAngleSensor {
@@ -8096,10 +7902,8 @@ namespace cs2_dumper {
             namespace CLogicGameEvent {
                 constexpr std::ptrdiff_t m_iszEventName = 0x4F0; // CUtlSymbolLarge
             }
+            // class CPhysicsPropMultiplayer has zero fields
             // parent: CPhysicsProp
-            // field count: 0
-            namespace CPhysicsPropMultiplayer {
-            }
             // parent: CPointEntity
             // field count: 10
             namespace CPhysExplosion {
@@ -8142,10 +7946,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_OnNotEqualTo = 0x548; // CEntityOutputTemplate<float32>
                 constexpr std::ptrdiff_t m_OnGreaterThan = 0x570; // CEntityOutputTemplate<float32>
             }
+            // class CCSGameModeRules_Noop has zero fields
             // parent: None
-            // field count: 0
-            namespace CCSGameModeRules_Noop {
-            }
             // parent: None
             // field count: 4
             //
@@ -8210,10 +8012,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_iTotalCashSpent = 0x50; // int32
                 constexpr std::ptrdiff_t m_iCashSpentThisRound = 0x54; // int32
             }
+            // class CRuleBrushEntity has zero fields
             // parent: CRuleEntity
-            // field count: 0
-            namespace CRuleBrushEntity {
-            }
             // parent: CBaseEntity
             // field count: 24
             //
@@ -8274,23 +8074,17 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nRandomSeedOffset = 0x1F0; // int32
                 constexpr std::ptrdiff_t m_flLastTeleportTime = 0x1F4; // float32
             }
+            // class CFuncPropRespawnZone has zero fields
             // parent: CBaseEntity
-            // field count: 0
-            namespace CFuncPropRespawnZone {
-            }
             // parent: CBaseFilter
             // field count: 1
             namespace CFilterModel {
                 constexpr std::ptrdiff_t m_iFilterModel = 0x548; // CUtlSymbolLarge
             }
+            // class CWeaponP90 has zero fields
             // parent: CCSWeaponBaseGun
-            // field count: 0
-            namespace CWeaponP90 {
-            }
+            // class CNavSpaceInfo has zero fields
             // parent: CPointEntity
-            // field count: 0
-            namespace CNavSpaceInfo {
-            }
             // parent: CPhysConstraint
             // field count: 10
             namespace CPhysSlideConstraint {
@@ -8313,16 +8107,12 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_strGraphName = 0x4F8; // CUtlString
                 constexpr std::ptrdiff_t m_strStateBlob = 0x500; // CUtlString
             }
+            // class CSoundEventEntityAlias_snd_event_point has zero fields
             // parent: CSoundEventEntity
-            // field count: 0
-            namespace CSoundEventEntityAlias_snd_event_point {
-            }
+            // class CPulseCell_Value_RandomInt has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CPulseCell_Value_RandomInt {
-            }
             // parent: CPointEntity
             // field count: 2
             namespace CPointGamestatsCounter {
@@ -8410,10 +8200,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_fFireTime = 0x11F0; // GameTime_t
                 constexpr std::ptrdiff_t m_nLastAttackTick = 0x11F4; // int32
             }
+            // class CEnvCubemapBox has zero fields
             // parent: CEnvCubemap
-            // field count: 0
-            namespace CEnvCubemapBox {
-            }
             // parent: CBaseDoor
             // field count: 1
             namespace CRotDoor {
@@ -8458,14 +8246,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_pathString = 0x5F0; // CUtlString
                 constexpr std::ptrdiff_t m_bClosedLoop = 0x5F8; // bool
             }
+            // class CPathParticleRopeAlias_path_particle_rope_clientside has zero fields
             // parent: CPathParticleRope
-            // field count: 0
-            namespace CPathParticleRopeAlias_path_particle_rope_clientside {
-            }
+            // class CCSPointPulseAPI has zero fields
             // parent: None
-            // field count: 0
-            namespace CCSPointPulseAPI {
-            }
             // parent: CBaseEntity
             // field count: 9
             //
@@ -8491,10 +8275,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_EffectZapName = 0x808; // CUtlSymbolLarge
                 constexpr std::ptrdiff_t m_iszEffectSource = 0x810; // CUtlSymbolLarge
             }
+            // class CCSMinimapBoundary has zero fields
             // parent: CBaseEntity
-            // field count: 0
-            namespace CCSMinimapBoundary {
-            }
             // parent: None
             // field count: 2
             //
@@ -8615,10 +8397,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_Duration = 0x7DC; // float32
                 constexpr std::ptrdiff_t m_HoldTime = 0x7E0; // float32
             }
+            // class CTriggerBombReset has zero fields
             // parent: CBaseTrigger
-            // field count: 0
-            namespace CTriggerBombReset {
-            }
             // parent: CBaseTrigger
             // field count: 14
             namespace CTriggerHurt {
@@ -8670,31 +8450,21 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_iBombSite = 0x144; // int32
                 constexpr std::ptrdiff_t m_hBombPlanter = 0x148; // CHandle<CCSPlayerPawn>
             }
+            // class CEnvSoundscapeTriggerableAlias_snd_soundscape_triggerable has zero fields
             // parent: CEnvSoundscapeTriggerable
-            // field count: 0
-            namespace CEnvSoundscapeTriggerableAlias_snd_soundscape_triggerable {
-            }
+            // class CInfoInstructorHintBombTargetA has zero fields
             // parent: CPointEntity
-            // field count: 0
-            namespace CInfoInstructorHintBombTargetA {
-            }
+            // class CTeamplayRules has zero fields
             // parent: None
-            // field count: 0
-            namespace CTeamplayRules {
-            }
             // parent: CTriggerHurt
             // field count: 1
             namespace CScriptTriggerHurt {
                 constexpr std::ptrdiff_t m_vExtent = 0xA48; // Vector
             }
+            // class CCSGO_WingmanIntroCharacterPosition has zero fields
             // parent: CCSGO_TeamIntroCharacterPosition
-            // field count: 0
-            namespace CCSGO_WingmanIntroCharacterPosition {
-            }
+            // class CWeaponMP9 has zero fields
             // parent: CCSWeaponBaseGun
-            // field count: 0
-            namespace CWeaponMP9 {
-            }
             // parent: CBaseTrigger
             // field count: 1
             namespace CTriggerDetectExplosion {
@@ -8768,10 +8538,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nSrcChunk = 0x4C; // PulseRuntimeChunkIndex_t
                 constexpr std::ptrdiff_t m_nSrcInstruction = 0x50; // int32
             }
+            // class CFuncMoveLinearAlias_momentary_door has zero fields
             // parent: CFuncMoveLinear
-            // field count: 0
-            namespace CFuncMoveLinearAlias_momentary_door {
-            }
             // parent: CBaseModelEntity
             // field count: 12
             //
@@ -8858,10 +8626,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_isChaining = 0xA61; // bool
                 constexpr std::ptrdiff_t m_bIsUsable = 0xA62; // bool
             }
+            // class CServerOnlyPointEntity has zero fields
             // parent: CServerOnlyEntity
-            // field count: 0
-            namespace CServerOnlyPointEntity {
-            }
             // parent: CRulePointEntity
             // field count: 4
             namespace CGameMoney {
@@ -8875,14 +8641,10 @@ namespace cs2_dumper {
             namespace CEnvHudHint {
                 constexpr std::ptrdiff_t m_iszMessage = 0x4F0; // CUtlSymbolLarge
             }
+            // class CNullEntity has zero fields
             // parent: CBaseEntity
-            // field count: 0
-            namespace CNullEntity {
-            }
+            // class CLogicalEntity has zero fields
             // parent: CServerOnlyEntity
-            // field count: 0
-            namespace CLogicalEntity {
-            }
             // parent: CItem
             // field count: 2
             namespace CItemDefuser {
@@ -9019,10 +8781,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_iszHintTargetEntity = 0x4F8; // CUtlSymbolLarge
                 constexpr std::ptrdiff_t m_hTargetPlayer = 0x500; // CHandle<CBasePlayerPawn>
             }
+            // class CWeaponTec9 has zero fields
             // parent: CCSWeaponBaseGun
-            // field count: 0
-            namespace CWeaponTec9 {
-            }
             // parent: CPointEntity
             // field count: 3
             namespace CPathCorner {
@@ -9135,10 +8895,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_TiltTime = 0x4F8; // float32
                 constexpr std::ptrdiff_t m_stopTime = 0x4FC; // GameTime_t
             }
+            // class CEnvSoundscapeTriggerable has zero fields
             // parent: CEnvSoundscape
-            // field count: 0
-            namespace CEnvSoundscapeTriggerable {
-            }
             // parent: CBaseModelEntity
             // field count: 68
             namespace CFuncMover {
@@ -9283,10 +9041,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_worldGroupId = 0x4F0; // WorldGroupId_t
                 constexpr std::ptrdiff_t m_hSkyCamera = 0x4F4; // CHandle<CSkyCamera>
             }
+            // class CPointPulse has zero fields
             // parent: CBaseEntity
-            // field count: 0
-            namespace CPointPulse {
-            }
             // parent: CBaseCSGrenadeProjectile
             // field count: 4
             //
@@ -9302,10 +9058,8 @@ namespace cs2_dumper {
             namespace CFilterClass {
                 constexpr std::ptrdiff_t m_iFilterClass = 0x548; // CUtlSymbolLarge
             }
+            // class CTriggerToggleSave has zero fields
             // parent: CBaseTrigger
-            // field count: 0
-            namespace CTriggerToggleSave {
-            }
             // parent: CBaseEntity
             // field count: 17
             //
@@ -9337,10 +9091,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_currentDamageState = 0x1094; // int32
                 constexpr std::ptrdiff_t m_damageStates = 0x1098; // CUtlVector<CUtlSymbolLarge>
             }
+            // class CLightDirectionalEntity has zero fields
             // parent: CLightEntity
-            // field count: 0
-            namespace CLightDirectionalEntity {
-            }
             // parent: CBaseModelEntity
             // field count: 14
             //
@@ -9382,10 +9134,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_hPhysicsAttacker = 0x8A4; // CHandle<CBasePlayerPawn>
                 constexpr std::ptrdiff_t m_flLastPhysicsInfluenceTime = 0x8A8; // GameTime_t
             }
+            // class CInfoLandmark has zero fields
             // parent: CPointEntity
-            // field count: 0
-            namespace CInfoLandmark {
-            }
             // parent: CLogicalEntity
             // field count: 3
             namespace CBaseFilter {
@@ -9563,10 +9313,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_hSource = 0x5AC; // CEntityHandle
                 constexpr std::ptrdiff_t m_nEntityIndexSelection = 0x5B0; // int32
             }
+            // class CInfoPlayerCounterterrorist has zero fields
             // parent: SpawnPoint
-            // field count: 0
-            namespace CInfoPlayerCounterterrorist {
-            }
             // parent: CLogicalEntity
             // field count: 4
             //
@@ -9621,16 +9369,12 @@ namespace cs2_dumper {
             namespace CPulseCell_CursorQueue {
                 constexpr std::ptrdiff_t m_nCursorsAllowedToRunParallel = 0x98; // int32
             }
+            // class CPulseCell_Value_RandomFloat has zero fields
             // parent: None
-            // field count: 0
             //
             // metadata: [REMOVED]
-            namespace CPulseCell_Value_RandomFloat {
-            }
+            // class CPulseExecCursor has zero fields
             // parent: None
-            // field count: 0
-            namespace CPulseExecCursor {
-            }
             // parent: CDynamicProp
             // field count: 38
             //
@@ -9690,10 +9434,8 @@ namespace cs2_dumper {
             namespace CBtActionParachutePositioning {
                 constexpr std::ptrdiff_t m_ActionTimer = 0x58; // CountdownTimer
             }
+            // class CAK47 has zero fields
             // parent: CCSWeaponBaseGun
-            // field count: 0
-            namespace CAK47 {
-            }
             // parent: CBreakableProp
             // field count: 22
             //
@@ -9722,10 +9464,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_glowColor = 0xD48; // Color
                 constexpr std::ptrdiff_t m_nGlowTeam = 0xD4C; // int32
             }
+            // class CHostageAlias_info_hostage_spawn has zero fields
             // parent: CHostage
-            // field count: 0
-            namespace CHostageAlias_info_hostage_spawn {
-            }
             // parent: CBaseFilter
             // field count: 1
             namespace CFilterTeam {
@@ -9765,10 +9505,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_vecLinearForceDirection = 0x9F4; // Vector
                 constexpr std::ptrdiff_t m_bConvertToDebrisWhenPossible = 0xA00; // bool
             }
+            // class CInfoInstructorHintBombTargetB has zero fields
             // parent: CPointEntity
-            // field count: 0
-            namespace CInfoInstructorHintBombTargetB {
-            }
             // parent: CBaseEntity
             // field count: 5
             namespace CFuncTimescale {
@@ -9842,18 +9580,12 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_vPathingDirection = 0x694; // Vector
                 constexpr std::ptrdiff_t m_nPathingSourceIndex = 0x6A0; // int32
             }
+            // class CInfoTargetServerOnly has zero fields
             // parent: CServerOnlyPointEntity
-            // field count: 0
-            namespace CInfoTargetServerOnly {
-            }
+            // class CServerRagdollTrigger has zero fields
             // parent: CBaseTrigger
-            // field count: 0
-            namespace CServerRagdollTrigger {
-            }
+            // class CDynamicPropAlias_dynamic_prop has zero fields
             // parent: CDynamicProp
-            // field count: 0
-            namespace CDynamicPropAlias_dynamic_prop {
-            }
             // parent: CMarkupVolume
             // field count: 7
             namespace CMarkupVolumeTagged {
@@ -9865,10 +9597,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bGroupOtherGroups = 0x813; // bool
                 constexpr std::ptrdiff_t m_bIsInGroup = 0x814; // bool
             }
+            // class CInfoParticleTarget has zero fields
             // parent: CPointEntity
-            // field count: 0
-            namespace CInfoParticleTarget {
-            }
             // parent: CBaseEntity
             // field count: 18
             //
@@ -9893,14 +9623,10 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_Entity_bCopyDiffuseFromDefaultCubemap = 0x5C0; // bool
                 constexpr std::ptrdiff_t m_Entity_bEnabled = 0x5D0; // bool
             }
+            // class CCSPlayer_DamageReactServices has zero fields
             // parent: CPlayerPawnComponent
-            // field count: 0
-            namespace CCSPlayer_DamageReactServices {
-            }
+            // class CWeaponXM1014 has zero fields
             // parent: CCSWeaponBaseShotgun
-            // field count: 0
-            namespace CWeaponXM1014 {
-            }
             // parent: CBaseTrigger
             // field count: 15
             namespace CTriggerLerpObject {
@@ -9920,10 +9646,8 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_OnLerpFinished = 0xA28; // CEntityIOOutput
                 constexpr std::ptrdiff_t m_OnDetached = 0xA50; // CEntityIOOutput
             }
+            // class CPhysicsPropOverride has zero fields
             // parent: CPhysicsProp
-            // field count: 0
-            namespace CPhysicsPropOverride {
-            }
             // parent: CBaseTrigger
             // field count: 3
             namespace CTriggerSave {
