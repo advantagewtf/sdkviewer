@@ -1,10 +1,13 @@
 # sdkviewer
-Constantly updated cs2 offsets (faster than a2x)
+The best SDK viewer repository with insanely fast updates.
+### why this is better than other repos
+I am completely honest about updates and if something is broken. I am also very active in the community meaning I can update fast. This repo isn't community run meaning no worries of any suspicous code being run on your pc. Everything here right now is based off of my old projects or is completely new.
+
 ### Goals
 - ~~5 stars: release binary of the dumper~~ Under the Releases tab!
 - 10 stars: auto offset searcher (it gives updated offsets based on the ones you gave it)
-- 15 stars: auto schema and sdk dumpers. 
-- 20 stars: release source of everything
+- 15 stars: auto schema and sdk dumpers.
+- 25 stars: release source of everything (including my very own internal cheat)
 
 ### explanation
 > the dumped zips are  `generated_latest` `schema_latest` and `type_dump`
