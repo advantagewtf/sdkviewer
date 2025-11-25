@@ -1,5 +1,5 @@
 //  dumped by https://moonlightrblx.github.io/sdkviewer
-// timestamp: 2025-11-24 16:59:37.846437100 UTC
+// timestamp: 2025-11-25 21:46:20.961654900 UTC
 
 #pragma once
 
@@ -15,11 +15,11 @@ namespace dump {
         // module: client.dll
         namespace client_dll {
             constexpr std::ptrdiff_t ClientToolsInfo_001 = 0x1BE5BB0;
-            constexpr std::ptrdiff_t EmptyWorldService001_Client = 0x1BA0FB0;
+            constexpr std::ptrdiff_t EmptyWorldService001_Client = 0x1BA0FA0;
             constexpr std::ptrdiff_t GameClientExports001 = 0x1BE2890;
             constexpr std::ptrdiff_t LegacyGameUI001 = 0x1C01130;
-            constexpr std::ptrdiff_t Source2Client002 = 0x1E2A570;
-            constexpr std::ptrdiff_t Source2ClientConfig001 = 0x1DC3DD0;
+            constexpr std::ptrdiff_t Source2Client002 = 0x1E2A5F0;
+            constexpr std::ptrdiff_t Source2ClientConfig001 = 0x1DC3E50;
             constexpr std::ptrdiff_t Source2ClientPrediction001 = 0x1BECE50;
             constexpr std::ptrdiff_t Source2ClientUI001 = 0x1BFF670;
         }
@@ -129,7 +129,7 @@ namespace dump {
         }
         // module: particles.dll
         namespace particles_dll {
-            constexpr std::ptrdiff_t ParticleSystemMgr003 = 0x555680;
+            constexpr std::ptrdiff_t ParticleSystemMgr003 = 0x555660;
         }
         // module: pulse_system.dll
         namespace pulse_system_dll {
@@ -153,7 +153,7 @@ namespace dump {
         // module: scenesystem.dll
         namespace scenesystem_dll {
             constexpr std::ptrdiff_t RenderingPipelines_001 = 0x61BB40;
-            constexpr std::ptrdiff_t SceneSystem_002 = 0x83E7D0;
+            constexpr std::ptrdiff_t SceneSystem_002 = 0x83E790;
             constexpr std::ptrdiff_t SceneUtils_001 = 0x61C440;
         }
         // module: schemasystem.dll
@@ -163,7 +163,7 @@ namespace dump {
         // module: server.dll
         namespace server_dll {
             constexpr std::ptrdiff_t EmptyWorldService001_Server = 0x1732FA0;
-            constexpr std::ptrdiff_t EntitySubclassUtilsV001 = 0x16DF2D0;
+            constexpr std::ptrdiff_t EntitySubclassUtilsV001 = 0x16DF2C0;
             constexpr std::ptrdiff_t NavGameTest001 = 0x17DBD10;
             constexpr std::ptrdiff_t ServerToolsInfo_001 = 0x178B1A8;
             constexpr std::ptrdiff_t Source2GameClients001 = 0x1786AF0;

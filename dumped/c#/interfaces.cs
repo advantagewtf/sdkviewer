@@ -1,5 +1,5 @@
 //  dumped by https://moonlightrblx.github.io/sdkviewer
-// timestamp: 2025-11-24 16:59:37.846437100 UTC
+// timestamp: 2025-11-25 21:46:20.961654900 UTC
 
 namespace CS2Dumper.Interfaces {
     // module: animationsystem.dll
@@ -10,11 +10,11 @@ namespace CS2Dumper.Interfaces {
     // module: client.dll
     public static class ClientDll {
         public const nint ClientToolsInfo_001 = 0x1BE5BB0;
-        public const nint EmptyWorldService001_Client = 0x1BA0FB0;
+        public const nint EmptyWorldService001_Client = 0x1BA0FA0;
         public const nint GameClientExports001 = 0x1BE2890;
         public const nint LegacyGameUI001 = 0x1C01130;
-        public const nint Source2Client002 = 0x1E2A570;
-        public const nint Source2ClientConfig001 = 0x1DC3DD0;
+        public const nint Source2Client002 = 0x1E2A5F0;
+        public const nint Source2ClientConfig001 = 0x1DC3E50;
         public const nint Source2ClientPrediction001 = 0x1BECE50;
         public const nint Source2ClientUI001 = 0x1BFF670;
     }
@@ -124,7 +124,7 @@ namespace CS2Dumper.Interfaces {
     }
     // module: particles.dll
     public static class ParticlesDll {
-        public const nint ParticleSystemMgr003 = 0x555680;
+        public const nint ParticleSystemMgr003 = 0x555660;
     }
     // module: pulse_system.dll
     public static class PulseSystemDll {
@@ -148,7 +148,7 @@ namespace CS2Dumper.Interfaces {
     // module: scenesystem.dll
     public static class ScenesystemDll {
         public const nint RenderingPipelines_001 = 0x61BB40;
-        public const nint SceneSystem_002 = 0x83E7D0;
+        public const nint SceneSystem_002 = 0x83E790;
         public const nint SceneUtils_001 = 0x61C440;
     }
     // module: schemasystem.dll
@@ -158,7 +158,7 @@ namespace CS2Dumper.Interfaces {
     // module: server.dll
     public static class ServerDll {
         public const nint EmptyWorldService001_Server = 0x1732FA0;
-        public const nint EntitySubclassUtilsV001 = 0x16DF2D0;
+        public const nint EntitySubclassUtilsV001 = 0x16DF2C0;
         public const nint NavGameTest001 = 0x17DBD10;
         public const nint ServerToolsInfo_001 = 0x178B1A8;
         public const nint Source2GameClients001 = 0x1786AF0;

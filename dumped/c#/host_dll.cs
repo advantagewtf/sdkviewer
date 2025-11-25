@@ -1,5 +1,5 @@
 //  dumped by https://moonlightrblx.github.io/sdkviewer
-// timestamp: 2025-11-24 16:59:37.846437100 UTC
+// timestamp: 2025-11-25 21:46:20.961654900 UTC
 
 namespace CS2Dumper.Schemas {
     // module: host.dll
