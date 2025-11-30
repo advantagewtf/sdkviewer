@@ -1,5 +1,5 @@
 //  dumped by https://moonlightrblx.github.io/sdkviewer
-// timestamp: 2025-11-25 21:46:20.961654900 UTC
+// timestamp: 2025-11-30 04:08:05.545817600 UTC
 
 namespace CS2Dumper.Schemas {
     // module: networksystem.dll
