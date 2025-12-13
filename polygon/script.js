@@ -15,8 +15,8 @@ async function loadData() {
 
     try {
         const [sdkRes, globalsRes] = await Promise.all([
-            fetch('/sdk'),
-            fetch('/globals')
+            fetch('/Data/sdk_data.json'),
+            fetch('/Data/globals.json')
         ]);
 
         if (sdkRes.ok) {
