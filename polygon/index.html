@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Moonlight SDK</title>
+    <script src="https://cdn.jsdelivr.net/npm/lucide@latest/dist/umd/lucide.min.js"></script>
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <div class="logo">
+        <i data-lucide="moon"></i>
+        <span id="header-title">Moonlight SDK</span>
+    </div>
+</header>
+<div class="container">
+    <div class="sidebar">
+        <input type="text" id="search" placeholder="Search classes or globals...">
+        <div class="sidebar-tabs">
+            <button id="classes-tab" class="active"><i data-lucide="boxes"></i> Classes</button>
+            <button id="globals-tab"><i data-lucide="globe"></i> Globals</button>
+        </div>
+        <ul id="class-list"><li class="loading">Loading classes...</li></ul>
+        <ul id="globals-list" style="display:none;"></ul>
+    </div>
+    <div class="main">
+        <div class="breadcrumbs">SDK / <span id="current-item">Loading...</span></div>
+        <div class="title" id="item-title">Moonlight SDK <span class="version" id="version-badge">Loading...</span></div>
+        <div id="inheritance" class="inheritance"></div>
+        <div class="tabs">
+            <!-- Classes Tabs -->
+            <div class="tab active" data-mode="classes" data-tab="overview"><i data-lucide="layout-grid"></i> Overview</div>
+            <div class="tab" data-mode="classes" data-tab="structure"><i data-lucide="code"></i> Structure</div>
+            <!-- Globals Tabs -->
+            <div class="tab" data-mode="globals" data-tab="structs" style="display:none;"><i data-lucide="layers"></i> Offsets</div>
+            <div class="tab" data-mode="globals" data-tab="functions" style="display:none;"><i data-lucide="zap"></i> Functions</div>
+            <div class="tab" data-mode="globals" data-tab="offsets" style="display:none;"><i data-lucide="folder-open"></i> Global Structs</div>
+        </div>
+        <div id="overview" class="tab-content active"><div class="loading">Loading data...</div></div>
+        <div id="structure" class="tab-content"></div>
+        <div class="notes" id="notes"></div>
+    </div>
+</div>
+<footer>
+    Moonlight SDK Viewer • Generated from Elli's private dumper • Credits: paysonism
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
