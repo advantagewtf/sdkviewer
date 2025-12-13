@@ -15,8 +15,8 @@ async function loadData() {
 
     try {
         const [sdkRes, globalsRes] = await Promise.all([
-            fetch('polygon/Data/sdk_data.json'),
-            fetch('polygon/Data/globals.json')
+            fetch('https://moonlightrblx.github.io/sdkviewer/polygon/Data/sdk_data.json'),
+            fetch('https://moonlightrblx.github.io/sdkviewer/polygon/Data/globals.json')
         ]);
 
         if (sdkRes.ok) {
