@@ -15,8 +15,8 @@ async function loadData() {
 
     try {
         const [sdkRes, globalsRes] = await Promise.all([
-            fetch('/Data/sdk_data.json'),
-            fetch('/Data/globals.json')
+            fetch('polygon/Data/sdk_data.json'),
+            fetch('polygon/Data/globals.json')
         ]);
 
         if (sdkRes.ok) {
