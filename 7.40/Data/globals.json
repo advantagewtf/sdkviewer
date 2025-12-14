@@ -1,0 +1,36 @@
+{
+  "bases": {
+    "UWorld": "0x05BAADB0",
+    "GNames": "0x00000000",
+    "GObjects": "0x05ABC2E0"
+  },
+  "offsets": {
+    "UObject": {
+      "Class": "0x10",
+      "Name": "0x18",
+      "Outer": "0x20"
+    },
+    "UClass": {
+      "DefaultObject": "0x110",
+      "CastFlags": "0xD8"
+    },
+    "FName": {
+      "Number": "0x4"
+    },
+    "FString": {
+      "Length": "0x10",
+      "MaxLength": "0x14"
+    },
+    "TArray": {
+      "Count": "0x8",
+      "Max": "0xC"
+    }
+  },
+  "functions": {
+    "ProcessEvent": "0x01AEF990",
+    "AppendString": "0x01940580"
+  },
+  "version": "4.22.0-4727874+++Fortnite+Release-7.20",
+  "notes": "generated from clddumper",
+  "last_updated": "12/14/25"
+}
