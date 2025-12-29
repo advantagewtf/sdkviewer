@@ -1,5 +1,5 @@
 //  dumped by https://moonlightrblx.github.io/sdkviewer
-// timestamp: 2025-11-30 04:08:05.545817600 UTC
+// timestamp: 2025-12-29 16:17:48.437558900 UTC
 
 namespace CS2Dumper.Schemas {
     // module: worldrenderer.dll

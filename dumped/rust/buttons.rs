@@ -1,26 +1,26 @@
 //  dumped by https://moonlightrblx.github.io/sdkviewer
-// timestamp: 2025-11-30 04:08:05.545817600 UTC
+// timestamp: 2025-12-29 16:17:48.437558900 UTC
 
 #![allow(non_upper_case_globals, unused)]
 
 pub mod cs2_dumper {
     // Module: client.dll
     pub mod buttons {
-        pub const attack: usize = 0x1BE63A0;
-        pub const attack2: usize = 0x1BE6430;
-        pub const back: usize = 0x1BE6670;
-        pub const duck: usize = 0x1BE6940;
-        pub const forward: usize = 0x1BE65E0;
-        pub const jump: usize = 0x1BE68B0;
-        pub const left: usize = 0x1BE6700;
-        pub const lookatweapon: usize = 0x1E3A0F0;
-        pub const reload: usize = 0x1BE6310;
-        pub const right: usize = 0x1BE6790;
-        pub const showscores: usize = 0x1E39FD0;
-        pub const sprint: usize = 0x1BE6280;
-        pub const turnleft: usize = 0x1BE64C0;
-        pub const turnright: usize = 0x1BE6550;
-        pub const r#use: usize = 0x1BE6820;
-        pub const zoom: usize = 0x1E3A060;
+        pub const attack: usize = 0x1BE83A0;
+        pub const attack2: usize = 0x1BE8430;
+        pub const back: usize = 0x1BE8670;
+        pub const duck: usize = 0x1BE8940;
+        pub const forward: usize = 0x1BE85E0;
+        pub const jump: usize = 0x1BE88B0;
+        pub const left: usize = 0x1BE8700;
+        pub const lookatweapon: usize = 0x1E3C070;
+        pub const reload: usize = 0x1BE8310;
+        pub const right: usize = 0x1BE8790;
+        pub const showscores: usize = 0x1E3BF50;
+        pub const sprint: usize = 0x1BE8280;
+        pub const turnleft: usize = 0x1BE84C0;
+        pub const turnright: usize = 0x1BE8550;
+        pub const r#use: usize = 0x1BE8820;
+        pub const zoom: usize = 0x1E3BFE0;
     }
 }

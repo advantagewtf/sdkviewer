@@ -1,5 +1,5 @@
 //  dumped by https://moonlightrblx.github.io/sdkviewer
-// timestamp: 2025-11-30 04:08:05.545817600 UTC
+// timestamp: 2025-12-29 16:17:48.437558900 UTC
 
 #pragma once
 
@@ -8,21 +8,21 @@
 namespace dump {
     // Module: client.dll
     namespace buttons {
-        constexpr std::ptrdiff_t attack = 0x1BE63A0;
-        constexpr std::ptrdiff_t attack2 = 0x1BE6430;
-        constexpr std::ptrdiff_t back = 0x1BE6670;
-        constexpr std::ptrdiff_t duck = 0x1BE6940;
-        constexpr std::ptrdiff_t forward = 0x1BE65E0;
-        constexpr std::ptrdiff_t jump = 0x1BE68B0;
-        constexpr std::ptrdiff_t left = 0x1BE6700;
-        constexpr std::ptrdiff_t lookatweapon = 0x1E3A0F0;
-        constexpr std::ptrdiff_t reload = 0x1BE6310;
-        constexpr std::ptrdiff_t right = 0x1BE6790;
-        constexpr std::ptrdiff_t showscores = 0x1E39FD0;
-        constexpr std::ptrdiff_t sprint = 0x1BE6280;
-        constexpr std::ptrdiff_t turnleft = 0x1BE64C0;
-        constexpr std::ptrdiff_t turnright = 0x1BE6550;
-        constexpr std::ptrdiff_t use = 0x1BE6820;
-        constexpr std::ptrdiff_t zoom = 0x1E3A060;
+        constexpr std::ptrdiff_t attack = 0x1BE83A0;
+        constexpr std::ptrdiff_t attack2 = 0x1BE8430;
+        constexpr std::ptrdiff_t back = 0x1BE8670;
+        constexpr std::ptrdiff_t duck = 0x1BE8940;
+        constexpr std::ptrdiff_t forward = 0x1BE85E0;
+        constexpr std::ptrdiff_t jump = 0x1BE88B0;
+        constexpr std::ptrdiff_t left = 0x1BE8700;
+        constexpr std::ptrdiff_t lookatweapon = 0x1E3C070;
+        constexpr std::ptrdiff_t reload = 0x1BE8310;
+        constexpr std::ptrdiff_t right = 0x1BE8790;
+        constexpr std::ptrdiff_t showscores = 0x1E3BF50;
+        constexpr std::ptrdiff_t sprint = 0x1BE8280;
+        constexpr std::ptrdiff_t turnleft = 0x1BE84C0;
+        constexpr std::ptrdiff_t turnright = 0x1BE8550;
+        constexpr std::ptrdiff_t use = 0x1BE8820;
+        constexpr std::ptrdiff_t zoom = 0x1E3BFE0;
     }
 }

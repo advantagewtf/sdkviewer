@@ -1,24 +1,24 @@
 //  dumped by https://moonlightrblx.github.io/sdkviewer
-// timestamp: 2025-11-30 04:08:05.545817600 UTC
+// timestamp: 2025-12-29 16:17:48.437558900 UTC
 
 namespace CS2Dumper {
     // Module: client.dll
     public static class Buttons {
-        public const nint attack = 0x1BE63A0;
-        public const nint attack2 = 0x1BE6430;
-        public const nint back = 0x1BE6670;
-        public const nint duck = 0x1BE6940;
-        public const nint forward = 0x1BE65E0;
-        public const nint jump = 0x1BE68B0;
-        public const nint left = 0x1BE6700;
-        public const nint lookatweapon = 0x1E3A0F0;
-        public const nint reload = 0x1BE6310;
-        public const nint right = 0x1BE6790;
-        public const nint showscores = 0x1E39FD0;
-        public const nint sprint = 0x1BE6280;
-        public const nint turnleft = 0x1BE64C0;
-        public const nint turnright = 0x1BE6550;
-        public const nint use = 0x1BE6820;
-        public const nint zoom = 0x1E3A060;
+        public const nint attack = 0x1BE83A0;
+        public const nint attack2 = 0x1BE8430;
+        public const nint back = 0x1BE8670;
+        public const nint duck = 0x1BE8940;
+        public const nint forward = 0x1BE85E0;
+        public const nint jump = 0x1BE88B0;
+        public const nint left = 0x1BE8700;
+        public const nint lookatweapon = 0x1E3C070;
+        public const nint reload = 0x1BE8310;
+        public const nint right = 0x1BE8790;
+        public const nint showscores = 0x1E3BF50;
+        public const nint sprint = 0x1BE8280;
+        public const nint turnleft = 0x1BE84C0;
+        public const nint turnright = 0x1BE8550;
+        public const nint use = 0x1BE8820;
+        public const nint zoom = 0x1E3BFE0;
     }
 }
