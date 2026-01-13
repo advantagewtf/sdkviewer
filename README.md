@@ -6,6 +6,7 @@ I am completely honest about updates and if something is broken. I am also very 
 ### Goals
 - ~~5 stars: release binary of the dumper~~ Under the Releases tab!
 - 10 stars: auto offset searcher (it gives updated offsets based on the ones you gave it)
+I'll release this after my school today :D
 - 15 stars: auto schema and sdk dumpers.
 - 20 stars: c++ auto update offsets (easier than using json library and is very customizeable in your format)
 - 30 stars: release source of everything (including my very own internal cheat)
