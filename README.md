@@ -23,6 +23,6 @@ all type classes.
 
 some more information on cs2 structs and types goto `information.md`
 ### sdk viewer is available at https://moonlightrblx.github.io/sdkviewer
-### fortnite 7.40 sdk https://moonlightrblx.github.io/sdkviewer/7.40
+### ~~fortnite 7.40 sdk https://moonlightrblx.github.io/sdkviewer/7.40~~ removed
 ### polygon sdk https://moonlightrblx.github.io/sdkviewer/polygon
 ### more coming soon.
