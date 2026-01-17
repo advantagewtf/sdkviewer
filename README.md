@@ -5,7 +5,9 @@
   [![GitHub Stars](https://img.shields.io/github/stars/moonlightrblx/sdkviewer?style=flat&color=yellow)](https://github.com/moonlightrblx/sdkviewer/stargazers)
   
 </div>
+
 The best SDK viewer repository with insanely fast updates.
+
 ### why this is better than other repos
 I am completely honest about updates and if something is broken. I am also very active in the community meaning I can update fast. This repo isn't community run meaning no worries of any suspicous code being run on your pc. Everything here right now is based off of my old projects or is completely new.
 
