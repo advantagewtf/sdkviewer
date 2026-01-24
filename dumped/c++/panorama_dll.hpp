@@ -1,19 +1,18 @@
-//  dumped by https://moonlightrblx.github.io/sdkviewer
-// timestamp: 2026-01-15 02:29:03.193819400 UTC
+// Generated using https://github.com/a2x/cs2-dumper
+// 2026-01-24 20:15:23.524144100 UTC
 
 #pragma once
 
 #include <cstddef>
 
-namespace dump {
-    namespace offsets {
+namespace sdkviewer {
+    namespace schemas {
         // module: panorama.dll
-        // class count: 0
-        // enum count: 2
+        // Class count: 0
+        // Enum count: 2
         namespace panorama_dll {
-            // alignment: 4
+            // Alignment: 4
             // member count: 13
-            // underlying type: uint32_t
             enum class ELayoutNodeType : uint32_t {
                 ROOT = 0x0,
                 STYLES = 0x1,
@@ -29,9 +28,8 @@ namespace dump {
                 REFERENCE_COMPILED = 0xB,
                 REFERENCE_PASSTHROUGH = 0xC
             };
-            // alignment: 4
+            // Alignment: 4
             // member count: 17
-            // underlying type: uint32_t
             enum class EStyleNodeType : uint32_t {
                 ROOT = 0x0,
                 EXPRESSION = 0x1,

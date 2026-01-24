@@ -1,15 +1,15 @@
-//  dumped by https://moonlightrblx.github.io/sdkviewer
-// timestamp: 2026-01-15 02:29:03.193819400 UTC
+// Generated using https://github.com/a2x/cs2-dumper
+// 2026-01-24 20:15:23.524144100 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
-pub mod cs2_dumper {
+pub mod sdkviewer {
     pub mod schemas {
         // module: networksystem.dll
-        // class count: 1
-        // enum count: 1
+        // Class count: 0
+        // Enum count: 1
         pub mod networksystem_dll {
-            // alignment: 4
+            // Alignment: 4
             // member count: 4
             #[repr(u32)]
             pub enum OutOfPVSUpdates_t {
@@ -17,11 +17,6 @@ pub mod cs2_dumper {
                 OOPVSUpdates_OptIn = 0x1,
                 OOPVSUpdates_Default = 0x2,
                 OOPVSUpdates_Count = 0x3
-            }
-            // parent: None
-            // field count: 1
-            pub mod ChangeAccessorFieldPathIndex_t {
-                pub const m_Value: usize = 0x0; // int32
             }
         }
     }

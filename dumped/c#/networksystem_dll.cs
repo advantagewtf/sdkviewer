@@ -1,23 +1,18 @@
-//  dumped by https://moonlightrblx.github.io/sdkviewer
-// timestamp: 2026-01-15 02:29:03.193819400 UTC
+// Generated using https://github.com/a2x/cs2-dumper
+// 2026-01-24 20:15:23.524144100 UTC
 
-namespace CS2Dumper.Schemas {
+namespace sdkviewer.Schemas {
     // module: networksystem.dll
-    // class count: 1
-    // enum count: 1
+    // Class count: 0
+    // Enum count: 1
     public static class NetworksystemDll {
-        // alignment: 4
+        // Alignment: 4
         // member count: 4
         public enum OutOfPVSUpdates_t : uint {
             OOPVSUpdates_OptOut = 0x0,
             OOPVSUpdates_OptIn = 0x1,
             OOPVSUpdates_Default = 0x2,
             OOPVSUpdates_Count = 0x3
-        }
-        // parent: None
-        // field count: 1
-        public static class ChangeAccessorFieldPathIndex_t {
-            public const nint m_Value = 0x0; // int32
         }
     }
 }

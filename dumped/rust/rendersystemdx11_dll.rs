@@ -1,15 +1,15 @@
-//  dumped by https://moonlightrblx.github.io/sdkviewer
-// timestamp: 2026-01-15 02:29:03.193819400 UTC
+// Generated using https://github.com/a2x/cs2-dumper
+// 2026-01-24 20:15:23.524144100 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
-pub mod cs2_dumper {
+pub mod sdkviewer {
     pub mod schemas {
         // module: rendersystemdx11.dll
-        // class count: 8
-        // enum count: 8
+        // Class count: 0
+        // Enum count: 8
         pub mod rendersystemdx11_dll {
-            // alignment: 4
+            // Alignment: 4
             // member count: 14
             #[repr(u32)]
             pub enum RenderPrimitiveType_t {
@@ -28,7 +28,7 @@ pub mod cs2_dumper {
                 RENDER_PRIM_MESH_SHADER = 0xC,
                 RENDER_PRIM_TYPE_COUNT = 0xD
             }
-            // alignment: 4
+            // Alignment: 4
             // member count: 13
             #[repr(u32)]
             pub enum RenderBufferFlags_t {
@@ -46,7 +46,7 @@ pub mod cs2_dumper {
                 RENDER_BUFFER_USAGE_CONDITIONAL_RENDERING = 0x1000,
                 RENDER_BUFFER_IMMOVABLE_ALLOCATION = 0x2000
             }
-            // alignment: 1
+            // Alignment: 1
             // member count: 3
             #[repr(u8)]
             pub enum RsCullMode_t {
@@ -54,7 +54,7 @@ pub mod cs2_dumper {
                 RS_CULL_BACK = 0x1,
                 RS_CULL_FRONT = 0x2
             }
-            // alignment: 1
+            // Alignment: 1
             // member count: 8
             #[repr(u8)]
             pub enum RsComparison_t {
@@ -67,14 +67,14 @@ pub mod cs2_dumper {
                 RS_CMP_GREATER_EQUAL = 0x6,
                 RS_CMP_ALWAYS = 0x7
             }
-            // alignment: 1
+            // Alignment: 1
             // member count: 2
             #[repr(u8)]
             pub enum RsFillMode_t {
                 RS_FILL_SOLID = 0x0,
                 RS_FILL_WIREFRAME = 0x1
             }
-            // alignment: 1
+            // Alignment: 1
             // member count: 8
             #[repr(u8)]
             pub enum RenderMultisampleType_t {
@@ -87,7 +87,7 @@ pub mod cs2_dumper {
                 RENDER_MULTISAMPLE_16X = 0x5,
                 RENDER_MULTISAMPLE_TYPE_COUNT = 0x6
             }
-            // alignment: 1
+            // Alignment: 1
             // member count: 4
             #[repr(u8)]
             pub enum InputLayoutVariation_t {
@@ -96,91 +96,13 @@ pub mod cs2_dumper {
                 INPUT_LAYOUT_VARIATION_STREAM1_INSTANCEID_MORPH_VERT_ID = 0x2,
                 INPUT_LAYOUT_VARIATION_MAX = 0x3
             }
-            // alignment: 1
+            // Alignment: 1
             // member count: 3
             #[repr(u8)]
             pub enum RenderSlotType_t {
                 RENDER_SLOT_INVALID = u8::MAX,
                 RENDER_SLOT_PER_VERTEX = 0x0,
                 RENDER_SLOT_PER_INSTANCE = 0x1
-            }
-            // parent: None
-            // field count: 4
-            pub mod RsDepthStencilStateDesc_t {
-                pub const m_bDepthTestEnable: usize = 0x0; // bitfield:1
-                pub const m_bDepthWriteEnable: usize = 0x0; // bitfield:1
-                pub const m_depthFunc: usize = 0x1; // RsComparison_t
-                pub const m_stencilState: usize = 0x2; // RsStencilStateDesc_t
-            }
-            // parent: None
-            // field count: 1
-            pub mod SheetSequenceIntegerId_t {
-                pub const m_Value: usize = 0x0; // uint32
-            }
-            // parent: None
-            // field count: 11
-            pub mod RsBlendStateDesc_t {
-                pub const m_srcBlendBits: usize = 0x0; // uint32
-                pub const m_destBlendBits: usize = 0x4; // uint32
-                pub const m_srcBlendAlphaBits: usize = 0x8; // uint32
-                pub const m_destBlendAlphaBits: usize = 0xC; // uint32
-                pub const m_renderTargetWriteMaskBits: usize = 0x10; // uint32
-                pub const m_blendOpBits: usize = 0x0; // bitfield:30
-                pub const m_bAlphaToCoverageEnable: usize = 0x0; // bitfield:1
-                pub const m_bIndependentBlendEnable: usize = 0x0; // bitfield:1
-                pub const m_blendOpAlphaBits: usize = 0x18; // uint32
-                pub const m_blendEnableBits: usize = 0x1C; // uint8
-                pub const m_srgbWriteEnableBits: usize = 0x1D; // uint8
-            }
-            // parent: None
-            // field count: 4
-            pub mod VsInputSignatureElement_t {
-                pub const m_pName: usize = 0x0; // char[64]
-                pub const m_pSemantic: usize = 0x40; // char[64]
-                pub const m_pD3DSemanticName: usize = 0x80; // char[64]
-                pub const m_nD3DSemanticIndex: usize = 0xC0; // int32
-            }
-            // parent: None
-            // field count: 7
-            pub mod RsRasterizerStateDesc_t {
-                pub const m_nFillMode: usize = 0x0; // RsFillMode_t
-                pub const m_nCullMode: usize = 0x1; // RsCullMode_t
-                pub const m_bDepthClipEnable: usize = 0x2; // bool
-                pub const m_bMultisampleEnable: usize = 0x3; // bool
-                pub const m_nDepthBias: usize = 0x4; // int32
-                pub const m_flDepthBiasClamp: usize = 0x8; // float32
-                pub const m_flSlopeScaledDepthBias: usize = 0xC; // float32
-            }
-            // parent: None
-            // field count: 11
-            pub mod RsStencilStateDesc_t {
-                pub const m_bStencilEnable: usize = 0x0; // bitfield:1
-                pub const m_frontStencilFailOp: usize = 0x0; // bitfield:3
-                pub const m_frontStencilDepthFailOp: usize = 0x0; // bitfield:3
-                pub const m_frontStencilPassOp: usize = 0x0; // bitfield:3
-                pub const m_frontStencilFunc: usize = 0x0; // bitfield:3
-                pub const m_backStencilFailOp: usize = 0x0; // bitfield:3
-                pub const m_backStencilDepthFailOp: usize = 0x0; // bitfield:3
-                pub const m_backStencilPassOp: usize = 0x0; // bitfield:3
-                pub const m_backStencilFunc: usize = 0x0; // bitfield:3
-                pub const m_nStencilReadMask: usize = 0x4; // uint8
-                pub const m_nStencilWriteMask: usize = 0x5; // uint8
-            }
-            // parent: None
-            // field count: 2
-            pub mod VsInputSignature_t {
-                pub const m_elems: usize = 0x0; // CUtlVector<VsInputSignatureElement_t>
-                pub const m_depth_elems: usize = 0x18; // CUtlVector<VsInputSignatureElement_t>
-            }
-            // parent: None
-            // field count: 6
-            pub mod RenderInputLayoutField_t {
-                pub const m_pSemanticName: usize = 0x0; // char[32]
-                pub const m_nSemanticIndex: usize = 0x20; // int8
-                pub const m_nOffset: usize = 0x28; // int16
-                pub const m_nSlot: usize = 0x2A; // int8
-                pub const m_nSlotType: usize = 0x2B; // RenderSlotType_t
-                pub const m_szShaderSemantic: usize = 0x2C; // char[32]
             }
         }
     }

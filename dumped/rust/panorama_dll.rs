@@ -1,15 +1,15 @@
-//  dumped by https://moonlightrblx.github.io/sdkviewer
-// timestamp: 2026-01-15 02:29:03.193819400 UTC
+// Generated using https://github.com/a2x/cs2-dumper
+// 2026-01-24 20:15:23.524144100 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
-pub mod cs2_dumper {
+pub mod sdkviewer {
     pub mod schemas {
         // module: panorama.dll
-        // class count: 0
-        // enum count: 2
+        // Class count: 0
+        // Enum count: 2
         pub mod panorama_dll {
-            // alignment: 4
+            // Alignment: 4
             // member count: 13
             #[repr(u32)]
             pub enum ELayoutNodeType {
@@ -27,7 +27,7 @@ pub mod cs2_dumper {
                 REFERENCE_COMPILED = 0xB,
                 REFERENCE_PASSTHROUGH = 0xC
             }
-            // alignment: 4
+            // Alignment: 4
             // member count: 17
             #[repr(u32)]
             pub enum EStyleNodeType {

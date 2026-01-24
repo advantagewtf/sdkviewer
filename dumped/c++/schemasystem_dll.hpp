@@ -1,19 +1,18 @@
-//  dumped by https://moonlightrblx.github.io/sdkviewer
-// timestamp: 2026-01-15 02:29:03.193819400 UTC
+// Generated using https://github.com/a2x/cs2-dumper
+// 2026-01-24 20:15:23.524144100 UTC
 
 #pragma once
 
 #include <cstddef>
 
-namespace dump {
-    namespace offsets {
+namespace sdkviewer {
+    namespace schemas {
         // module: schemasystem.dll
-        // class count: 7
-        // enum count: 2
+        // Class count: 0
+        // Enum count: 2
         namespace schemasystem_dll {
-            // alignment: 1
+            // Alignment: 1
             // member count: 82
-            // underlying type: uint8_t
             enum class fieldtype_t : uint8_t {
                 FIELD_VOID = 0x0,
                 FIELD_FLOAT32 = 0x1,
@@ -98,79 +97,13 @@ namespace dump {
                 FIELD_HNMGRAPHDEFINITION = 0x50,
                 FIELD_TYPECOUNT = 0x51
             };
-            // alignment: 4
+            // Alignment: 4
             // member count: 3
-            // underlying type: uint32_t
             enum class ThreeState_t : uint32_t {
                 TRS_FALSE = 0x0,
                 TRS_TRUE = 0x1,
                 TRS_NONE = 0x2
             };
-            // class InfoForResourceTypeCResourceManifestInternal has zero fields
-            // parent: None
-            //
-            // metadata: [REMOVED]
-            // parent: None
-            // field count: 23
-            namespace CSchemaSystemInternalRegistration {
-                constexpr std::ptrdiff_t m_Vector2D = 0x0; // Vector2D
-                constexpr std::ptrdiff_t m_Vector = 0x8; // Vector
-                constexpr std::ptrdiff_t m_VectorWS = 0x14; // VectorWS
-                constexpr std::ptrdiff_t m_VectorAligned = 0x20; // VectorAligned
-                constexpr std::ptrdiff_t m_Quaternion = 0x30; // Quaternion
-                constexpr std::ptrdiff_t m_QAngle = 0x40; // QAngle
-                constexpr std::ptrdiff_t m_RotationVector = 0x4C; // RotationVector
-                constexpr std::ptrdiff_t m_RadianEuler = 0x58; // RadianEuler
-                constexpr std::ptrdiff_t m_DegreeEuler = 0x64; // DegreeEuler
-                constexpr std::ptrdiff_t m_QuaternionStorage = 0x70; // QuaternionStorage
-                constexpr std::ptrdiff_t m_matrix3x4_t = 0x80; // matrix3x4_t
-                constexpr std::ptrdiff_t m_matrix3x4a_t = 0xB0; // matrix3x4a_t
-                constexpr std::ptrdiff_t m_Color = 0xE0; // Color
-                constexpr std::ptrdiff_t m_Vector4D = 0xE4; // Vector4D
-                constexpr std::ptrdiff_t m_CTransform = 0x100; // CTransform
-                constexpr std::ptrdiff_t m_pKeyValues = 0x120; // KeyValues*
-                constexpr std::ptrdiff_t m_CUtlBinaryBlock = 0x128; // CUtlBinaryBlock
-                constexpr std::ptrdiff_t m_CUtlString = 0x138; // CUtlString
-                constexpr std::ptrdiff_t m_CUtlSymbol = 0x140; // CUtlSymbol
-                constexpr std::ptrdiff_t m_stringToken = 0x144; // CUtlStringToken
-                constexpr std::ptrdiff_t m_stringTokenWithStorage = 0x148; // CUtlStringTokenWithStorage
-                constexpr std::ptrdiff_t m_ResourceTypes = 0x160; // CResourceArray<CResourcePointer<CResourceString>>
-                constexpr std::ptrdiff_t m_KV3 = 0x168; // KeyValues3
-            }
-            // parent: None
-            // field count: 1
-            //
-            // metadata: [REMOVED]
-            namespace CExampleSchemaVData_PolymorphicDerivedA {
-                constexpr std::ptrdiff_t m_nDerivedA = 0x10; // int32
-            }
-            // parent: None
-            // field count: 1
-            //
-            // metadata: [REMOVED]
-            namespace CExampleSchemaVData_PolymorphicBase {
-                constexpr std::ptrdiff_t m_nBase = 0x8; // int32
-            }
-            // parent: None
-            // field count: 1
-            //
-            // metadata: [REMOVED]
-            namespace CExampleSchemaVData_PolymorphicDerivedB {
-                constexpr std::ptrdiff_t m_nDerivedB = 0x10; // int32
-            }
-            // parent: None
-            // field count: 1
-            namespace ResourceId_t {
-                constexpr std::ptrdiff_t m_Value = 0x0; // uint64
-            }
-            // parent: None
-            // field count: 2
-            //
-            // metadata: [REMOVED]
-            namespace CExampleSchemaVData_Monomorphic {
-                constexpr std::ptrdiff_t m_nExample1 = 0x0; // int32
-                constexpr std::ptrdiff_t m_nExample2 = 0x4; // int32
-            }
         }
     }
 }

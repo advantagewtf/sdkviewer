@@ -1,28 +1,28 @@
-//  dumped by https://moonlightrblx.github.io/sdkviewer
-// timestamp: 2026-01-15 02:29:03.193819400 UTC
+// Generated using https://github.com/a2x/cs2-dumper
+// 2026-01-24 20:15:23.524144100 UTC
 
 #pragma once
 
 #include <cstddef>
 
-namespace dump {
-    // Module: client.dll
+namespace sdkviewer {
+    // module: client.dll
     namespace buttons {
-        constexpr std::ptrdiff_t attack = 0x1BE83A0;
-        constexpr std::ptrdiff_t attack2 = 0x1BE8430;
-        constexpr std::ptrdiff_t back = 0x1BE8670;
-        constexpr std::ptrdiff_t duck = 0x1BE8940;
-        constexpr std::ptrdiff_t forward = 0x1BE85E0;
-        constexpr std::ptrdiff_t jump = 0x1BE88B0;
-        constexpr std::ptrdiff_t left = 0x1BE8700;
-        constexpr std::ptrdiff_t lookatweapon = 0x1E3C070;
-        constexpr std::ptrdiff_t reload = 0x1BE8310;
-        constexpr std::ptrdiff_t right = 0x1BE8790;
-        constexpr std::ptrdiff_t showscores = 0x1E3BF50;
-        constexpr std::ptrdiff_t sprint = 0x1BE8280;
-        constexpr std::ptrdiff_t turnleft = 0x1BE84C0;
-        constexpr std::ptrdiff_t turnright = 0x1BE8550;
-        constexpr std::ptrdiff_t use = 0x1BE8820;
-        constexpr std::ptrdiff_t zoom = 0x1E3BFE0;
+        constexpr std::ptrdiff_t attack = 0x205B5E0;
+        constexpr std::ptrdiff_t attack2 = 0x205B670;
+        constexpr std::ptrdiff_t back = 0x205B8B0;
+        constexpr std::ptrdiff_t duck = 0x205BB80;
+        constexpr std::ptrdiff_t forward = 0x205B820;
+        constexpr std::ptrdiff_t jump = 0x205BAF0;
+        constexpr std::ptrdiff_t left = 0x205B940;
+        constexpr std::ptrdiff_t lookatweapon = 0x2312300;
+        constexpr std::ptrdiff_t reload = 0x205B550;
+        constexpr std::ptrdiff_t right = 0x205B9D0;
+        constexpr std::ptrdiff_t showscores = 0x23121E0;
+        constexpr std::ptrdiff_t sprint = 0x205B4C0;
+        constexpr std::ptrdiff_t turnleft = 0x205B700;
+        constexpr std::ptrdiff_t turnright = 0x205B790;
+        constexpr std::ptrdiff_t use = 0x205BA60;
+        constexpr std::ptrdiff_t zoom = 0x2312270;
     }
 }
