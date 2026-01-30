@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-01-24 20:15:23.524144100 UTC
+// 2026-01-30 01:52:20.813161100 UTC
 
 namespace sdkviewer.Schemas {
     // module: animationsystem.dll

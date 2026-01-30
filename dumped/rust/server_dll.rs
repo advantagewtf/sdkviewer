@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-01-24 20:15:23.524144100 UTC
+// 2026-01-30 01:52:20.813161100 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -11392,7 +11392,7 @@ pub mod sdkviewer {
             pub mod CPointPulse {
             }
             // Parent: CBaseCSGrenadeProjectile
-            // Field count: 4
+            // Field count: 3
             //
             // metadata:
             // NetworkVarNames: m_bIsIncGrenade (bool)
@@ -11400,7 +11400,6 @@ pub mod sdkviewer {
                 pub const m_bIsIncGrenade: usize = 0xBB0; // bool
                 pub const m_bDetonated: usize = 0xBC8; // bool
                 pub const m_stillTimer: usize = 0xBD0; // IntervalTimer
-                pub const m_bHasBouncedOffPlayer: usize = 0xCB0; // bool
             }
             // Parent: CBaseFilter
             // Field count: 1
