@@ -1,9 +1,9 @@
 # sdkviewer
 <div align = "center">
-
+  
   [![Repo Views](https://komarev.com/ghpvc/?username=moonlightrblx&label=Repo%20views&color=0e75b6&style=flat)](https://github.com/moonlightrblx/sdkviewer/)
   [![GitHub Stars](https://img.shields.io/github/stars/moonlightrblx/sdkviewer?style=flat&color=yellow)](https://github.com/moonlightrblx/sdkviewer/stargazers)
-  
+
 </div>
 
 The best SDK viewer repository with insanely fast updates.
@@ -30,6 +30,7 @@ all type classes.
 
 some more information on cs2 structs and types goto `information.md`
 ### sdk viewer is available at https://moonlightrblx.github.io/sdkviewer
-### ~~fortnite 7.40 sdk https://moonlightrblx.github.io/sdkviewer/7.40~~ removed
 ### polygon sdk https://moonlightrblx.github.io/sdkviewer/polygon
 ### more coming soon.
+
+### MY CORD: `_.ellii._` (alt) | `elliieluvsu` (main)
