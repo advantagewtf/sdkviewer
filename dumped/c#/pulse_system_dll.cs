@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-02-12 23:51:18.657611900 UTC
+// 2026-02-26 02:35:54.390818400 UTC
 
 namespace sdkviewer.Schemas {
     // module: pulse_system.dll
