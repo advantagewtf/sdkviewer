@@ -28,7 +28,7 @@ all type classes.
 
 - `type_dump` is a full dump of ONLY the classes that are used as game types (ending with `_t`). they are used as proper types and have alignment so you can read the types internally and externally.
 
-some more information on cs2 structs and types goto `information.md`
+some more information on cs2 structs and types go to `information.md`
 ### sdk viewer is available at https://moonlightrblx.github.io/sdkviewer
 
 ### MY CORD: `elliieluvsu`
