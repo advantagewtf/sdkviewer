@@ -31,4 +31,4 @@ all type classes.
 some more information on cs2 structs and types goto `information.md`
 ### sdk viewer is available at https://moonlightrblx.github.io/sdkviewer
 
-### MY CORD: `_.ellii._` (alt) | `elliieluvsu` (main)
+### MY CORD: `elliieluvsu`
