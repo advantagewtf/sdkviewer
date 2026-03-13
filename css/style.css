@@ -1,38 +1,38 @@
 /* ═══════════════════════════════════════════════════
-   MOONLIGHT – capware.fun inspired
-   Deep black · Purple radial burst · Mono class list
+   MOONLIGHT – capware-accurate layout, blue accents
    ═══════════════════════════════════════════════════ */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
 
 :root {
-  /* Base */
-  --bg-root:       #080808;
-  --bg-sidebar:    #0e0e10;
-  --bg-main:       #0a0a0c;
-  --bg-surface:    #111115;
-  --bg-row-hover:  #161620;
-  --bg-input:      #131317;
-  --bg-btn:        #1a1a24;
-  --bg-btn-hover:  #22223a;
+  /* Base blacks */
+  --bg-root:       #070709;
+  --bg-sidebar:    #0b0b0e;
+  --bg-main:       #090909;
+  --bg-input:      #111116;
+  --bg-btn:        #12121a;
+  --bg-btn-hover:  #1a1a28;
+  --bg-row-sel:    rgba(29, 100, 220, 0.18);
+  --bg-row-hover:  rgba(255,255,255,0.025);
 
-  /* Purple accent */
-  --purple-dim:    rgba(139,92,246,0.12);
-  --purple-mid:    rgba(139,92,246,0.35);
-  --purple-core:   #7c3aed;
-  --purple-bright: #a78bfa;
-  --purple-glow:   #c4b5fd;
+  /* Blue accent spectrum */
+  --blue-dim:      rgba(37,99,235,0.12);
+  --blue-mid:      rgba(37,99,235,0.35);
+  --blue-core:     #1d64dc;
+  --blue-bright:   #4a9eff;
+  --blue-glow:     #93c5fd;
+  --blue-link:     #60a5fa;
 
   /* Text */
-  --text-primary:   #e2e2e8;
-  --text-secondary: #7f7f8f;
-  --text-muted:     #4a4a5a;
-  --text-dim:       #2e2e3e;
+  --text-primary:   #dde3ec;
+  --text-secondary: #6b7280;
+  --text-muted:     #3d4452;
+  --text-dim:       #252b36;
 
   /* Borders */
-  --border-subtle: rgba(255,255,255,0.045);
-  --border-dim:    rgba(255,255,255,0.07);
-  --border-mid:    rgba(139,92,246,0.2);
+  --border-subtle: rgba(255,255,255,0.05);
+  --border-dim:    rgba(255,255,255,0.08);
+  --border-blue:   rgba(37,99,235,0.3);
 
   /* Sidebar */
   --sidebar-width: 210px;
@@ -54,12 +54,11 @@ body {
 /* ── Scrollbar ───────────────────────────────────── */
 ::-webkit-scrollbar { width: 4px; height: 4px; }
 ::-webkit-scrollbar-track { background: transparent; }
-::-webkit-scrollbar-thumb { background: #252530; border-radius: 99px; }
-::-webkit-scrollbar-thumb:hover { background: var(--purple-core); }
+::-webkit-scrollbar-thumb { background: #1e2230; border-radius: 99px; }
+::-webkit-scrollbar-thumb:hover { background: var(--blue-core); }
 
-/* ── Links ───────────────────────────────────────── */
-a { color: var(--purple-bright); text-decoration: none; transition: color 0.15s; }
-a:hover { color: var(--purple-glow); }
+a { color: var(--blue-link); text-decoration: none; transition: color 0.15s; }
+a:hover { color: var(--blue-glow); }
 
 /* ════════════════════════════════════════════════════
    SIDEBAR
@@ -77,40 +76,49 @@ a:hover { color: var(--purple-glow); }
 
 /* ── Header ──────────────────────────────────────── */
 .header {
-  padding: 14px 14px 12px;
+  padding: 13px 14px 11px;
   border-bottom: 1px solid var(--border-subtle);
+  display: flex;
+  flex-direction: column;
+  gap: 0;
 }
 
 .header [data-lucide="moon"] {
-  width: 15px; height: 15px;
-  color: var(--purple-bright);
+  width: 14px; height: 14px;
+  color: var(--blue-bright);
   margin-bottom: 5px;
 }
 
 .header .title {
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 600;
   color: var(--text-primary);
   letter-spacing: -0.01em;
-  line-height: 1.2;
 }
 
 .header .subtitle {
   font-size: 10.5px;
   color: var(--text-muted);
-  margin-top: 2px;
+  margin-top: 1px;
 }
 
 .header .subtitle a {
   font-size: 10.5px;
   color: var(--text-muted);
 }
+.header .subtitle a:hover { color: var(--blue-bright); }
 
-.header .subtitle a:hover { color: var(--purple-bright); }
+/* Class count line — like "18,078 classes" */
+.header::after {
+  content: attr(data-count);
+  font-size: 10.5px;
+  color: var(--text-muted);
+  margin-top: 1px;
+}
 
 /* ── Search ──────────────────────────────────────── */
 #search {
-  padding: 8px 10px;
+  padding: 8px 10px 6px;
   border-bottom: 1px solid var(--border-subtle);
 }
 
@@ -118,6 +126,7 @@ a:hover { color: var(--purple-glow); }
   position: relative;
   display: flex;
   align-items: center;
+  margin-bottom: 5px;
 }
 
 .search-wrapper .icon {
@@ -138,30 +147,71 @@ a:hover { color: var(--purple-glow); }
   font-size: 11.5px;
   padding: 6px 10px 6px 26px;
   outline: none;
-  transition: border-color 0.2s, background 0.2s;
+  transition: border-color 0.2s;
 }
 
 #search-input::placeholder { color: var(--text-muted); font-size: 11px; }
-
-#search-input:focus {
-  border-color: var(--purple-mid);
-  background: #16161c;
-}
+#search-input:focus { border-color: var(--blue-mid); }
 
 #search-hint {
-  margin-top: 6px;
-  font-size: 10px;
+  font-size: 9.5px;
   color: var(--text-dim);
   line-height: 1.7;
 }
 
 #search-hint code {
   font-family: 'JetBrains Mono', monospace;
-  font-size: 9.5px;
-  background: var(--purple-dim);
-  color: var(--purple-bright);
+  font-size: 9px;
+  background: var(--blue-dim);
+  color: var(--blue-bright);
   border-radius: 3px;
   padding: 1px 4px;
+}
+
+/* ── Pill buttons (View Globals / View Enums) ────── */
+/* These are rendered by app.js as .class-item with special names,
+   but capware has pill buttons — we style them globally */
+.sidebar-pills {
+  padding: 8px 10px 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.pill-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 7px 12px;
+  background: var(--bg-btn);
+  border: 1px solid var(--border-dim);
+  border-radius: 6px;
+  color: var(--text-secondary);
+  font-size: 11.5px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s;
+  width: 100%;
+  text-align: center;
+}
+
+.pill-btn svg, .pill-btn i {
+  width: 12px; height: 12px;
+  color: var(--blue-bright);
+}
+
+.pill-btn:hover {
+  background: var(--bg-btn-hover);
+  border-color: var(--border-blue);
+  color: var(--text-primary);
+}
+
+.pill-btn.active {
+  background: var(--blue-dim);
+  border-color: var(--blue-mid);
+  color: var(--blue-bright);
 }
 
 /* ── Class List ──────────────────────────────────── */
@@ -172,33 +222,43 @@ a:hover { color: var(--purple-glow); }
 }
 
 .class-item {
-  display: block;
+  display: flex;
+  flex-direction: column;
   padding: 4px 14px;
   cursor: pointer;
-  color: var(--text-secondary);
+  transition: color 0.1s, background 0.1s;
+  border-left: 2px solid transparent;
+}
+
+.class-item .name {
   font-size: 11.5px;
   font-family: 'JetBrains Mono', monospace;
+  color: var(--text-secondary);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  transition: color 0.1s, background 0.1s;
+  transition: color 0.1s;
 }
 
-.class-item:hover {
-  color: var(--text-primary);
-  background: rgba(255,255,255,0.03);
+.class-item .parent {
+  font-size: 9.5px;
+  color: var(--text-dim);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
+
+.class-item:hover .name { color: var(--text-primary); }
+.class-item:hover { background: rgba(255,255,255,0.025); }
 
 .class-item.active {
-  color: var(--purple-bright);
-  background: var(--purple-dim);
+  border-left-color: var(--blue-core);
+  background: var(--blue-dim);
 }
+.class-item.active .name { color: var(--blue-bright); }
+.class-item.active .parent { color: var(--blue-core); }
 
-/* hide icon, capware has none */
-.class-item .class-icon { display: none; }
-.class-count { display: none; }
-
-/* ── Download Area ───────────────────────────────── */
+/* ── Download / footer area ──────────────────────── */
 .download-area {
   padding: 8px 10px;
   border-top: 1px solid var(--border-subtle);
@@ -211,98 +271,113 @@ a:hover { color: var(--purple-glow); }
   display: flex;
   align-items: center;
   gap: 7px;
-  padding: 7px 11px;
+  padding: 6px 10px;
   background: var(--bg-btn);
   border: 1px solid var(--border-subtle);
-  border-radius: 6px;
-  color: var(--text-secondary);
-  font-size: 11.5px;
+  border-radius: 5px;
+  color: var(--text-muted);
+  font-size: 11px;
   font-weight: 500;
   text-decoration: none;
   transition: all 0.15s;
 }
 
-.download-btn .icon {
-  width: 12px; height: 12px;
-  color: var(--purple-bright);
-  flex-shrink: 0;
-}
-
+.download-btn .icon { width: 12px; height: 12px; color: var(--blue-bright); flex-shrink: 0; }
 .download-btn:hover {
   background: var(--bg-btn-hover);
-  border-color: var(--border-mid);
+  border-color: var(--border-blue);
   color: var(--text-primary);
   text-decoration: none;
 }
 
+/* Branding at very bottom (like "CapWare / Made by ...") */
+.sidebar-brand {
+  padding: 10px 14px 12px;
+  border-top: 1px solid var(--border-subtle);
+  text-align: center;
+}
+
+.sidebar-brand .brand-name {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--blue-bright);
+  letter-spacing: 0.02em;
+}
+
+.sidebar-brand .brand-sub {
+  font-size: 10px;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
 /* ════════════════════════════════════════════════════
-   MAIN CONTENT
+   MAIN
 ════════════════════════════════════════════════════ */
 #main {
   flex: 1;
   height: 100vh;
   overflow-y: auto;
   background: var(--bg-main);
+  position: relative;
 }
 
 #content {
   position: relative;
+  min-height: 100%;
 }
 
-/* ── Class title bar ─────────────────────────────── */
-.class-header {
-  padding: 16px 28px 14px;
+/* ── Class title bar (h1 / .class-title) ─────────── */
+/* app.js renders: <h1 class="class-title">ClassName <span class="parent">: Parent</span></h1> */
+h1.class-title {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--text-primary);
+  padding: 16px 28px 10px;
   border-bottom: 1px solid var(--border-subtle);
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  flex-wrap: wrap;
   position: sticky;
   top: 0;
   background: var(--bg-main);
   z-index: 10;
 }
 
-.class-header h1 {
-  font-family: 'JetBrains Mono', monospace;
-  font-size: 17px;
-  font-weight: 600;
-  color: var(--text-primary);
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin-bottom: 9px;
-}
-
-.badge-updated {
+h1.class-title .parent {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--text-muted);
   font-family: 'Inter', sans-serif;
-  font-size: 9.5px;
-  font-weight: 600;
-  letter-spacing: 0.09em;
-  text-transform: uppercase;
-  padding: 3px 7px;
-  background: rgba(139,92,246,0.15);
-  border: 1px solid rgba(139,92,246,0.4);
-  color: var(--purple-bright);
-  border-radius: 4px;
 }
 
-/* Meta row: TYPE: Engine Pointers · MEMBERS: 1 · SIZE: N/A */
+/* Meta row under the title — TYPE · MEMBERS · SIZE etc. */
 .class-meta {
   display: flex;
   align-items: center;
   gap: 0;
-  flex-wrap: wrap;
+  padding: 7px 28px 9px;
+  border-bottom: 1px solid var(--border-subtle);
   font-size: 11px;
-  color: var(--text-muted);
+  flex-wrap: wrap;
+  position: sticky;
+  top: 53px; /* below h1 */
+  background: var(--bg-main);
+  z-index: 9;
 }
 
 .meta-tag {
   display: inline-flex;
   align-items: center;
   gap: 4px;
+  color: var(--text-muted);
 }
 
 .meta-tag .label {
-  font-size: 10px;
+  font-size: 9.5px;
   font-weight: 600;
-  letter-spacing: 0.07em;
+  letter-spacing: 0.09em;
   text-transform: uppercase;
   color: var(--text-dim);
 }
@@ -313,20 +388,176 @@ a:hover { color: var(--purple-glow); }
   color: var(--text-secondary);
 }
 
-.meta-sep {
-  color: var(--text-dim);
-  margin: 0 8px;
-  font-size: 11px;
+.meta-tag.parent-tag .value { color: var(--blue-link); }
+.meta-tag.size-tag   .value { color: var(--text-secondary); }
+
+.meta-sep { color: var(--text-dim); margin: 0 8px; font-size: 11px; }
+
+.badge-updated {
+  font-family: 'Inter', sans-serif;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 2px 7px;
+  background: rgba(37,99,235,0.15);
+  border: 1px solid rgba(37,99,235,0.4);
+  color: var(--blue-bright);
+  border-radius: 3px;
+  margin-left: 4px;
 }
 
-/* ── Sections (details) ──────────────────────────── */
-details {
+/* ════════════════════════════════════════════════════
+   CARDS + SECTIONS  (app.js renders .card > strong.section-title > table)
+════════════════════════════════════════════════════ */
+.card {
   position: relative;
   overflow: hidden;
   border-top: 1px solid var(--border-subtle);
+  margin-bottom: 0;
 }
 
-/* Purple radial burst — the signature capware look */
+/* Blue radial burst — the signature look */
+.card::after {
+  content: '';
+  position: absolute;
+  top: 0; right: 0;
+  width: 75%;
+  height: 100%;
+  background: radial-gradient(
+    ellipse at 90% 40%,
+    rgba(29, 100, 235, 0.38)  0%,
+    rgba(20,  70, 200, 0.18) 22%,
+    rgba(10,  40, 130, 0.07) 45%,
+    transparent              68%
+  );
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Section heading — "MEMBERS", "Fields", etc. */
+strong.section-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 11px 28px 9px;
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  position: relative;
+  z-index: 1;
+}
+
+/* ── Tables ──────────────────────────────────────── */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  position: relative;
+  z-index: 1;
+}
+
+thead tr {
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+thead th {
+  padding: 7px 28px;
+  text-align: left;
+  font-size: 9.5px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  font-family: 'Inter', sans-serif;
+}
+
+tbody tr {
+  border-bottom: 1px solid var(--border-subtle);
+  transition: background 0.1s;
+  cursor: default;
+}
+
+tbody tr:last-child { border-bottom: none; }
+
+tbody tr:hover { background: var(--bg-row-hover); }
+
+/* Selected row — purple/blue highlight like capware */
+tbody tr.selected,
+tbody tr:focus {
+  background: var(--bg-row-sel) !important;
+}
+
+tbody td {
+  padding: 9px 28px;
+  vertical-align: middle;
+  font-size: 12.5px;
+}
+
+/* Column 1: TYPE — blue link */
+tbody td:first-child code,
+td.field-type,
+td:nth-child(1) code {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  color: var(--blue-link);
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+/* Column 2: NAME */
+tbody td:nth-child(2),
+td.field-name {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  color: var(--text-primary);
+}
+
+/* Column 3: OFFSET — blue hex */
+tbody td:nth-child(3) code,
+td.field-offset code {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  color: var(--blue-bright);
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+/* Column 4: SIZE */
+tbody td:nth-child(4),
+td.field-size {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11.5px;
+  color: var(--text-muted);
+}
+
+/* General code/offset styling (fallback) */
+code {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  color: var(--blue-glow);
+  background: rgba(255,255,255,0.04);
+  border-radius: 3px;
+  padding: 1px 5px;
+}
+
+/* Hex values specifically */
+code[data-hex], td code {
+  background: none;
+  padding: 0;
+  color: var(--blue-bright);
+}
+
+/* ── Details (collapsible offset groups) ─────────── */
+details {
+  border-top: 1px solid var(--border-subtle);
+  position: relative;
+  overflow: hidden;
+}
+
 details::after {
   content: '';
   position: absolute;
@@ -334,11 +565,11 @@ details::after {
   width: 70%;
   height: 100%;
   background: radial-gradient(
-    ellipse at 80% 50%,
-    rgba(120,40,230,0.5)  0%,
-    rgba(90,20,190,0.28) 22%,
-    rgba(60,10,140,0.1)  45%,
-    transparent          68%
+    ellipse at 85% 50%,
+    rgba(29,100,235,0.32) 0%,
+    rgba(15,60,180,0.15) 28%,
+    rgba(8,30,100,0.05)  52%,
+    transparent          70%
   );
   pointer-events: none;
   z-index: 0;
@@ -348,13 +579,13 @@ details > summary {
   display: flex;
   align-items: center;
   gap: 8px;
-  padding: 12px 28px;
+  padding: 11px 28px;
   cursor: pointer;
   list-style: none;
   user-select: none;
   font-size: 10.5px;
   font-weight: 600;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.09em;
   text-transform: uppercase;
   color: var(--text-muted);
   transition: color 0.15s;
@@ -372,119 +603,42 @@ details[open] > summary { color: var(--text-secondary); }
   flex-shrink: 0;
 }
 
-.section-count {
-  margin-left: auto;
+details[open] .lucide-chevron { color: var(--blue-bright); }
+
+.section-count, .type-note {
   font-size: 10px;
   font-weight: 400;
   text-transform: none;
   letter-spacing: 0;
   color: var(--text-dim);
+  font-family: 'Inter', sans-serif;
+  margin-left: auto;
 }
 
-/* ── Tables ──────────────────────────────────────── */
-.field-table-wrap {
-  position: relative;
-  z-index: 1;
+/* ── Row action icons (copy/link) ────────────────── */
+.row-actions {
+  display: flex;
+  gap: 6px;
+  justify-content: flex-end;
+  opacity: 0;
+  transition: opacity 0.15s;
 }
 
-.field-table {
-  width: 100%;
-  border-collapse: collapse;
-}
+tbody tr:hover .row-actions { opacity: 1; }
 
-.field-table thead tr {
-  border-bottom: 1px solid var(--border-subtle);
-}
-
-.field-table thead th {
-  padding: 7px 28px;
-  text-align: left;
-  font-size: 9.5px;
-  font-weight: 600;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--text-dim);
-  background: transparent;
-}
-
-.field-table tbody tr {
-  border-bottom: 1px solid var(--border-subtle);
-  transition: background 0.1s;
-}
-
-.field-table tbody tr:last-child { border-bottom: none; }
-.field-table tbody tr:hover { background: rgba(255,255,255,0.02); }
-
-.field-table td {
-  padding: 8px 28px;
-  vertical-align: middle;
-}
-
-.field-type {
-  font-family: 'JetBrains Mono', monospace;
-  font-size: 12px;
-  color: var(--purple-bright);
-}
-
-.field-name {
-  font-family: 'JetBrains Mono', monospace;
-  font-size: 12px;
-  color: var(--text-primary);
-}
-
-.field-offset {
-  font-family: 'JetBrains Mono', monospace;
-  font-size: 12px;
-  color: var(--text-secondary);
-}
-
-.field-size {
-  font-family: 'JetBrains Mono', monospace;
-  font-size: 11px;
-  color: var(--text-muted);
-}
-
-.row-copy {
+.row-copy, .row-link {
   width: 13px; height: 13px;
   color: var(--text-dim);
   cursor: pointer;
-  opacity: 0;
-  transition: color 0.15s, opacity 0.15s;
+  transition: color 0.15s;
 }
 
-.field-table tbody tr:hover .row-copy { opacity: 1; }
-.row-copy:hover { color: var(--purple-bright); }
+.row-copy:hover, .row-link:hover { color: var(--blue-bright); }
 
-/* ── Code block ──────────────────────────────────── */
-.code-block {
-  margin: 0 28px 20px;
-  background: rgba(0,0,0,0.4);
-  border: 1px solid var(--border-subtle);
-  border-radius: 7px;
-  padding: 16px 18px;
-  font-family: 'JetBrains Mono', monospace;
-  font-size: 12px;
-  line-height: 1.8;
-  color: var(--text-secondary);
-  overflow-x: auto;
-  position: relative;
-  z-index: 1;
-}
-
-/* ── Inline code ─────────────────────────────────── */
-code {
-  font-family: 'JetBrains Mono', monospace;
-  font-size: 11.5px;
-  background: rgba(255,255,255,0.06);
-  border-radius: 3px;
-  padding: 1px 5px;
-  color: var(--purple-glow);
-}
-
-/* ── Search highlight ────────────────────────────── */
+/* ── Highlight (search) ──────────────────────────── */
 mark {
-  background: rgba(139,92,246,0.25);
-  color: var(--purple-glow);
+  background: rgba(37,99,235,0.28);
+  color: var(--blue-glow);
   border-radius: 2px;
   padding: 0 2px;
 }
@@ -504,49 +658,20 @@ mark {
   font-size: 12px;
 }
 
-/* ── Enum list ───────────────────────────────────── */
-.enum-list { list-style: none; }
-
-.enum-entry {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-  padding: 7px 28px;
-  border-bottom: 1px solid var(--border-subtle);
+/* ── Enum / schema details block ─────────────────── */
+details[open] > div {
+  padding: 10px 28px 14px;
+  font-size: 12px;
+  color: var(--text-secondary);
   position: relative;
   z-index: 1;
-  transition: background 0.1s;
 }
-
-.enum-entry:last-child { border-bottom: none; }
-.enum-entry:hover { background: rgba(255,255,255,0.02); }
-
-.enum-name {
-  font-family: 'JetBrains Mono', monospace;
-  font-size: 12px;
-  color: var(--text-primary);
-  flex: 1;
-}
-
-.enum-value {
-  font-family: 'JetBrains Mono', monospace;
-  font-size: 11px;
-  color: var(--text-muted);
-}
-
-/* ── Meta badges ─────────────────────────────────── */
-.meta-badge { display: inline-flex; align-items: center; gap: 5px; }
-.meta-badge.module .value { color: var(--purple-bright); }
 
 /* ── Responsive ──────────────────────────────────── */
 @media (max-width: 768px) {
   body { flex-direction: column; }
   #sidebar { width: 100%; height: auto; max-height: 45vh; }
   #main { height: auto; }
-  .class-header,
-  details > summary,
-  .field-table thead th,
-  .field-table td,
-  .enum-entry { padding-left: 16px; padding-right: 16px; }
-  .code-block { margin-left: 16px; margin-right: 16px; }
+  thead th, tbody td { padding-left: 16px; padding-right: 16px; }
+  h1.class-title, .class-meta, strong.section-title { padding-left: 16px; padding-right: 16px; }
 }
