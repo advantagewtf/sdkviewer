@@ -30,7 +30,5 @@ all type classes.
 
 some more information on cs2 structs and types goto `information.md`
 ### sdk viewer is available at https://moonlightrblx.github.io/sdkviewer
-### polygon sdk https://moonlightrblx.github.io/sdkviewer/polygon
-### more coming soon.
 
 ### MY CORD: `_.ellii._` (alt) | `elliieluvsu` (main)
