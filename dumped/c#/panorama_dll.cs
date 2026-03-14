@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-02-26 02:35:54.390818400 UTC
+// 2026-03-14 02:52:31.087677800 UTC
 
 namespace sdkviewer.Schemas {
     // module: panorama.dll
