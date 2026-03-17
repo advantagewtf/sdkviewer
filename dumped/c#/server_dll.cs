@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-03-14 02:52:31.087677800 UTC
+// 2026-03-17 02:17:56.978048600 UTC
 
 namespace sdkviewer.Schemas {
     // module: server.dll
@@ -2505,7 +2505,7 @@ namespace sdkviewer.Schemas {
             public const nint m_visible = 0xB10; // CUtlVector<CFish*>
         }
         // Parent: CBot
-        // Field count: 139
+        // Field count: 140
         public static class CCSBot {
             public const nint m_eyePosition = 0x108; // VectorWS
             public const nint m_name = 0x114; // char[64]
@@ -2567,14 +2567,15 @@ namespace sdkviewer.Schemas {
             public const nint m_bendNoisePositionValid = 0x6334; // bool
             public const nint m_lookAroundStateTimestamp = 0x6338; // float32
             public const nint m_lookAheadAngle = 0x633C; // float32
-            public const nint m_forwardAngle = 0x6340; // float32
-            public const nint m_inhibitLookAroundTimestamp = 0x6344; // float32
-            public const nint m_lookAtSpot = 0x634C; // Vector
-            public const nint m_lookAtSpotDuration = 0x635C; // float32
-            public const nint m_lookAtSpotTimestamp = 0x6360; // float32
-            public const nint m_lookAtSpotAngleTolerance = 0x6364; // float32
-            public const nint m_lookAtSpotClearIfClose = 0x6368; // bool
-            public const nint m_lookAtSpotAttack = 0x6369; // bool
+            public const nint m_lookUpAngle = 0x6340; // float32
+            public const nint m_forwardAngle = 0x6344; // float32
+            public const nint m_inhibitLookAroundTimestamp = 0x6348; // float32
+            public const nint m_lookAtSpot = 0x6350; // Vector
+            public const nint m_lookAtSpotDuration = 0x6360; // float32
+            public const nint m_lookAtSpotTimestamp = 0x6364; // float32
+            public const nint m_lookAtSpotAngleTolerance = 0x6368; // float32
+            public const nint m_lookAtSpotClearIfClose = 0x636C; // bool
+            public const nint m_lookAtSpotAttack = 0x636D; // bool
             public const nint m_lookAtDesc = 0x6370; // char*
             public const nint m_peripheralTimestamp = 0x6378; // float32
             public const nint m_approachPointCount = 0x6500; // uint8
