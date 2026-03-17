@@ -30,5 +30,7 @@ all type classes.
 
 some more information on cs2 structs and types go to `information.md`
 ### sdk viewer is available at https://elliie.dev/sdkviewer/
+### showcase
+<img width="1852" height="922" alt="image" src="https://github.com/user-attachments/assets/0988032f-0864-4160-bf1a-163a2879dee8" />
 
 ### MY CORD: `elliieluvsu`
