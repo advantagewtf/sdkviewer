@@ -2,3 +2,4 @@
 *.hpp linguist-detectable=true
 *.json linguist-detectable=false
 *.rs linguist-detectable=false
+*.py linguist-detectable=false
