@@ -26,11 +26,13 @@ I am completely honest about updates and if something is broken. I am also very 
 - the `schema_latest` is very similar to the `generated_latest` but it uses hardcoded offsets and a reading macro which can be changed (by defualt internal only). It excludes
 all type classes.
 
-- `type_dump` is a full dump of ONLY the classes that are used as game types (ending with `_t`). they are used as proper types and have alignment so you can read the types internally and externally.
+- `type_dump` no longer supported + maintained, padding is definitely changed per version and i dont wanna update each time ;)
 
 some more information on cs2 structs and types go to `information.md`
 ### sdk viewer is available at https://elliie.dev/sdkviewer/
+
 ### showcase
+
 <img width="1852" height="922" alt="image" src="https://github.com/user-attachments/assets/0988032f-0864-4160-bf1a-163a2879dee8" />
 
 ### MY CORD: `elliieluvsu`
