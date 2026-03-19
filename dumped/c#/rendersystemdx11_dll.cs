@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-03-17 02:17:56.978048600 UTC
+// 2026-03-19 01:10:23.085248900 UTC
 
 namespace sdkviewer.Schemas {
     // module: rendersystemdx11.dll
