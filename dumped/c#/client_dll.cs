@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-03-19 01:10:23.085248900 UTC
+// 2026-04-10 01:19:39.980772900 UTC
 
 namespace sdkviewer.Schemas {
     // module: client.dll
