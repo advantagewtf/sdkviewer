@@ -28,6 +28,8 @@ all type classes.
 
 - `type_dump` no longer supported + maintained, padding is definitely changed per version and i dont wanna update each time ;)
 
+- the `lib` folder contains a c++ library for automatically getting the latest offsets from the github.
+
 some more information on cs2 structs and types go to `information.md`
 ### sdk viewer is available at https://elliie.dev/sdkviewer/
 
