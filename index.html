@@ -7,19 +7,24 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600&family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css" />
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-clike.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-c.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-cpp.min.js"></script>
     <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
   </head>
-  <body>
-
+  <body data-theme="pink">
     <div id="sidebar">
       <div class="header">
         <div class="header-row">
           <i data-lucide="moon"></i>
           <div class="title">Moon<span>Light</span></div>
           <div class="header-links">
-            <a href="https://discord.gg/" title="Discord"><i data-lucide="message-circle"></i></a>
-            <a href="https://github.com/moonlightrblx/sdkviewer" title="GitHub"><i data-lucide="github"></i></a>
+            <a href="https://discord.gg/C4uhQTMx8q" title="Discord" target="_blank" rel="noopener"><i data-lucide="message-circle"></i></a>
+            <a href="https://github.com/moonlightrblx/sdkviewer" title="GitHub" target="_blank" rel="noopener"><i data-lucide="github"></i></a>
           </div>
         </div>
         <div class="class-count-label" id="class-count">Loading...</div>
@@ -28,45 +33,35 @@
       <div id="search">
         <div class="search-wrapper">
           <i data-lucide="search" class="icon"></i>
-          <input type="text" id="search-input" placeholder="Filter classes..." autofocus />
-        </div>
-        <div id="search-hint">
-          <code>class:CBasePlayerPawn</code> • <code>m_iHealth</code>
+          <input type="text" id="search-input" placeholder="Filter classes..." autofocus autocomplete="off" spellcheck="false" />
         </div>
       </div>
 
-      <div class="sidebar-pills">
-        <button class="pill-btn" id="btn-globals" onclick="selectClassByName('MoonLightGlobals')">
-          <i data-lucide="globe"></i>
-          View Globals
-        </button>
-        <button class="pill-btn" id="btn-schema" onclick="selectClassByName('[SchemaSystem]')">
-          <i data-lucide="list-tree"></i>
-          View Enums
-        </button>
+      <div class="sidebar-tabs">
+        <button class="tab-btn active" data-tab="schemas" onclick="switch_tab('schemas')">Schemas</button>
+        <button class="tab-btn" data-tab="globals" onclick="switch_tab('globals')">Globals</button>
+        <button class="tab-btn" data-tab="protobufs" onclick="switch_tab('protobufs')">Protobufs</button>
       </div>
 
       <div id="classlist" role="listbox"></div>
 
-      <div class="download-area">
-        <a href="https://github.com/moonlightrblx/sdkviewer/raw/main/dumped/generated_latest.zip" class="download-btn" download>
-          <i data-lucide="package" class="icon"></i>
-          <span>Download SDK Dump</span>
-        </a>
-        <a href="https://github.com/moonlightrblx/sdkviewer/raw/main/dumped/schema_latest.zip" class="download-btn" download>
-          <i data-lucide="file-code-2" class="icon"></i>
-          <span>Download Schema</span>
-        </a>
-        <a href="https://github.com/moonlightrblx/sdkviewer/raw/main/dumped/types_dump.zip" class="download-btn" download>
-          <i data-lucide="database" class="icon"></i>
-          <span>Download Type Dump</span>
-        </a>
+      <div class="sidebar-footer">
+        <div class="made-by">
+          Made by <a href="https://elliie.dev" target="_blank" rel="noopener">elliie</a>
+        </div>
+        <div class="theme-dots">
+          <div class="theme-dot active" data-theme="pink" title="Pink"></div>
+          <div class="theme-dot" data-theme="purple" title="Purple"></div>
+          <div class="theme-dot" data-theme="cyan" title="Cyan"></div>
+          <div class="theme-dot" data-theme="emerald" title="Emerald"></div>
+          <div class="theme-dot" data-theme="rose" title="Rose"></div>
+        </div>
       </div>
     </div>
 
     <div id="main">
       <div id="topbar">
-        <div class="tb-title" id="tb-class-name">Select a class</div>
+        <div class="tb-title" id="tb-class-name">Select an item</div>
         <div class="tb-sep"></div>
         <div class="tb-meta" id="tb-meta"></div>
       </div>
@@ -77,38 +72,20 @@
 
     <script src="js/app.js"></script>
     <script>
+      // Initialize icons
       lucide.createIcons();
 
-      document.getElementById("search-input").addEventListener("input", (e) => {
-        renderClassList(e.target.value);
-      });
-
-      function selectClassByName(name) {
-        const items = document.querySelectorAll(".class-item");
-        for (const item of items) {
-          if (item.dataset.className === name) {
-            item.click();
-            item.scrollIntoView({ block: "center", behavior: "smooth" });
-            return;
-          }
-        }
-        selectClass(name, null);
-      }
-
-      const updateDetailsIcons = () => {
-        document.querySelectorAll("details").forEach((d) => {
-          let icon = d.querySelector("summary .lucide-chevron");
-          if (!icon) {
-            icon = document.createElement("i");
-            icon.className = "lucide-chevron";
-            icon.dataset.lucide = d.open ? "chevron-down" : "chevron-right";
-            d.querySelector("summary").insertBefore(icon, d.querySelector("summary").firstChild);
-          } else {
-            icon.dataset.lucide = d.open ? "chevron-down" : "chevron-right";
-          }
+      // Theme Switching Logic
+      document.querySelectorAll('.theme-dot').forEach(dot => {
+        dot.addEventListener('click', () => {
+          const theme = dot.getAttribute('data-theme');
+          document.documentElement.setAttribute('data-theme', theme);
+          
+          // Remove active class from all dots, add to clicked
+          document.querySelectorAll('.theme-dot').forEach(d => d.classList.remove('active'));
+          dot.classList.add('active');
         });
-        lucide.createIcons();
-      };
+      });
     </script>
   </body>
 </html>
