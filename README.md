@@ -30,9 +30,10 @@ Thank you all for supporting me so much! I love updating projects for cs2 so thi
 - buttons.hpp - cs2 buttons for automating input
 - manifest.json - cs2 metadata at the time of dumping, includes all dumped modules, sig counts etc.
 
-#### lib folder
+#### useful folder
 - the `lib` folder contains a c++ library for automatically getting the latest offsets from the github.
-
+- the scripts folder contains various python scripts that can help you while creating software
+- 
 ### sdk viewer is available at https://elliie.dev/sdkviewer/
 
 ### showcase (OLD)
