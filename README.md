@@ -11,6 +11,8 @@ The best SDK viewer repository with insanely fast updates.
 ### why this is better than other repos
 I am completely honest about updates and if something is broken. I am also very active in the community meaning I can update fast. This repo isn't community run meaning no worries of any suspicous code being run on your pc. Everything here right now is based off of my old projects or is completely new.
 
+Fully recoded as of now!
+
 ### Goals
 - ~~5 stars: release binary of the dumper~~ Under the Releases tab!
 - ~~10 stars: auto offset searcher (it gives updated offsets based on the ones you gave it)~~ (in the scripts folder)
@@ -19,15 +21,13 @@ I am completely honest about updates and if something is broken. I am also very 
 - 30 stars: release source of everything (including my very own internal cheat)
 
 ### explanation
-> the dumped zips are  `generated_latest` `schema_latest` and `type_dump`
+#### dumped folder
+- macros.hpp - standard cs2 definitions
+- cs2.hpp a simple header to include in your internal
+- schemas folder - external offsets
+- buttons.hpp - cs2 buttons for automating input
 
-- the `generated_latest` is a full sdk dump with all cs2 classes. it has memory reading and writing for internal and external and is fully auto updating but does get regenerated every update.
-
-- the `schema_latest` is very similar to the `generated_latest` but it uses hardcoded offsets and a reading macro which can be changed (by defualt internal only). It excludes
-all type classes.
-
-- `type_dump` no longer supported + maintained, padding is definitely changed per version and i dont wanna update each time ;)
-
+#### lib folder
 - the `lib` folder contains a c++ library for automatically getting the latest offsets from the github.
 
 some more information on cs2 structs and types go to `information.md`
@@ -37,4 +37,4 @@ some more information on cs2 structs and types go to `information.md`
 
 <img width="1852" height="922" alt="image" src="https://github.com/user-attachments/assets/0988032f-0864-4160-bf1a-163a2879dee8" />
 
-### MY CORD: `elliieluvsu`
+### MY CORD: `.h6rny.`
