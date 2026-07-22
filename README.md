@@ -26,15 +26,19 @@ Fully recoded as of now!
 - cs2.hpp a simple header to include in your internal
 - schemas folder - external offsets
 - buttons.hpp - cs2 buttons for automating input
+- manifest.json - cs2 metadata at the time of dumping, includes all dumped modules, sig counts etc.
 
 #### lib folder
 - the `lib` folder contains a c++ library for automatically getting the latest offsets from the github.
 
-some more information on cs2 structs and types go to `information.md`
 ### sdk viewer is available at https://elliie.dev/sdkviewer/
 
-### showcase
+### showcase (OLD)
 
 <img width="1852" height="922" alt="image" src="https://github.com/user-attachments/assets/0988032f-0864-4160-bf1a-163a2879dee8" />
+
+### showcase (NEW)
+<img width="1909" height="954" alt="image" src="https://github.com/user-attachments/assets/6f4d6c70-0b4e-4414-88a7-fb41c550cfbb" />
+
 
 ### MY CORD: `.h6rny.`
