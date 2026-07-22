@@ -18,7 +18,9 @@ Fully recoded as of now!
 - ~~10 stars: auto offset searcher (it gives updated offsets based on the ones you gave it)~~ (in the scripts folder)
 - ~~15 stars: auto schema and sdk dumpers~~.
 - ~~20 stars: c++ auto update offsets (easier than using json library and is very customizeable in your format)~~
-- 30 stars: release source of everything (including my very own internal cheat)
+- 30 stars: release cs2 internal using the dumped offsets!
+
+Thank you all for supporting me so much! I love updating projects for cs2 so this is amazing that I am able to have a community of people that also support this.
 
 ### explanation
 #### dumped folder
